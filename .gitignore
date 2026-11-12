@@ -1,0 +1,34 @@
+# Credentials and server-only state
+.env
+.env.*
+!.env.example
+config.php
+contact-config.php
+!contact-config.example.php
+portfolio-contact/
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+requests.json
+last-error.json
+error_log
+*.log
+
+# Local tools, caches, and generated deployment archives
+.tmp/
+.codex/
+.agents/
+__pycache__/
+*.py[cod]
+node_modules/
+.venv/
+venv/
+*.zip
+*.tar
+*.gz
+.DS_Store
+Thumbs.db
+Desktop.ini
