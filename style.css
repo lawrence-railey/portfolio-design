@@ -333,3 +333,6 @@ h1,h2{letter-spacing:.005em}
 .case-ownership .tiny-cross::after{width:1px;height:10px}
 
 .case-ownership:has(+ .gallery>figure:only-child){max-width:800px}
+
+/* Ownership copy follows the panel width rather than the prose reading measure. */
+.case-content .case-ownership>p{max-width:none;width:auto}
