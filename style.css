@@ -351,5 +351,3 @@ h1,h2{letter-spacing:.005em}
 
 /* Approved dark brand atmosphere for portfolio cards. */
 .project-card--brand[data-brand="healthesystems"] .project-brand-logo{filter:brightness(0) invert(1) drop-shadow(0 0 24px #68e1ef55);width:260px;max-height:74px;opacity:.9}
-.project-card--brand:is([data-brand="healthesystems"],[data-brand="fullpath"]) .project-brand-image::after{content:"";position:absolute;inset:0;border-top:2px solid #68cbd1;opacity:.6;pointer-events:none}
-.project-card--brand[data-brand="fullpath"] .project-brand-image::after{border-top-color:#d28ab5}
