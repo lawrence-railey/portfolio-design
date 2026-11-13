@@ -147,9 +147,9 @@ html{scroll-padding-top:calc(var(--header-compact-height) + 20px)}
 @media print{.compact-page{padding-top:0}}
 
 /* Brand-led selected work and layered archive previews. */
-.project-card--brand[data-brand="fullpath"] .project-brand-image{background:#efc8d1}
-.project-card--brand[data-brand="fullpath"] .project-brand-logo{position:absolute;inset:0;width:100%;height:100%;max-width:100%;max-height:none;margin:0;object-fit:cover;z-index:-1}
-.project-card--brand[data-brand="fullpath"] .brand-card-label,.project-card--brand[data-brand="fullpath"] .brand-card-footer,.project-card--brand[data-brand="fullpath"] .brand-card-footer>span:last-child{color:#202c43}
+.project-card--brand[data-brand="fullpath"] .project-brand-image{background:radial-gradient(ellipse at 15% 100%,#a13d704d,transparent 65%),radial-gradient(ellipse at 95% 15%,#6454a34d,transparent 65%),#141423;border-color:#4c3b5c}
+.project-card--brand[data-brand="fullpath"] .project-brand-logo{position:absolute;inset:0;width:100%;height:100%;max-width:100%;max-height:none;margin:0;object-fit:cover;z-index:-1;filter:grayscale(1) brightness(3) invert(1);mix-blend-mode:screen}
+.project-card--brand[data-brand="fullpath"] .brand-card-label,.project-card--brand[data-brand="fullpath"] .brand-card-footer,.project-card--brand[data-brand="fullpath"] .brand-card-footer>span:last-child{color:#b7c8d0}
 .project-card--brand[data-brand="catalina"] .project-brand-image{background:radial-gradient(ellipse at 80% 75%,#2862a14d,transparent 65%),#101e33}
 .archive-card-stack{position:relative;width:96%;aspect-ratio:2.2;flex:0 1 auto;min-height:0;margin:14px 0}
 .archive-card-stack .archive-layer{position:absolute;width:84%;height:78%;max-width:84%;object-fit:cover;object-position:top;border:1px solid #79909b;border-radius:3px;box-shadow:0 5px 16px #0007;background:#f3f3f3}
@@ -306,8 +306,8 @@ h1,h2{letter-spacing:.005em}
 @media(prefers-reduced-motion:reduce){.brand:hover .brand-rim,.brand:focus-visible .brand-rim{animation:none;stroke:var(--accent)}}
 
 /* Preserve the full-color Healthesystems identity on a light card. */
-.project-card--brand[data-brand="healthesystems"] .project-brand-image{background:#edf4f5;border-color:#b8d1d8}
-.project-card--brand[data-brand="healthesystems"] .brand-card-label,.project-card--brand[data-brand="healthesystems"] .brand-card-footer,.project-card--brand[data-brand="healthesystems"] .brand-card-footer>span:last-child{color:#284b5b}
+.project-card--brand[data-brand="healthesystems"] .project-brand-image{background:radial-gradient(ellipse at 50% 100%,#00798b70,transparent 72%),#091a24;border-color:#245560}
+.project-card--brand[data-brand="healthesystems"] .brand-card-label,.project-card--brand[data-brand="healthesystems"] .brand-card-footer,.project-card--brand[data-brand="healthesystems"] .brand-card-footer>span:last-child{color:#b7c8d0}
 
 /* Keep the creative-tool label and names on one aligned, responsive grid. */
 .ai-intro{display:grid;grid-template-columns:minmax(0,1fr);gap:28px}
@@ -348,3 +348,8 @@ h1,h2{letter-spacing:.005em}
 
 /* Ownership copy follows the panel width rather than the prose reading measure. */
 .case-content .case-ownership>p{max-width:none;width:auto}
+
+/* Approved dark brand atmosphere for portfolio cards. */
+.project-card--brand[data-brand="healthesystems"] .project-brand-logo{filter:brightness(0) invert(1) drop-shadow(0 0 24px #68e1ef55);width:260px;max-height:74px;opacity:.9}
+.project-card--brand:is([data-brand="healthesystems"],[data-brand="fullpath"]) .project-brand-image::after{content:"";position:absolute;inset:0;border-top:2px solid #68cbd1;opacity:.6;pointer-events:none}
+.project-card--brand[data-brand="fullpath"] .project-brand-image::after{border-top-color:#d28ab5}
