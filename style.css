@@ -307,7 +307,7 @@ h1,h2{letter-spacing:.005em}
 @media(max-width:600px){.creative-tools .platforms{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 20px}}
 
 /* Authorship and status remain visible beside each set of case-study screens. */
-.case-ownership{width:100%;max-width:none;box-sizing:border-box;margin:18px 0 12px;padding:18px 20px;border:1px solid var(--line);background:var(--wash)}
+.case-ownership{width:100%;max-width:980px;box-sizing:border-box;margin:18px 0 12px;padding:18px 20px;border:1px solid var(--line);background:var(--wash)}
 .case-ownership>span,.case-caption-context{display:block;font:500 11px/1.5 var(--technical);letter-spacing:.06em;color:var(--accent)}
 .case-ownership>p{margin:6px 0 0;font-size:14px;line-height:1.6;color:var(--muted)}
 .case-caption-context{margin-bottom:6px}
@@ -331,3 +331,5 @@ h1,h2{letter-spacing:.005em}
 .case-ownership .tiny-cross::before,.case-ownership .tiny-cross::after{content:"";position:absolute;left:50%;top:50%;background:currentColor;transform:translate(-50%,-50%)}
 .case-ownership .tiny-cross::before{width:10px;height:1px}
 .case-ownership .tiny-cross::after{width:1px;height:10px}
+
+.case-ownership:has(+ .gallery>figure:only-child){max-width:800px}
