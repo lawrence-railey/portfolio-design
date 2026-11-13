@@ -292,3 +292,7 @@ h1,h2{letter-spacing:.005em}
   100%{transform:rotate(360deg);stroke:#fff;filter:drop-shadow(0 0 0 transparent)}
 }
 @media(prefers-reduced-motion:reduce){.brand:hover .brand-rim,.brand:focus-visible .brand-rim{animation:none;stroke:var(--accent)}}
+
+/* Preserve the full-color Healthesystems identity on a light card. */
+.project-card--brand[data-brand="healthesystems"] .project-brand-image{background:#edf4f5;border-color:#b8d1d8}
+.project-card--brand[data-brand="healthesystems"] .brand-card-label,.project-card--brand[data-brand="healthesystems"] .brand-card-footer,.project-card--brand[data-brand="healthesystems"] .brand-card-footer>span:last-child{color:#284b5b}
