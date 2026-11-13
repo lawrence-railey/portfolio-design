@@ -296,3 +296,12 @@ h1,h2{letter-spacing:.005em}
 /* Preserve the full-color Healthesystems identity on a light card. */
 .project-card--brand[data-brand="healthesystems"] .project-brand-image{background:#edf4f5;border-color:#b8d1d8}
 .project-card--brand[data-brand="healthesystems"] .brand-card-label,.project-card--brand[data-brand="healthesystems"] .brand-card-footer,.project-card--brand[data-brand="healthesystems"] .brand-card-footer>span:last-child{color:#284b5b}
+
+/* Keep the creative-tool label and names on one aligned, responsive grid. */
+.ai-intro{display:grid;grid-template-columns:minmax(0,1fr);gap:28px}
+.ai-intro>p{max-width:760px}
+.creative-tools{min-width:0;width:100%}
+.creative-tools>.eyebrow{margin:0 0 16px}
+.creative-tools .platforms{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));max-width:none;gap:0 24px;justify-content:start}
+.creative-tools .platforms>span{padding:13px 0;text-align:left}
+@media(max-width:600px){.creative-tools .platforms{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 20px}}
