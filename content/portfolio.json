@@ -1,0 +1,1060 @@
+{
+  "projects": [
+    {
+      "slug": "cox",
+      "title": "Cox Automotive",
+      "label": "Enterprise software",
+      "summary": "Designing the CRM and AI experiences that connect dealership teams.",
+      "image": "assets/cox-executive-dashboard-20261110.png",
+      "role": "Principal Product Designer",
+      "detail": "Product leadership, research, interface design, and AI engineering for VinSolutions CRM.",
+      "body": "<div class=\"cox-story\">\n  <header class=\"cox-opening\">\n    <div>\n      <p class=\"eyebrow\">PRINCIPAL PRODUCT DESIGNER · VINSOLUTIONS</p>\n      <h2>Re-architecting the CRM.<br><span>Designing the role of AI.</span></h2>\n      <p class=\"cox-lead\">I led designers and researchers through a fundamental CRM rebuild, pairing enterprise product direction with hands-on design and front-end work. The CRM product alone generates <strong>nearly $300 million in annual revenue</strong>. A core UI that had gone nearly 15 years without a major refresh became the focus of a research-led, responsive redesign—with AI woven into the workflow.</p>\n    </div>\n    <img class=\"cox-wordmark\" src=\"assets/cox-automotive-dark.svg\" width=\"300\" height=\"90\" alt=\"Cox Automotive\" loading=\"lazy\" decoding=\"async\">\n  </header>\n\n  <dl class=\"cox-metrics\" aria-label=\"Program scale\">\n    <div><dt>Users involved in research</dt><dd>3,291</dd><dd class=\"cox-metric-note\">Over 18 months</dd></div>\n    <div><dt>Dealerships represented</dt><dd>Hundreds</dd><dd class=\"cox-metric-note\">Across the United States</dd></div>\n    <div><dt>CRM pages in scope</dt><dd>Hundreds</dd><dd class=\"cox-metric-note\">Architecture, UI, and responsiveness</dd></div>\n    <div><dt>Planning horizon</dt><dd>~2 years</dd><dd class=\"cox-metric-note\">Coordinating a complex transformation</dd></div>\n  </dl>\n\n  <nav class=\"cox-story-nav\" aria-label=\"Case study sections\">\n    <a href=\"#cox-research\"><span>Research to product</span> <b aria-hidden=\"true\">↓</b></a>\n    <a href=\"#cox-experience\"><span>UI + AI experience</span> <b aria-hidden=\"true\">↓</b></a>\n    <a href=\"#cox-leadership\"><span>Leading the work</span> <b aria-hidden=\"true\">↓</b></a>\n  </nav>\n\n  <section class=\"cox-chapter\" id=\"cox-research\" aria-labelledby=\"cox-research-title\">\n    <div class=\"cox-chapter-heading\"><p class=\"eyebrow\">RESEARCH TO PRODUCT</p><h2 id=\"cox-research-title\">Evidence shaped the architecture.</h2><p>I visited dealerships nationwide, working directly with senior stakeholders and the people using the CRM every day. Research informed feature discovery, user journeys, and page architecture throughout the rebuild.</p></div>\n\n    <figure class=\"cox-diagram cox-research-diagram\" aria-labelledby=\"cox-research-caption\">\n      <div class=\"cox-diagram-top\"><span>CONTINUOUS DISCOVERY &amp; DELIVERY</span><span>01—05</span></div>\n      <ol class=\"cox-research-flow\">\n        <li><span class=\"cox-step-number\">01</span><h3>Listen</h3><p>On-site research<br>Dealer workflows</p><span class=\"cox-output\">Observed needs</span></li>\n        <li><span class=\"cox-step-number\">02</span><h3>Frame</h3><p>User journeys<br>Heuristic analysis</p><span class=\"cox-output\">Features + priorities</span></li>\n        <li><span class=\"cox-step-number\">03</span><h3>Explore</h3><p>UI architecture<br>Design + code prototypes</p><span class=\"cox-output\">Testable alternatives</span></li>\n        <li><span class=\"cox-step-number\">04</span><h3>Validate</h3><p>Iterative research<br>Real user feedback</p><span class=\"cox-output\">Evidence for decisions</span></li>\n        <li><span class=\"cox-step-number\">05</span><h3>Refine</h3><p>Responsive pages<br>Reusable patterns</p><span class=\"cox-output\">Implementation + learning</span></li>\n      </ol>\n      <div class=\"cox-feedback\"><span aria-hidden=\"true\">↶</span> Feedback returns to the next iteration</div>\n      <div class=\"cox-foundation\"><span class=\"cox-small-label\">THE DESIGN FOUNDATION</span><ol><li>Custom MUI theme</li><li>Extensively adapted components</li><li>Branded design system</li><li>Responsive CRM pages</li></ol></div>\n      <figcaption id=\"cox-research-caption\">Research and a shared design system connected the work across hundreds of pages.</figcaption>\n    </figure>\n    <div class=\"cox-diagram-foot\"><p>The system grew from a custom MUI / Material UI theme, extensively modified for the brand and the demands of dealership workflows.</p><a href=\"assets/cox-story/research-to-product.svg\" download>Download diagram <svg class=\"download-icon\" aria-hidden=\"true\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5\"></path></svg></a></div>\n  </section>\n\n  <section class=\"cox-chapter\" id=\"cox-experience\" aria-labelledby=\"cox-experience-title\">\n    <div class=\"cox-chapter-heading\"><p class=\"eyebrow\">UI + AI EXPERIENCE</p><h2 id=\"cox-experience-title\">Two ways in. One connected workflow.</h2><p>My view: UI and AI work best together. Let people choose direct interaction or an AI-assisted path, according to what gets the task done most effectively.</p></div>\n\n    <figure class=\"cox-diagram cox-experience-diagram\" aria-labelledby=\"cox-experience-caption\">\n      <div class=\"cox-diagram-top\"><span>DEALER EXPERIENCE MODEL</span><span>UI + AI</span></div>\n      <div class=\"cox-entry-points\">\n        <div class=\"cox-entry\"><span class=\"cox-small-label\">DIRECT INTERACTION</span><h3>Responsive CRM UI</h3><p>Navigate, inspect, and act through clear interfaces.</p><div class=\"cox-mini-ui\" aria-hidden=\"true\"><i></i><span></span><span></span><span></span></div></div>\n        <div class=\"cox-entry cox-ai-entry\"><span class=\"cox-small-label\">CONVERSATIONAL INTERACTION</span><h3>Dealer AI assistant</h3><p>Ask for KPIs, statistics, customer information, and help.</p><div class=\"cox-mini-chat\" aria-hidden=\"true\"><span>Ask</span><i>Find information. Move the work forward.</i></div></div>\n      </div>\n      <div class=\"cox-convergence\" aria-hidden=\"true\"><i></i><span>↓</span><i></i></div>\n      <div class=\"cox-shared-context\"><span class=\"cox-small-label\">THE SHARED EXPERIENCE</span><h3>Customer context + dealership workflows</h3><ul><li>Customers</li><li>Opportunities</li><li>Appointments</li><li>Inventory</li></ul></div>\n      <div class=\"cox-branch\" aria-hidden=\"true\">↓</div>\n      <div class=\"cox-customer-ai\">\n        <div><span class=\"cox-small-label\">GENERATIVE COMMUNICATIONS</span><h3>Help users compose</h3><p>Generate communications for their customers.</p></div>\n        <div><span class=\"cox-small-label\">VIRTUAL CONTACT ASSISTANT</span><h3>Handle conversations</h3><p>Converse independently with customers, including answering calls.</p></div>\n      </div>\n      <div class=\"cox-guardrails\"><span class=\"cox-guardrail-symbol\" aria-hidden=\"true\">◇</span><div><strong>Regulatory constraints informed the design throughout.</strong><p>Information accuracy · Customer communications · Dealer risk</p></div></div>\n      <figcaption id=\"cox-experience-caption\">A conceptual experience model: direct UI and AI assistance support the same dealership work.</figcaption>\n    </figure>\n    <div class=\"cox-diagram-foot\"><p>Accuracy and regulatory requirements shaped AI behavior and communication flows, alongside the goal of shorter, simpler workflows.</p><a href=\"assets/cox-story/ui-and-ai.svg\" download>Download diagram <svg class=\"download-icon\" aria-hidden=\"true\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5\"></path></svg></a></div>\n  </section>\n\n  <section class=\"cox-chapter\" id=\"cox-leadership\" aria-labelledby=\"cox-leadership-title\">\n    <div class=\"cox-chapter-heading\"><p class=\"eyebrow\">LEADING THE WORK</p><h2 id=\"cox-leadership-title\">Lead the team. Take on the hard problems.</h2><p>I assigned myself some of the most complex UI work while setting direction, coaching the team, and expanding how we designed, researched, and built with AI.</p></div>\n\n    <figure class=\"cox-diagram cox-leadership-diagram\" aria-labelledby=\"cox-leadership-caption\">\n      <div class=\"cox-diagram-top\"><span>PRINCIPAL-LEVEL OWNERSHIP</span><span>DIRECTION → DELIVERY</span></div>\n      <div class=\"cox-leadership-lanes\">\n        <div><span class=\"cox-step-number\">DIRECTION</span><h3>Set the course</h3><ul><li>CRM experience architecture</li><li>Designer + researcher leadership</li><li>Direct dealership engagement</li></ul></div>\n        <div><span class=\"cox-step-number\">CRAFT</span><h3>Do the work</h3><ul><li>Personally tackle thorny workflows</li><li>Design and code prototypes</li><li>Contribute front-end development</li></ul></div>\n        <div><span class=\"cox-step-number\">CAPABILITY</span><h3>Enable the team</h3><ul><li>Coach Claude Code + Figma Make</li><li>Create skills + Markdown guidance</li><li>Connect the design system via MCP</li></ul></div>\n      </div>\n      <div class=\"cox-ai-loop\"><span class=\"cox-small-label\">AI-ASSISTED ITERATION, GROUNDED IN RESEARCH</span><ol><li><strong>Research evidence</strong><span>Synthesize what we learned</span></li><li><strong>Explore + challenge</strong><span>Prototypes, heuristics, synthetic users</span></li><li><strong>Human validation</strong><span>Test with real dealership users</span></li></ol></div>\n      <figcaption id=\"cox-leadership-caption\">AI accelerated early exploration and checks. Real user feedback remained essential to validating the design.</figcaption>\n    </figure>\n    <div class=\"cox-diagram-foot\"><p>Design-system connections and AI workflows were developed within Cox Automotive’s security requirements.</p><a href=\"assets/cox-story/leadership-and-ai.svg\" download>Download diagram <svg class=\"download-icon\" aria-hidden=\"true\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5\"></path></svg></a></div>\n    <details class=\"cox-method-note\"><summary>How research grounded the AI workflow</summary><p>We used existing research to guide synthesis and evaluate UI alternatives. Digital twins and synthetic users helped surface potential issues before on-site sessions; they were tools for exploration, not substitutes for evidence from real people. This let us use dealership research time more deliberately.</p></details>\n  </section>\n\n  <aside class=\"cox-connected-work\"><div><p class=\"eyebrow\">ACROSS PRODUCT BOUNDARIES</p><h3>Connecting the CRM to Fullpath’s CDP.</h3><p>I also led UI/UX integration across systems with overlapping AI messaging and summarization capabilities.</p></div><a class=\"text-link\" href=\"project-fullpath.html\">Explore the Fullpath work <span aria-hidden=\"true\">→</span></a></aside>\n</div>\n<div class=\"project-copy\"><p class=\"eyebrow\">FUTURE PLATFORM</p><h2 id=\"connected-dealership\">A connected dealership experience.</h2><p>These future-platform concepts bring customer context, sales, service, inventory, and AI assistance into a shared experience. Executive Summary establishes the visual direction across the platform.</p></div><div class=\"gallery project-gallery cox-platform-gallery\"><figure><a href=\"assets/cox-executive-dashboard-20261110.png\" data-lightbox=\"\" data-title=\"Executive dashboard\"><img src=\"assets/cox-executive-dashboard-20261110.png\" alt=\"Executive dashboard\" loading=\"lazy\" width=\"3848\" height=\"2166\" decoding=\"async\" style=\"--native-width:3848px\" data-thumb=\"assets/case-thumbs/4c133dd22eb8.webp\"></a><figcaption><strong>Executive dashboard</strong><p>Dealership performance, priorities, and cross-product activity in one shared platform view.</p></figcaption></figure><figure><a href=\"assets/cox-appointments-calendar-20261110.png\" data-lightbox=\"\" data-title=\"Appointments calendar\"><img src=\"assets/cox-appointments-calendar-20261110.png\" alt=\"Appointments calendar\" loading=\"lazy\" width=\"3848\" height=\"2166\" decoding=\"async\" style=\"--native-width:3848px\" data-thumb=\"assets/case-thumbs/8724e0af8dbb.webp\"></a><figcaption><strong>Appointments calendar</strong><p>A shared calendar for scheduling and reviewing appointments across dealership departments.</p></figcaption></figure><figure><a href=\"assets/cox-ai-agents-20261110.png\" data-lightbox=\"\" data-title=\"AI agents\"><img src=\"assets/cox-ai-agents-20261110.png\" alt=\"AI agents\" loading=\"lazy\" width=\"3848\" height=\"2166\" decoding=\"async\" style=\"--native-width:3848px\" data-thumb=\"assets/case-thumbs/8efc038709b0.webp\"></a><figcaption><strong>AI agents</strong><p>A unified view of dealership AI capabilities, agent availability, and recent activity.</p></figcaption></figure><figure><a href=\"assets/cox-dealer-chat-20261110.png\" data-lightbox=\"\" data-title=\"Dealer chat\"><img src=\"assets/cox-dealer-chat-20261110.png\" alt=\"Dealer chat\" loading=\"lazy\" width=\"3848\" height=\"2166\" decoding=\"async\" style=\"--native-width:3848px\" data-thumb=\"assets/case-thumbs/a6fb1b0bf2ce.webp\"></a><figcaption><strong>Dealer chat</strong><p>Individual and group conversations keep dealership teams connected in their daily workflow.</p></figcaption></figure><figure><a href=\"assets/cox-inventory-search-20261110.png\" data-lightbox=\"\" data-title=\"Inventory search\"><img src=\"assets/cox-inventory-search-20261110.png\" alt=\"Inventory search\" loading=\"lazy\" width=\"3848\" height=\"2166\" decoding=\"async\" style=\"--native-width:3848px\" data-thumb=\"assets/case-thumbs/aa2d045eba85.webp\"></a><figcaption><strong>Inventory search</strong><p>Search, filter, and compare vehicles across the dealership inventory.</p></figcaption></figure></div><div class=\"project-copy\"><p class=\"eyebrow\">CORE CRM</p><h2>Rebuilding the customer record.</h2><p>The core CRM rebuild brings customer information, AI summaries, active leads, appointments, and vehicle context together.</p></div><div class=\"gallery project-gallery cox-platform-gallery\"><figure><a href=\"assets/cox-customer-profile-20261110.png\" data-lightbox=\"\" data-title=\"VinSolutions CRM customer profile with Fullpath CDP AI summary, customer tasks, leads, appointments, and vehicle details\"><img src=\"assets/cox-customer-profile-20261110.png\" alt=\"VinSolutions CRM customer profile with Fullpath CDP AI summary, customer tasks, leads, appointments, and vehicle details\" loading=\"lazy\" width=\"3840\" height=\"2164\" decoding=\"async\" style=\"--native-width:3840px\" data-thumb=\"assets/case-thumbs/42096105c125.webp\"></a><figcaption><strong>VinSolutions customer profile</strong><p>Customer context, Fullpath CDP AI insights, leads, appointments, and vehicle ownership in the rebuilt CRM.</p></figcaption></figure></div><div class=\"project-copy\"><p class=\"eyebrow\">SIDEBAR &amp; MOBILE</p><h2>Details in the flow of work.</h2><p>Focused sidebar and mobile experiences support AI queries, vehicle evaluation, lead activity, and team collaboration.</p></div><div class=\"gallery project-gallery cox-mobile-gallery\"><figure><a href=\"assets/cox-cox-ai-assistant-vehicle-list-clean.png\" data-lightbox=\"\" data-title=\"Cox AI Assistant\"><img src=\"assets/cox-cox-ai-assistant-vehicle-list-clean.png\" alt=\"Cox AI Assistant\" loading=\"lazy\" width=\"952\" height=\"2156\" decoding=\"async\" style=\"--native-width:952px\" data-thumb=\"assets/case-thumbs/d22e4b09f8f4.webp\"></a><figcaption><strong>Cox AI Assistant</strong><p>A natural-language inventory query and actionable vehicle results.</p></figcaption></figure><figure><a href=\"assets/cox-vehicle-of-interest-clean.png\" data-lightbox=\"\" data-title=\"Vehicle of interest\"><img src=\"assets/cox-vehicle-of-interest-clean.png\" alt=\"Vehicle of interest\" loading=\"lazy\" width=\"956\" height=\"2160\" decoding=\"async\" style=\"--native-width:956px\" data-thumb=\"assets/case-thumbs/c00a004a2d30.webp\"></a><figcaption><strong>Vehicle of interest</strong><p>Vehicle information and actions within the opportunity workflow.</p></figcaption></figure><figure><a href=\"assets/cox-trade-in-details-clean.png\" data-lightbox=\"\" data-title=\"Trade-in details\"><img src=\"assets/cox-trade-in-details-clean.png\" alt=\"Trade-in details\" loading=\"lazy\" width=\"956\" height=\"2160\" decoding=\"async\" style=\"--native-width:956px\" data-thumb=\"assets/case-thumbs/91cd1324d692.webp\"></a><figcaption><strong>Trade-in details</strong><p>Valuation, ownership, and service context.</p></figcaption></figure><figure><a href=\"assets/cox-lead-activity-clean.png\" data-lightbox=\"\" data-title=\"Lead activity\"><img src=\"assets/cox-lead-activity-clean.png\" alt=\"Lead activity\" loading=\"lazy\" width=\"956\" height=\"2160\" decoding=\"async\" style=\"--native-width:956px\" data-thumb=\"assets/case-thumbs/a7306572e908.webp\"></a><figcaption><strong>Lead activity</strong><p>Customer signals and interactions in one activity stream.</p></figcaption></figure><figure><a href=\"assets/cox-lead-comments-clean.png\" data-lightbox=\"\" data-title=\"Lead comments\"><img src=\"assets/cox-lead-comments-clean.png\" alt=\"Lead comments\" loading=\"lazy\" width=\"956\" height=\"2160\" decoding=\"async\" style=\"--native-width:956px\" data-thumb=\"assets/case-thumbs/23da39d73c15.webp\"></a><figcaption><strong>Lead comments</strong><p>Team discussion, mentions, and priority controls.</p></figcaption></figure></div>",
+      "category": "product",
+      "logo": "assets/cox-automotive-dark.svg"
+    },
+    {
+      "slug": "bagsid",
+      "title": "BagsID",
+      "label": "Product & design systems",
+      "summary": "A consistent product experience across baggage identification and operations.",
+      "image": "assets/bagsid-secure-sight/dashboard-overview-preview.webp",
+      "role": "VP of UX",
+      "detail": "Brand, product design, design systems, and front-end development for AI-powered baggage identification.",
+      "body": "<div class=\"bags-story\">\n  <header class=\"bags-opening\">\n    <p class=\"eyebrow\">VP OF UX · BRAND, RESEARCH &amp; PRODUCT DELIVERY</p>\n    <h2>From the first logo<br>to a working AI platform.</h2>\n    <p>I lead a team of developers and designers as VP of UX. I created the initial brand and first UIs solo, built the design system in both design and front-end code, and continue contributing directly—especially on the hardest problems.</p>\n  </header>\n\n  <section class=\"bags-story-section\" aria-labelledby=\"bags-workflow-title\">\n    <div class=\"bags-section-heading\"><p class=\"eyebrow\">THE WORKFLOW</p><h2 id=\"bags-workflow-title\">One vision, from identity to operations.</h2><p>Discovery with prospective users, airlines, airports, and TSA informed the interfaces we built and demonstrated in real working conditions.</p></div>\n    <figure class=\"bags-diagram\" aria-labelledby=\"bags-workflow-caption\">\n      <div class=\"bags-diagram-label\"><span>BRAND → RESEARCH → WORKING PRODUCT</span><span>HANDS-ON + TEAM LEADERSHIP</span></div>\n      <ol class=\"bags-process\">\n        <li><span class=\"bags-step\">01</span><h3>Define</h3><p>Logo, colors, identity<br>Marketing materials</p><span class=\"bags-output\">A shared brand</span></li>\n        <li><span class=\"bags-step\">02</span><h3>Discover</h3><p>Prospective users<br>Airlines, airports, TSA</p><span class=\"bags-output\">Real operating needs</span></li>\n        <li><span class=\"bags-step\">03</span><h3>Build</h3><p>Design system in code<br>Initial application UIs</p><span class=\"bags-output\">Reusable foundations</span></li>\n        <li><span class=\"bags-step\">04</span><h3>Prove</h3><p>Working field demos<br>Feedback + refinement</p><span class=\"bags-output\">Tested in context</span></li>\n        <li><span class=\"bags-step\">05</span><h3>Extend</h3><p>Branded + white-label UI<br>Native integrations</p><span class=\"bags-output\">Customer choice</span></li>\n      </ol>\n      <div class=\"bags-feedback\"><span aria-hidden=\"true\">↶</span> Field feedback informs the next iteration</div>\n      <div class=\"bags-evolution\">\n        <div><span class=\"bags-label\">THE FOUNDATION · BEFORE AI CODING TOOLS</span><h3>Designed and coded by hand.</h3><p>I created the design system from scratch and implemented its React/MUI components and the initial baggage-scanning UIs myself.</p></div>\n        <div><span class=\"bags-label\">THE PRACTICE · TODAY</span><h3>Accelerated with AI.</h3><p>We now incorporate AI into front-end workflows to generate and iterate on UIs faster, building on that design and coding expertise.</p></div>\n      </div>\n      <figcaption id=\"bags-workflow-caption\">I combine direction and team leadership with direct research, design, and implementation.</figcaption>\n    </figure>\n    <a class=\"bags-download\" href=\"assets/bagsid-story/brand-to-platform.svg\" download>Download workflow <svg class=\"download-icon\" aria-hidden=\"true\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5\"></path></svg></a>\n  </section>\n\n  <section class=\"bags-story-section\" aria-labelledby=\"bags-platform-title\">\n    <div class=\"bags-section-heading\"><p class=\"eyebrow\">THE PRODUCT EXPERIENCE</p><h2 id=\"bags-platform-title\">Recognize the bag. Connect the journey.</h2><p>BagsID identifies baggage from its visual characteristics—color, type, dimensions, scratches, and stickers—without requiring an RFID tag or a manual barcode scan.</p></div>\n    <figure class=\"bags-diagram\" aria-labelledby=\"bags-platform-caption\">\n      <div class=\"bags-diagram-label\"><span>B2B OPERATIONS + B2C ENROLLMENT</span><span>EXPERIENCE MODEL</span></div>\n      <div class=\"bags-platform-row bags-capture\">\n        <div><span class=\"bags-label\">AUTOMATED CAPTURE</span><h3>Cameras + arches</h3><p>Scanning hardware and custom arches, with branding I helped shape.</p></div>\n        <div><span class=\"bags-label\">HANDLER WORKFLOWS</span><h3>Portable devices</h3><p>Interfaces for proprietary Android devices used by baggage handlers.</p></div>\n        <div><span class=\"bags-label\">TRAVELER ENROLLMENT</span><h3>Photos of a bag</h3><p>Consumers capture multiple angles to register their baggage.</p></div>\n      </div>\n      <div class=\"bags-connector\" aria-hidden=\"true\">↓</div>\n      <div class=\"bags-recognition\"><span class=\"bags-label\">VISUAL IDENTIFICATION</span><h3>AI recognizes the bag itself.</h3><p>Color · Type · Dimensions · Scratches · Stickers</p><div class=\"bags-local\"><strong>Local GPU processing where required.</strong><span>Airline, legal, and national requirements shape deployments that keep recognition on site rather than sending it to the cloud.</span></div></div>\n      <div class=\"bags-connector\" aria-hidden=\"true\">↓</div>\n      <p class=\"bags-row-label\">THREE WAYS TO USE THE PLATFORM</p>\n      <div class=\"bags-platform-row bags-delivery\">\n        <div><span class=\"bags-label\">READY TO OPERATE</span><h3>BagsID UI</h3><p>Our branded experience, used in working demonstrations and available to customers.</p></div>\n        <div><span class=\"bags-label\">WITHIN CUSTOMER PRODUCTS</span><h3>White-label UI</h3><p>Embed the full experience or selected interface elements.</p></div>\n        <div><span class=\"bags-label\">NATIVE INTEGRATION</span><h3>API access</h3><p>Customers integrate platform capabilities into their own applications.</p></div>\n      </div>\n      <div class=\"bags-operations\"><strong>Designed for the full journey</strong><p>Desktop and laptop operations · Portable handling · Traveler enrollment · TSA bag recognition and diversion workflows</p></div>\n      <figcaption id=\"bags-platform-caption\">A product experience spanning software, physical scanning equipment, and customer integrations.</figcaption>\n    </figure>\n    <a class=\"bags-download\" href=\"assets/bagsid-story/connected-baggage-experience.svg\" download>Download experience map <svg class=\"download-icon\" aria-hidden=\"true\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5\"></path></svg></a>\n  </section>\n  <div class=\"bags-evidence-intro\"><p class=\"eyebrow\">THE WORK, IN PRACTICE</p><p>The identity, components, website, films, and product screens below show how that approach carries through into delivery.</p></div>\n</div>\n<div class=\"gallery feature-gallery \"><figure><a href=\"assets/bagsid-cvi-3656.webp\" data-lightbox=\"\" data-title=\"BagsID corporate visual identity — created by Lawrence Railey\"><img src=\"assets/bagsid-cvi-3656.webp\" alt=\"BagsID corporate visual identity — created by Lawrence Railey\" loading=\"lazy\" decoding=\"async\" width=\"3656\" height=\"1798\" style=\"--native-width:3656px\" data-thumb=\"assets/case-thumbs/9083c1ecfd3a.webp\"></a><figcaption>BagsID corporate visual identity — created by Lawrence Railey</figcaption></figure></div><div class=\"project-copy\">\n<p class=\"eyebrow\">CORPORATE VISUAL IDENTITY</p>\n<div class=\"section-brand \"><img src=\"assets/bagsid-current/logo.svg\" alt=\"BagsID\" loading=\"lazy\"></div><h2>One identity. Every touchpoint.</h2>\n<p>I created the BagsID corporate visual identity: a shared visual language for the brand, its digital experiences, and its marketing. The system covers the logo, colour palette, typography, layout, imagery, motion, and practical templates.</p>\n<p>I produced marketing across digital and physical formats: business cards, tablecloths, full-size conference booths, and campaign materials. I also helped brand our custom scanning arches and designed custom kiosk interfaces, carrying the identity into the operating environment.</p>\n<div class=\"tags\"><span>Corporate visual identity</span><span>Website design &amp; build</span><span>Marketing video</span><span>Narration</span></div>\n</div>\n<div class=\"gallery project-gallery bagsid-current-gallery\">\n\n<figure><a href=\"assets/bagsid-current/vision.webp\" aria-label=\"Open BagsID vision campaign artwork\" data-lightbox=\"\" data-title=\"BagsID campaign artwork showing a suitcase transitioning into a digital point cloud\"><img src=\"assets/bagsid-current/vision.webp\" alt=\"BagsID campaign artwork showing a suitcase transitioning into a digital point cloud\" loading=\"lazy\" decoding=\"async\" width=\"1200\" height=\"627\" style=\"--native-width:1200px\" data-thumb=\"assets/case-thumbs/6f72dc0fabee.webp\"></a><figcaption><strong>Making visual intelligence tangible</strong><p>Marketing artwork from the CVI toolkit, connecting physical baggage with digital identity.</p></figcaption></figure>\n<figure><a href=\"assets/bagsid-current/takeoff.webp\" aria-label=\"Open BagsID aviation campaign artwork\" data-lightbox=\"\" data-title=\"BagsID branded aviation artwork with an aircraft taking off at dusk\"><img src=\"assets/bagsid-current/takeoff.webp\" alt=\"BagsID branded aviation artwork with an aircraft taking off at dusk\" loading=\"lazy\" decoding=\"async\" width=\"1200\" height=\"627\" style=\"--native-width:1200px\" data-thumb=\"assets/case-thumbs/aa5f717a021e.webp\"></a><figcaption><strong>A brand built for aviation</strong><p>A coordinated visual language for campaign and social materials.</p></figcaption></figure>\n</div>\n<div class=\"project-copy\"><p class=\"eyebrow\">THE CURRENT WEBSITE</p><h2>The identity, in use.</h2><p>I designed and built the current BagsID website, bringing the CVI into a complete digital experience. The site introduces the platform and its BagBridge and CarryOn products for airport and airline audiences.</p><a class=\"button gold\" href=\"https://bagsid.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Visit BagsID <span>↗</span></a></div>\n<div class=\"gallery feature-gallery\"><figure class=\"bagsid-archway\"><a href=\"assets/bagsid-archway.webp\" data-lightbox=\"\" data-title=\"BagsID baggage scanning archway and logo\"><img src=\"assets/bagsid-archway.webp\" alt=\"BagsID baggage scanning archway and logo\" width=\"1240\" height=\"660\" loading=\"lazy\" decoding=\"async\" style=\"--native-width:1240px\" data-thumb=\"assets/case-thumbs/87d47437da39.webp\"></a><figcaption>BagsID — baggage identification technology</figcaption></figure><figure id=\"website\"><a href=\"assets/bagsid-current/website-4x.webp\" aria-label=\"Open current BagsID website screenshot\" data-lightbox=\"\" data-title=\"Current BagsID homepage, designed and built by Lawrence Railey\"><img src=\"assets/bagsid-current/website-4x.webp\" alt=\"Current BagsID homepage, designed and built by Lawrence Railey\" loading=\"lazy\" decoding=\"async\" width=\"5700\" height=\"3208\" style=\"--native-width:5700px\" data-thumb=\"assets/case-thumbs/106404693e47.webp\"></a><figcaption><strong>The current BagsID website</strong> — design and build by Lawrence Railey.</figcaption></figure></div>\n<section class=\"project-media\"><p class=\"eyebrow\">MARKETING FILM</p><h2>The brand has a voice.</h2><p>I create custom video and audio productions for product demonstrations at national and international conferences. The film featured on the BagsID homepage is part of that work; I also narrated it.</p><p><strong>Narration: Lawrence Railey</strong></p><video controls playsinline preload=\"none\" poster=\"https://bagsid.com/assets/img/bagsid-marketing-poster.png\" aria-label=\"Current BagsID marketing film, narrated by Lawrence Railey\"><source src=\"https://bagsid.com/assets/video/baggagebg2.mp4\" type=\"video/mp4\"><a href=\"https://bagsid.com/#see-bagsid\">Watch the film on BagsID</a></video><p><a class=\"text-link\" href=\"https://bagsid.com/#see-bagsid\" target=\"_blank\" rel=\"noopener noreferrer\">Watch on the BagsID homepage ↗</a></p></section>\n<section id=\"secure-sight\" class=\"combined-project-section\"><div class=\"project-copy\"><p class=\"eyebrow\">SECURE SIGHT</p><h2>Visibility across the baggage journey.</h2><p>Secure Sight product screens and dashboard concepts bring baggage tracking, identification confidence, and camera history into a shared operational view.</p></div><div class=\"gallery project-gallery\"><figure><a href=\"assets/bagsid-secure-sight/dashboard-overview.webp\" aria-label=\"Open Secure Sight — Dashboard overview\" data-lightbox=\"\" data-title=\"Secure Sight — Dashboard overview\"><img src=\"assets/bagsid-secure-sight/dashboard-overview-preview.webp\" alt=\"Secure Sight — Dashboard overview\" loading=\"lazy\" width=\"1100\" height=\"829\" decoding=\"async\" style=\"--native-width:1100px\" data-thumb=\"assets/case-thumbs/7f5e49ad978e.webp\"></a><figcaption><strong>Dashboard overview</strong><p>Airport and arch filters, matching confidence, and recovered-bag reporting.</p></figcaption></figure><figure><a href=\"assets/bagsid-secure-sight/dashboard-flow.webp\" aria-label=\"Open Secure Sight — Screening and tracking flow\" data-lightbox=\"\" data-title=\"Secure Sight — Screening and tracking flow\"><img src=\"assets/bagsid-secure-sight/dashboard-flow-preview.webp\" alt=\"Secure Sight — Screening and tracking flow\" loading=\"lazy\" width=\"1100\" height=\"855\" decoding=\"async\" style=\"--native-width:1100px\" data-thumb=\"assets/case-thumbs/73add06dff32.webp\"></a><figcaption><strong>Screening and tracking flow</strong><p>A dashboard concept mapping baggage through EDS machines and identification arches.</p></figcaption></figure><figure><a href=\"assets/bagsid-secure-sight/bag-details.webp\" aria-label=\"Open Secure Sight — Bag details and camera history\" data-lightbox=\"\" data-title=\"Secure Sight — Bag details and camera history\"><img src=\"assets/bagsid-secure-sight/bag-details-preview.webp\" alt=\"Secure Sight — Bag details and camera history\" loading=\"lazy\" width=\"1100\" height=\"928\" decoding=\"async\" style=\"--native-width:1100px\" data-thumb=\"assets/case-thumbs/58af5afd011f.webp\"></a><figcaption><strong>Bag details and camera history</strong><p>Bag identifiers, enrollment status, confidence, and images from multiple cameras.</p></figcaption></figure></div></section><section id=\"carryon\" class=\"combined-project-section\"><div class=\"project-copy\"><p class=\"eyebrow\">CARRYON</p><h2>Cabin baggage, in context.</h2><p>CarryOn product screens connect flight operations with cabin baggage capacity, video monitoring, and flight configuration.</p></div><div class=\"gallery project-gallery\"><figure><a href=\"assets/bagsid-carryon/flight-dashboard.webp\" aria-label=\"Open CarryOn — Flight dashboard\" data-lightbox=\"\" data-title=\"CarryOn — Flight dashboard\"><img src=\"assets/bagsid-carryon/flight-dashboard-preview.webp\" alt=\"CarryOn — Flight dashboard\" loading=\"lazy\" width=\"882\" height=\"1100\" decoding=\"async\" style=\"--native-width:882px\" data-thumb=\"assets/case-thumbs/8fd7d93d85d0.webp\"></a><figcaption><strong>Flight dashboard</strong><p>Flight and cabin status, baggage capacity, exceptions, and detection trends.</p></figcaption></figure><figure><a href=\"assets/bagsid-carryon/video-monitor.webp\" aria-label=\"Open CarryOn — Video monitor\" data-lightbox=\"\" data-title=\"CarryOn — Video monitor\"><img src=\"assets/bagsid-carryon/video-monitor-preview.webp\" alt=\"CarryOn — Video monitor\" loading=\"lazy\" width=\"1100\" height=\"858\" decoding=\"async\" style=\"--native-width:1100px\" data-thumb=\"assets/case-thumbs/516251118536.webp\"></a><figcaption><strong>Video monitor</strong><p>A multi-camera view with passenger baggage details and scan history.</p></figcaption></figure><figure><a href=\"assets/bagsid-carryon/edit-flight.webp\" aria-label=\"Open CarryOn — Flight configuration\" data-lightbox=\"\" data-title=\"CarryOn — Flight configuration\"><img src=\"assets/bagsid-carryon/edit-flight-preview.webp\" alt=\"CarryOn — Flight configuration\" loading=\"lazy\" width=\"1100\" height=\"702\" decoding=\"async\" style=\"--native-width:1100px\" data-thumb=\"assets/case-thumbs/086e1e76a663.webp\"></a><figcaption><strong>Flight configuration</strong><p>Editing aircraft type, baggage capacity, and seating classes.</p></figcaption></figure></div></section><section id=\"design-system\" class=\"combined-project-section\"><div class=\"project-copy\"><p class=\"eyebrow\">DESIGN SYSTEM · SOLO DESIGN &amp; ENGINEERING</p><h2>From brand identity to working components.</h2><p>I designed the BagsID design system solo, before AI-assisted workflows, and tied it directly to the corporate brand identity I created. I also wrote most of the application UI code before AI-assisted coding, including the React component library built on MUI.</p><p>That hands-on foundation lets me develop front ends both independently and with AI tools. I bring my own JavaScript, TypeScript, React, and MUI expertise to the work, whether writing the code directly or using AI to accelerate implementation.</p><p>The Figma library covers reusable interface controls, navigation patterns, widgets, and charts. It connects the brand’s visual language with the components used to build product experiences.</p><div class=\"tags\"><span>Solo ownership</span><span>Pre-AI design &amp; development</span><span>Figma</span><span>React</span><span>MUI</span><span>Brand identity</span></div></div><div class=\"gallery design-system-details\"><figure><a href=\"assets/bagsid-design-system/button-states-2x.png\" aria-label=\"Enlarge Button variants and states\" data-lightbox=\"\" data-title=\"BagsID design system: Button variants and states\"><img src=\"assets/bagsid-design-system/button-states-2x.png\" alt=\"BagsID design system: Button variants and states\" loading=\"lazy\" width=\"2128\" height=\"1168\" decoding=\"async\" style=\"--native-width:2128px\" data-thumb=\"assets/case-thumbs/e1c13a4c522e.webp\"></a><figcaption><strong>Button variants and states</strong><p>Filled, outlined, icon, size, and text-button variants from the original Figma component library.</p></figcaption></figure><figure><a href=\"assets/bagsid-design-system/widgets-2x.png\" aria-label=\"Enlarge Branded widgets and data visualization\" data-lightbox=\"\" data-title=\"BagsID design system: Branded widgets and data visualization\"><img src=\"assets/bagsid-design-system/widgets-2x.png\" alt=\"BagsID design system: Branded widgets and data visualization\" loading=\"lazy\" width=\"5050\" height=\"4360\" decoding=\"async\" style=\"--native-width:5050px\" data-thumb=\"assets/case-thumbs/daa1c081800b.webp\"></a><figcaption><strong>Branded widgets and data visualization</strong><p>Chart, metric, and dashboard components showing how the BagsID identity carries across light and teal surfaces.</p></figcaption></figure></div></section>",
+      "category": "product",
+      "logo": "assets/bagsid-current/logo.svg"
+    },
+    {
+      "slug": "lending",
+      "title": "LoanAI",
+      "label": "AI engineering",
+      "summary": "Purpose-built AI and product design for the lending workflow.",
+      "image": "assets/portfolio/loanai/model-dashboard.webp",
+      "role": "AI engineering & product consulting",
+      "detail": "A shared design foundation for AI administration and loan origination.",
+      "body": "<div class=\"loan-story\">\n  <header class=\"loan-opening\"><p class=\"eyebrow\">GREENFIELD STARTUP · BRAND TO FRONT-END DELIVERY</p><h2>One foundation.<br>Two purpose-built products.</h2><p>I created the Loan AI brand, supporting website, and design system. Working with product stakeholders and end users, I helped architect two products, designed their interfaces, and delivered all of the front-end development for both.</p><div class=\"loan-scope\"><span>Brand + website</span><span>Design system + research</span><span>UI + front-end development</span></div><p class=\"eyebrow\">Consulting period: October 2025 — October 2026</p></header>\n\n  <section class=\"loan-chapter\" aria-labelledby=\"loan-workflow-title\">\n    <div class=\"loan-heading\"><p class=\"eyebrow\">THE BUILD WORKFLOW</p><h2 id=\"loan-workflow-title\">Design the system. Build the products.</h2><p>The aim was a substantially simpler lending experience: clear interfaces and task-specific AI working together. In a greenfield startup, I could connect the brand, research, and reusable components directly to working code.</p></div>\n    <figure class=\"loan-diagram\" aria-labelledby=\"loan-workflow-caption\">\n      <div class=\"loan-diagram-label\"><span>RESEARCH → DESIGN SYSTEM → WORKING UI</span><span>END-TO-END OWNERSHIP</span></div>\n      <ol class=\"loan-process\">\n        <li><span class=\"loan-kicker\">01</span><h3>Define</h3><p>Brand identity<br>Supporting website</p><span class=\"loan-output\">A coherent starting point</span></li>\n        <li><span class=\"loan-kicker\">02</span><h3>Understand</h3><p>Stakeholder research<br>End-user workflows</p><span class=\"loan-output\">Product direction</span></li>\n        <li><span class=\"loan-kicker\">03</span><h3>Systematize</h3><p>Design system<br>Reusable UI components</p><span class=\"loan-output\">A shared foundation</span></li>\n        <li><span class=\"loan-kicker\">04</span><h3>Design + build</h3><p>Product interfaces<br>Full front-end code</p><span class=\"loan-output\">Working applications</span></li>\n        <li><span class=\"loan-kicker\">05</span><h3>Iterate</h3><p>AI-assisted development<br>Refine UI + components</p><span class=\"loan-output\">Rapid iteration</span></li>\n      </ol>\n      <div class=\"loan-feedback\"><span aria-hidden=\"true\">↶</span> Research and iteration refine the shared system and both products</div>\n      <div class=\"loan-product-pair\"><div><span class=\"loan-kicker\">PRODUCT 01</span><h3>AI administration</h3><p>Model oversight, performance, and utilization in a dedicated administration experience.</p></div><div><span class=\"loan-kicker\">PRODUCT 02</span><h3>Lending operations / LOS</h3><p>Loan complexity, officer workload, and processing guidance in a simpler lending workspace.</p></div></div>\n      <figcaption id=\"loan-workflow-caption\">I helped architect both products and owned their interface design and front-end implementation.</figcaption>\n    </figure>\n    <a class=\"loan-download\" href=\"assets/loanai-story/design-to-delivery.svg\" download>Download build workflow <svg class=\"download-icon\" aria-hidden=\"true\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5\"></path></svg></a>\n  </section>\n\n  <section class=\"loan-chapter\" aria-labelledby=\"loan-ai-title\">\n    <div class=\"loan-heading\"><p class=\"eyebrow\">AI IN THE PRODUCT + THE PROCESS</p><h2 id=\"loan-ai-title\">Specialized intelligence. Faster delivery.</h2><p>Loan AI runs on a custom AI platform designed expressly for lending, rather than a general-purpose Claude or GPT integration. Claude, GPT, and other AI tools played a separate role in how I designed and developed the applications.</p></div>\n    <figure class=\"loan-diagram\" aria-labelledby=\"loan-ai-caption\">\n      <div class=\"loan-diagram-label\"><span>TWO DISTINCT ROLES FOR AI</span><span>PRODUCT + DEVELOPMENT</span></div>\n      <div class=\"loan-ai-pair\">\n        <div><span class=\"loan-kicker\">WHAT POWERS THE PRODUCT</span><h3>Purpose-built lending AI</h3><p>A highly specialized implementation focused on lending tasks.</p><ul><li>Lower token costs through a narrow task scope</li><li>More control over domain-specific behavior</li><li>Closer alignment with regulatory requirements</li></ul><span class=\"loan-outcome\">Task-specific product intelligence</span></div>\n        <div><span class=\"loan-kicker\">HOW I BUILT THE INTERFACES</span><h3>AI-assisted front-end work</h3><p>Claude, GPT, and other tools accelerate design and implementation.</p><ul><li>Iterate on the design system I created</li><li>Generate and refine product interfaces</li><li>Combine AI tooling with my coding expertise</li></ul><span class=\"loan-outcome\">Faster design-to-code iteration</span></div>\n      </div>\n      <div class=\"loan-craft\"><span class=\"loan-kicker\">MY HANDS-ON FOUNDATION</span><p>JavaScript / TypeScript <span aria-hidden=\"true\">·</span> React <span aria-hidden=\"true\">·</span> MUI <span aria-hidden=\"true\">·</span> Design-system implementation</p></div>\n      <figcaption id=\"loan-ai-caption\">Token economics and regulatory constraints shaped product decisions; my design and development expertise guided the build.</figcaption>\n    </figure>\n    <a class=\"loan-download\" href=\"assets/loanai-story/product-ai-and-development.svg\" download>Download AI approach <svg class=\"download-icon\" aria-hidden=\"true\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5\"></path></svg></a>\n  </section>\n</div>\n<div class=\"project-copy\"><p class=\"eyebrow\">PRODUCT · DESKTOP &amp; MOBILE</p><h2>Inside the lending workspace.</h2><p>I developed the front-end for every Loan AI application, combining my own expertise in JavaScript, TypeScript, React, and MUI with Claude and other AI development tools.</p><p>The interfaces bring loan complexity, officer workload, and AI model oversight into desktop and mobile workflows.</p><div class=\"tags\"><span>JavaScript / TypeScript</span><span>React</span><span>MUI</span><span>AI-assisted development</span></div></div><div class=\"gallery loanai-product-gallery\"><figure><a href=\"assets/portfolio/loanai/complexity-workspace.webp\" data-lightbox=\"\" data-title=\"Loan complexity workspace — workload, risk categories, and processing guidance\"><img src=\"assets/portfolio/loanai/complexity-workspace.webp\" width=\"3833\" height=\"1813\" alt=\"Loan complexity workspace — workload, risk categories, and processing guidance\" loading=\"lazy\" decoding=\"async\" style=\"--native-width:3833px\" data-thumb=\"assets/case-thumbs/9312e20219e6.webp\"></a><figcaption>Loan complexity workspace — workload, risk categories, and processing guidance</figcaption></figure><figure><a href=\"assets/portfolio/loanai/model-dashboard.webp\" data-lightbox=\"\" data-title=\"AI model dashboard — agent chat, performance, and utilization\"><img src=\"assets/portfolio/loanai/model-dashboard.webp\" width=\"3363\" height=\"1614\" alt=\"AI model dashboard — agent chat, performance, and utilization\" loading=\"lazy\" decoding=\"async\" style=\"--native-width:3363px\" data-thumb=\"assets/case-thumbs/6a4b8857af71.webp\"></a><figcaption>AI model dashboard — agent chat, performance, and utilization</figcaption></figure><figure><a href=\"assets/portfolio/loanai/mobile-summary.webp\" data-lightbox=\"\" data-title=\"Mobile loan summary — complexity and loan officer workload\"><img src=\"assets/portfolio/loanai/mobile-summary.webp\" width=\"974\" height=\"1480\" alt=\"Mobile loan summary — complexity and loan officer workload\" loading=\"lazy\" decoding=\"async\" style=\"--native-width:974px\" data-thumb=\"assets/case-thumbs/3e38d0102f3a.webp\"></a><figcaption>Mobile loan summary — complexity and loan officer workload</figcaption></figure></div><div class=\"project-copy\"><p class=\"eyebrow\">IDENTITY · PRODUCT · VISUAL LANGUAGE</p><div class=\"section-brand \"><img src=\"assets/portfolio/loanai/logo.webp\" alt=\"LoanAI\" loading=\"lazy\"></div><h2>One identity, across every touchpoint.</h2><p>I created the Loan AI brand identity and built the website supporting it. The identity pairs an architectural mark with teal, blue, and violet gradients. The login experience carries that identity into the product, while layered document and workforce illustrations make the platform’s subject matter tangible.</p><a class=\"button button-secondary\" href=\"https://lendingtechsystems.com/\">Visit LendingTech Systems ↗</a></div><div class=\"gallery feature-gallery\"><figure><a href=\"assets/portfolio/loanai/login.webp\" data-lightbox=\"\" data-title=\"Loan AI — trust and oversight management login\"><img src=\"assets/portfolio/loanai/login.webp\" alt=\"Loan AI — trust and oversight management login\" width=\"1440\" height=\"858\" loading=\"lazy\" decoding=\"async\" style=\"--native-width:1440px\" data-thumb=\"assets/case-thumbs/ad491c91e406.webp\"></a><figcaption>Loan AI — trust and oversight management login</figcaption></figure><figure><a href=\"assets/portfolio/loanai/website.webp\" data-lightbox=\"\" data-title=\"LendingTech Systems — current website\"><img src=\"assets/portfolio/loanai/website.webp\" alt=\"LendingTech Systems — current website\" width=\"1265\" height=\"712\" loading=\"lazy\" decoding=\"async\" style=\"--native-width:1265px\" data-thumb=\"assets/case-thumbs/e348e4fc1d62.webp\"></a><figcaption>LendingTech Systems — current website</figcaption></figure><figure><a href=\"assets/portfolio/loanai/document-intelligence.webp\" data-lightbox=\"\" data-title=\"Document intelligence — brand illustration\"><img src=\"assets/portfolio/loanai/document-intelligence.webp\" alt=\"Document intelligence — brand illustration\" width=\"2048\" height=\"2048\" loading=\"lazy\" decoding=\"async\" style=\"--native-width:2048px\" data-thumb=\"assets/case-thumbs/3d9032f02cd8.webp\"></a><figcaption>Document intelligence — brand illustration</figcaption></figure><figure><a href=\"assets/portfolio/loanai/document-layers.webp\" data-lightbox=\"\" data-title=\"Layered documents — marketing illustration\"><img src=\"assets/portfolio/loanai/document-layers.webp\" alt=\"Layered documents — marketing illustration\" width=\"2048\" height=\"2048\" loading=\"lazy\" decoding=\"async\" style=\"--native-width:2048px\" data-thumb=\"assets/case-thumbs/e420541947a2.webp\"></a><figcaption>Layered documents — marketing illustration</figcaption></figure><figure><a href=\"assets/portfolio/loanai/workforce.webp\" data-lightbox=\"\" data-title=\"People and workflows — marketing illustration\"><img src=\"assets/portfolio/loanai/workforce.webp\" alt=\"People and workflows — marketing illustration\" width=\"2048\" height=\"2048\" loading=\"lazy\" decoding=\"async\" style=\"--native-width:2048px\" data-thumb=\"assets/case-thumbs/24dc0680eed4.webp\"></a><figcaption>People and workflows — marketing illustration</figcaption></figure></div>",
+      "category": "product",
+      "logo": "assets/portfolio/loanai/logo.webp",
+      "site_url": "https://lendingtechsystems.com/",
+      "site_label": "Explore LoanAI / LendingTech"
+    },
+    {
+      "slug": "fullpath",
+      "title": "Fullpath × Cox Automotive",
+      "label": "Product integration",
+      "summary": "Connecting customer intelligence with established dealership workflows.",
+      "image": "assets/fullpath-website-activity-clean.webp",
+      "detail": "Bringing CRM and CDP experiences together across product teams.",
+      "body": "<div class=\"fp-story\">\n  <header class=\"fp-opening\">\n    <div><p class=\"eyebrow\">PRODUCT ARCHITECTURE · CROSS-TEAM LEADERSHIP</p><h2>Bringing CRM and CDP together.</h2><p>I led designers, researchers, and UI developers across Fullpath and VinSolutions, shaping a staged integration of the CDP into our CRM products. I also contributed directly, taking on some of the most complex architecture and UX problems myself.</p></div>\n    <aside class=\"fp-scale\" aria-label=\"Fullpath platform scale\"><strong>750+</strong><span>Dealerships in<br>Fullpath’s CDP</span></aside>\n  </header>\n\n  <section class=\"fp-chapter\" aria-labelledby=\"fp-journey-title\">\n    <div class=\"fp-heading\"><p class=\"eyebrow\">THE INTEGRATION JOURNEY</p><h2 id=\"fp-journey-title\">Connect now. Integrate over time.</h2><p>I created an architecture that brought Fullpath experiences into the CRM early, while defining a path toward deeper integration. Research with dealerships and users of both products informed each horizon.</p></div>\n    <figure class=\"fp-diagram\" aria-labelledby=\"fp-journey-caption\">\n      <div class=\"fp-diagram-label\"><span>STAGED EXPERIENCE ARCHITECTURE</span><span>THREE HORIZONS</span></div>\n      <ol class=\"fp-horizons\">\n        <li><span class=\"fp-kicker\">STEP 01 · NEAR TERM</span><h3>Embed the experience</h3><p>Frame existing Fullpath experiences into CRM products.</p><ul><li>Bring CDP capabilities into the dealer workflow</li><li>Learn from usage across both products</li></ul><span class=\"fp-phase\">Initial integration</span></li>\n        <li><span class=\"fp-kicker\">STEP 02 · MEDIUM TERM</span><h3>Integrate more natively</h3><p>Bring selected CDP functions into native CRM workflows.</p><ul><li>Connect lead and customer data</li><li>Reconcile overlapping UI and AI capabilities</li></ul><span class=\"fp-phase\">Deeper integration direction</span></li>\n        <li><span class=\"fp-kicker\">STEP 03 · LONG TERM</span><h3>Explore convergence</h3><p>Architect a possible combined product experience.</p><ul><li>Unify journeys across CRM and CDP</li><li>Evaluate a potential merging of the products</li></ul><span class=\"fp-phase fp-future\">Future possibility</span></li>\n      </ol>\n      <div class=\"fp-feedback\"><span aria-hidden=\"true\">↶</span> Research with Fullpath + CRM users informs priorities and the next iteration</div>\n      <div class=\"fp-foundation\"><span class=\"fp-kicker\">ACROSS EVERY HORIZON</span><div><strong>Two design systems</strong><span aria-hidden=\"true\">→</span><strong>Shared patterns and decisions</strong><span aria-hidden=\"true\">→</span><strong>A more cohesive dealer experience</strong></div></div>\n      <figcaption id=\"fp-journey-caption\">A staged strategy spanning the initial embedded experience, deeper integration, and a long-term product possibility.</figcaption>\n    </figure>\n    <a class=\"fp-download\" href=\"assets/fullpath-story/integration-journey.svg\" download>Download integration journey <svg class=\"download-icon\" aria-hidden=\"true\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5\"></path></svg></a>\n  </section>\n\n  <section class=\"fp-chapter\" aria-labelledby=\"fp-data-title\">\n    <div class=\"fp-heading\"><p class=\"eyebrow\">DATA + AI OPPORTUNITIES</p><h2 id=\"fp-data-title\">Design around the strengths of both.</h2><p>I designed AI summarization experiences and examined how Fullpath’s capabilities could improve our GenAI product. In parallel, we explored how richer CRM lead data could inform the CDP and where our virtual contact assistant could fit.</p></div>\n    <figure class=\"fp-diagram\" aria-labelledby=\"fp-data-caption\">\n      <div class=\"fp-diagram-label\"><span>INTEGRATION OPPORTUNITY MAP</span><span>CRM ↔ CDP</span></div>\n      <div class=\"fp-products\">\n        <div><span class=\"fp-kicker\">VINSOLUTIONS CRM</span><h3>Depth in dealer workflows</h3><ul><li>Rich lead and customer data</li><li>Day-to-day dealership workflows</li><li>GenAI + virtual contact assistant</li></ul></div>\n        <div><span class=\"fp-kicker\">FULLPATH CDP</span><h3>Connected customer insight</h3><ul><li>A platform serving 750+ dealerships</li><li>Customer data and engagement context</li><li>Complementary AI functionality</li></ul></div>\n      </div>\n      <div class=\"fp-data-routes\"><div><span class=\"fp-route\">CRM → CDP</span><p>Bring richer lead and customer context into the CDP.</p></div><div><span class=\"fp-route\">CDP → CRM</span><p>Bring customer insight and AI capabilities into dealer workflows.</p></div></div>\n      <div class=\"fp-ai-priorities\"><span class=\"fp-kicker\">COMBINED EXPERIENCE PRIORITIES</span><ul><li>More useful AI summaries</li><li>Stronger GenAI communications</li><li>Virtual contact assistant integration</li></ul></div>\n      <figcaption id=\"fp-data-caption\">Research shaped where to combine capabilities, resolve overlap, and preserve the strengths of each product.</figcaption>\n    </figure>\n    <a class=\"fp-download\" href=\"assets/fullpath-story/data-and-ai-opportunities.svg\" download>Download opportunity map <svg class=\"download-icon\" aria-hidden=\"true\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5\"></path></svg></a>\n  </section>\n\n  <section class=\"fp-leadership\" aria-labelledby=\"fp-leadership-title\"><p class=\"eyebrow\">LEADING THE INTEGRATION</p><div class=\"section-brand section-brand--panel\"><img src=\"assets/fullpath-1000.webp\" alt=\"Fullpath by Cox Automotive\" loading=\"lazy\"></div><h2 id=\"fp-leadership-title\">One direction across two product teams.</h2><div><article><h3>Align the teams</h3><p>Lead UX designers, researchers, and UI developers across Fullpath and VinSolutions.</p></article><article><h3>Connect the systems</h3><p>Bring disparate design systems, customer journeys, and overlapping AI experiences together.</p></article><article><h3>Stay hands-on</h3><p>Personally solve thorny architecture and UI problems while guiding the team through delivery.</p></article></div></section>\n</div>\n<div class=\"project-copy\"><a class=\"text-link\" href=\"project-cox.html\">Explore the wider Cox Automotive work →</a></div><div class=\"gallery project-gallery fullpath-ui-gallery\"><figure><a href=\"assets/fullpath-website-activity-clean-hires.webp\" data-lightbox=\"\" data-title=\"Fullpath customer website activity within the VinSolutions CRM, showing browsing sessions, traffic sources, and customer context\"><img src=\"assets/fullpath-website-activity-clean-hires.webp\" alt=\"Fullpath customer website activity within the VinSolutions CRM, showing browsing sessions, traffic sources, and customer context\" loading=\"lazy\" width=\"3840\" height=\"2218\" decoding=\"async\" style=\"--native-width:3840px\" data-thumb=\"assets/case-thumbs/4675e35063b1.webp\"></a><figcaption><strong>Customer website activity</strong><p>Fullpath customer activity and engagement data within the VinSolutions CRM experience.</p></figcaption></figure><figure><a href=\"assets/fullpath-cdp-reports.webp\" data-lightbox=\"\" data-title=\"Fullpath CDP reporting within VinSolutions, with sales and lead reporting alongside the OMNI AI assistant\"><img src=\"assets/fullpath-cdp-reports.webp\" alt=\"Fullpath CDP reporting within VinSolutions, with sales and lead reporting alongside the OMNI AI assistant\" loading=\"lazy\" width=\"3840\" height=\"2438\" decoding=\"async\" style=\"--native-width:3840px\" data-thumb=\"assets/case-thumbs/b56ad49f3383.webp\"></a><figcaption><strong>CDP reporting and AI assistance</strong><p>Reporting and customer data alongside the OMNI assistant in the integrated experience.</p></figcaption></figure><figure><a href=\"assets/cox-customer-profile-20261110.png\" data-lightbox=\"\" data-title=\"Fullpath CDP AI summary integrated into the VinSolutions CRM customer profile\"><img src=\"assets/cox-customer-profile-20261110.png\" alt=\"Fullpath CDP AI summary integrated into the VinSolutions CRM customer profile\" loading=\"lazy\" width=\"3840\" height=\"2164\" decoding=\"async\" style=\"--native-width:3840px\" data-thumb=\"assets/case-thumbs/42096105c125.webp\"></a><figcaption><strong>Fullpath CDP insights inside VinSolutions CRM</strong><p>Fullpath’s AI summary sits directly within the VinSolutions customer profile, alongside CRM tasks, active leads, appointments, and vehicle context.</p></figcaption></figure></div>",
+      "category": "product",
+      "logo": "assets/fullpath-1000.webp",
+      "role": "CRM + CDP integration"
+    },
+    {
+      "slug": "healthesystems",
+      "title": "Healthesystems & Jurne",
+      "label": "Healthcare products",
+      "summary": "Enterprise tools and digital experiences for complex healthcare operations.",
+      "image": "assets/portfolio/healthesystems-website.webp",
+      "detail": "Product design and front-end development across enterprise web and mobile applications.",
+      "body": "<div class=\"project-copy\"><p class=\"eyebrow\">RESEARCH · ARCHITECTURE · DESIGN LEADERSHIP</p><h2>Leading the experience across products.</h2><p>For several years, I was responsible for research, experience architecture, and design across Healthesystems’ core Vertice product, Jurnē mobile product, corporate website, and related marketing. I led a team of designers and developers while continuing to do much of the work myself as a senior individual contributor.</p></div><div class=\"project-copy\"><div class=\"section-brand section-brand--paper\"><img src=\"assets/portfolio/hes-logo-registered_182x74_x2-1.webp\" alt=\"Healthesystems\" loading=\"lazy\"></div><h2>Corporate website &amp; front-end development</h2></div><div class=\"project-copy\"><p>I personally designed and built the entire corporate website, completing a responsive WordPress rebuild in 2021 with custom PHP, Oxygen, and purpose-built plugins. My broader front-end work included specialized kiosk sites and UIs, alongside experience design for RxInformer and the MedMonitor medication-search experience.</p><a class=\"button button-secondary\" href=\"https://www.healthesystems.com/\">Visit Healthesystems ↗</a></div><div class=\"gallery feature-gallery \"><figure><a href=\"assets/portfolio/healthesystems-website.webp\" data-lightbox=\"\" data-title=\"Healthesystems current homepage with healthcare imagery and pharmacy services navigation\"><img src=\"assets/portfolio/healthesystems-website.webp\" alt=\"Healthesystems current homepage with healthcare imagery and pharmacy services navigation\" loading=\"lazy\" width=\"1265\" height=\"712\" decoding=\"async\" style=\"--native-width:1265px\" data-thumb=\"assets/case-thumbs/6a0b2ab86f9b.webp\"></a><figcaption>Healthesystems — current website</figcaption></figure></div><section id=\"vertice\" class=\"combined-project-section\"><div class=\"project-copy\"><p class=\"eyebrow\">ENTERPRISE PRODUCT DESIGN</p><div class=\"section-brand section-brand--paper\" id=\"vertice-image-1\"><img src=\"assets/portfolio/verticelogo.webp\" alt=\"Vertice\" loading=\"lazy\"></div><h2>Vertice — making complexity usable.</h2><p>Over roughly four years, I led research, experience architecture, and design for Healthesystems’ primary enterprise product for workers’ compensation. I guided designers and developers while personally researching and designing complex workflows, helping rebuild hundreds of screens and establish a new product identity.</p><h3>Research that changed the interaction.</h3><p>For complex authorizations, research pointed toward a narrative approach: expressing the action as a sentence instead of an unexplained collection of fields. Other workflows used guided steps, while contextual help offered relevant screenshots, videos, and field-level guidance.</p><p>The 2.5 and 3.0 interface releases were associated with approximately 5% and 3% increases in application usage, respectively.</p></div><p class=\"archive-note\">Project archive · Screens and concepts from the original engagement.</p><div class=\"gallery project-gallery\"><figure id=\"vertice-image-2\"><a href=\"assets/portfolio/dash1.webp\" aria-label=\"Open Vertice Dashboard\" data-lightbox=\"\" data-title=\"Vertice Dashboard — design by Lawrence Railey\"><img src=\"assets/portfolio/dash1.webp\" loading=\"lazy\" alt=\"Vertice Dashboard — design by Lawrence Railey\" decoding=\"async\" width=\"2732\" height=\"2060\" style=\"--native-width:2732px\" data-thumb=\"assets/case-thumbs/af5302cc139c.webp\"></a><figcaption><strong>Vertice Dashboard</strong><p>This screen helps customers and claims adjusters get a quick summary of claim volume, what claims they might need to work on, sorted by date but also sortable by color coded risk level, and search for a claim quickly.</p></figcaption></figure><figure id=\"vertice-image-3\"><a href=\"assets/portfolio/vertice4.webp\" aria-label=\"Open User Help\" data-lightbox=\"\" data-title=\"User Help — design by Lawrence Railey\"><img src=\"assets/portfolio/vertice4.webp\" loading=\"lazy\" alt=\"User Help — design by Lawrence Railey\" decoding=\"async\" width=\"1400\" height=\"1022\" style=\"--native-width:1400px\" data-thumb=\"assets/case-thumbs/362ad6223299.webp\"></a><figcaption><strong>User Help</strong><p>Given that Workers’ Comp claims are often so complex that actions may not always be immediately intuitive, no matter how clean and managed the user experience is, I added inline help. At any time, a user can open the help panel and see screenshots, videos, text descriptions, and even highlight specific fields in the UI where they might be having trouble. This approach is similar to TurboTax’s tax advice bar. By inverting the help color scheme, it creates a visual separation between what is help, and what is live content.</p></figcaption></figure><figure id=\"vertice-image-4\"><a href=\"assets/portfolio/vertice52.webp\" aria-label=\"Open Pharmacy Search\" data-lightbox=\"\" data-title=\"Pharmacy Search — design by Lawrence Railey\"><img src=\"assets/portfolio/vertice52.webp\" loading=\"lazy\" alt=\"Pharmacy Search — design by Lawrence Railey\" decoding=\"async\" width=\"1400\" height=\"1242\" style=\"--native-width:1400px\" data-thumb=\"assets/case-thumbs/8e87bfc5e1dc.webp\"></a><figcaption><strong>Pharmacy Search</strong><p>Tying in to the Google API, and comparing that to an internal database of in-network pharmacies, the Pharmacy Search helps claims adjusters recommend pharmacies for prescription pickup.</p></figcaption></figure><figure id=\"vertice-image-5\"><a href=\"assets/portfolio/vertice2.webp\" aria-label=\"Open Live Chat\" data-lightbox=\"\" data-title=\"Live Chat — design by Lawrence Railey\"><img src=\"assets/portfolio/vertice2.webp\" loading=\"lazy\" alt=\"Live Chat — design by Lawrence Railey\" decoding=\"async\" width=\"1400\" height=\"1005\" style=\"--native-width:1400px\" data-thumb=\"assets/case-thumbs/e896bbeb1ee4.webp\"></a><figcaption><strong>Live Chat</strong><p>A feature currently in development is a simple live chat module, to get help and advice from account managers and customer service represenatives.</p></figcaption></figure><figure id=\"vertice-image-6\"><a href=\"assets/portfolio/vertice6-1.webp\" aria-label=\"Open Narrating Complexity\" data-lightbox=\"\" data-title=\"Narrating Complexity — design by Lawrence Railey\"><img src=\"assets/portfolio/vertice6-1.webp\" loading=\"lazy\" alt=\"Narrating Complexity — design by Lawrence Railey\" decoding=\"async\" width=\"1400\" height=\"1513\" style=\"--native-width:1400px\" data-thumb=\"assets/case-thumbs/cb2a5c0c249d.webp\"></a><figcaption><strong>Narrating Complexity</strong><p>One of the user experience innovations in Vertice is the “narrative” approach. Certain complex actions just don’t make sense if they are just fields in a form. By creating a sentence structure “you are being asked to authorize X numbers of trips in Y date range for Z locations”, we found that users were more readily able to understand what they were doing. User research pointed us in this direction. It’s one of the most well-liked features of the new UI.</p></figcaption></figure><figure id=\"vertice-image-7\"><a href=\"assets/portfolio/vertice98.webp\" aria-label=\"Open Walking Users Through Complexity\" data-lightbox=\"\" data-title=\"Walking Users Through Complexity — design by Lawrence Railey\"><img src=\"assets/portfolio/vertice98.webp\" loading=\"lazy\" alt=\"Walking Users Through Complexity — design by Lawrence Railey\" decoding=\"async\" width=\"1400\" height=\"1182\" style=\"--native-width:1400px\" data-thumb=\"assets/case-thumbs/b3243f60f5d1.webp\"></a><figcaption><strong>Walking Users Through Complexity</strong><p>Another approach used in some complex screens is to use a wizard to walk the user through the various actions needed to complete a complicated task. Work is broken up into tabs and sections.</p></figcaption></figure></div></section><section id=\"jurne\" class=\"combined-project-section\"><div class=\"project-copy\"><h2>Jurnē — mobile healthcare</h2></div><div class=\"project-copy\"><p>I led research, experience architecture, and design for Jurnē, a mobile product for injured workers and claims adjusters spanning appointments, pharmacy pickups, billing, and related services. Alongside directing the team, I personally designed workflows and interfaces and contributed to UI development.</p></div><p class=\"archive-note\">Project archive · Screens and concepts from the original engagement.</p><div class=\"gallery project-gallery\"><figure id=\"image-1\"><a href=\"assets/portfolio/journe5.webp\" aria-label=\"Open Login Screen\" data-lightbox=\"\" data-title=\"Login Screen — design by Lawrence Railey\"><img src=\"assets/portfolio/journe5.webp\" loading=\"lazy\" alt=\"Login Screen — design by Lawrence Railey\" decoding=\"async\" width=\"1100\" height=\"1898\" style=\"--native-width:1100px\" data-thumb=\"assets/case-thumbs/effa73bb7880.webp\"></a><figcaption><strong>Login Screen</strong></figcaption></figure><figure id=\"image-2\"><a href=\"assets/portfolio/journe6.webp\" aria-label=\"Open Verification\" data-lightbox=\"\" data-title=\"Verification — design by Lawrence Railey\"><img src=\"assets/portfolio/journe6.webp\" loading=\"lazy\" alt=\"Verification — design by Lawrence Railey\" decoding=\"async\" width=\"1100\" height=\"1898\" style=\"--native-width:1100px\" data-thumb=\"assets/case-thumbs/698bd0a06a6d.webp\"></a><figcaption><strong>Verification</strong></figcaption></figure><figure id=\"image-3\"><a href=\"assets/portfolio/journe3.webp\" aria-label=\"Open About Healthesystems\" data-lightbox=\"\" data-title=\"About Healthesystems — design by Lawrence Railey\"><img src=\"assets/portfolio/journe3.webp\" loading=\"lazy\" alt=\"About Healthesystems — design by Lawrence Railey\" decoding=\"async\" width=\"1100\" height=\"1898\" style=\"--native-width:1100px\" data-thumb=\"assets/case-thumbs/84cd87a16857.webp\"></a><figcaption><strong>About Healthesystems</strong></figcaption></figure><figure id=\"image-4\"><a href=\"assets/portfolio/journe2.webp\" aria-label=\"Open Landing Page\" data-lightbox=\"\" data-title=\"Landing Page — design by Lawrence Railey\"><img src=\"assets/portfolio/journe2.webp\" loading=\"lazy\" alt=\"Landing Page — design by Lawrence Railey\" decoding=\"async\" width=\"1100\" height=\"1898\" style=\"--native-width:1100px\" data-thumb=\"assets/case-thumbs/72e16c25bbc4.webp\"></a><figcaption><strong>Landing Page</strong></figcaption></figure><figure id=\"image-5\"><a href=\"assets/portfolio/journe4.webp\" aria-label=\"Open Pharmacy Search\" data-lightbox=\"\" data-title=\"Pharmacy Search — design by Lawrence Railey\"><img src=\"assets/portfolio/journe4.webp\" loading=\"lazy\" alt=\"Pharmacy Search — design by Lawrence Railey\" decoding=\"async\" width=\"1100\" height=\"1898\" style=\"--native-width:1100px\" data-thumb=\"assets/case-thumbs/78ae55d7e478.webp\"></a><figcaption><strong>Pharmacy Search</strong></figcaption></figure><figure id=\"image-6\"><a href=\"assets/portfolio/journe7.webp\" aria-label=\"Open Pharmacy Search Continued\" data-lightbox=\"\" data-title=\"Pharmacy Search Continued — design by Lawrence Railey\"><img src=\"assets/portfolio/journe7.webp\" loading=\"lazy\" alt=\"Pharmacy Search Continued — design by Lawrence Railey\" decoding=\"async\" width=\"1100\" height=\"1898\" style=\"--native-width:1100px\" data-thumb=\"assets/case-thumbs/327aa9048ec6.webp\"></a><figcaption><strong>Pharmacy Search Continued</strong></figcaption></figure><figure id=\"image-7\"><a href=\"assets/portfolio/jurne1.webp\" aria-label=\"Open Benefits Card\" data-lightbox=\"\" data-title=\"Benefits Card — design by Lawrence Railey\"><img src=\"assets/portfolio/jurne1.webp\" loading=\"lazy\" alt=\"Benefits Card — design by Lawrence Railey\" decoding=\"async\" width=\"1100\" height=\"1898\" style=\"--native-width:1100px\" data-thumb=\"assets/case-thumbs/517d7ed186f6.webp\"></a><figcaption><strong>Benefits Card</strong></figcaption></figure></div></section><section id=\"marketing\" class=\"combined-project-section\"><div class=\"project-copy\"><h2>Supporting the product beyond the screen.</h2><p>My responsibilities also extended to product and corporate marketing materials, conference booth designs, and video production. I connected these experiences to the same product story, supporting how Healthesystems explained and demonstrated its work to customers.</p></div></section><section id=\"clinical\" class=\"combined-project-section\"><div class=\"project-copy\"><h2>Clinical survey reports</h2></div><div class=\"project-copy\"><p>Supported data collection and created custom digital landing pages for annual industry research. The 2019, 2020, and 2021 report experiences combined editorial content, data presentation, and front-end development.</p><a class=\"text-link\" href=\"https://rxinformer.healthesystems.com/lp/compsurvey2019/\">View the 2019 report ↗</a><div class=\"actions\"><a class=\"text-link\" href=\"https://rxinformer.healthesystems.com/lp/compsurvey2020/\">2020 report ↗</a><a class=\"text-link\" href=\"https://rxinformer.healthesystems.com/lp/compsurvey2021/\">2021 report ↗</a></div></div></section>",
+      "category": "product",
+      "site_url": "https://www.healthesystems.com/",
+      "site_label": "Explore Healthesystems"
+    },
+    {
+      "slug": "catalina",
+      "title": "Catalina",
+      "label": "Product design",
+      "summary": "Digital tools that connect campaign planning and performance.",
+      "image": "assets/portfolio/InsightDashboard.webp",
+      "image_alt": "Catalina Opportunity Finder dashboard",
+      "detail": "Web application interfaces, user research, and front-end implementation.",
+      "body": "<div class=\"project-copy\"><h2>Research and design leadership at national scale.</h2><p>I led user research, experience architecture, and UX/UI design for Catalina’s CXP tool and the interfaces used to manage its receipt and couponing systems for CVS, Walgreens, and other major national brands. These UIs supported an operation generating an estimated $250–$300 million in revenue.</p><p>I led a small team of UX and UI designers while continuing to do hands-on research and design and contributing front-end development.</p></div><p class=\"archive-note\">Project archive · Screens and concepts from the original engagement.</p><div class=\"gallery project-gallery\"><figure id=\"image-1\"><a href=\"assets/portfolio/InsightDashboard.webp\" aria-label=\"Open Opportunity Finder Dashboard\" data-lightbox=\"\" data-title=\"Opportunity Finder Dashboard — design by Lawrence Railey\"><img src=\"assets/portfolio/InsightDashboard.webp\" loading=\"lazy\" alt=\"Opportunity Finder Dashboard — design by Lawrence Railey\" decoding=\"async\" width=\"1366\" height=\"768\" style=\"--native-width:1366px\" data-thumb=\"assets/case-thumbs/4c086799a481.webp\"></a><figcaption><strong>Opportunity Finder Dashboard</strong><p>This dashboard was created for customers to interact with the data from their marketing campaigns with Catalina. It helped visualize complex data in different ways. The dashboard was bright, cheerful, and in line with Catalina’s brand while providing an attractive and easy to use UI.</p></figcaption></figure><figure id=\"image-2\"><a href=\"assets/portfolio/ProgramDesignTool-2.webp\" aria-label=\"Open Program Design Tool\" data-lightbox=\"\" data-title=\"Program Design Tool — design by Lawrence Railey\"><img src=\"assets/portfolio/ProgramDesignTool-2.webp\" loading=\"lazy\" alt=\"Program Design Tool — design by Lawrence Railey\" decoding=\"async\" width=\"1260\" height=\"740\" style=\"--native-width:1260px\" data-thumb=\"assets/case-thumbs/c9d55810ccc4.webp\"></a><figcaption><strong>Program Design Tool</strong><p>A relatively simple micro application that helped customers and internal users submit new program requests that were then routed to the appropriate Catalina account managers. The tool tied in to Salesforce.</p></figcaption></figure><figure id=\"image-3\"><a href=\"assets/portfolio/ProgramDesignTool-1.webp\" aria-label=\"Open Program Design Tool Landing page\" data-lightbox=\"\" data-title=\"Program Design Tool Landing page — design by Lawrence Railey\"><img src=\"assets/portfolio/ProgramDesignTool-1.webp\" loading=\"lazy\" alt=\"Program Design Tool Landing page — design by Lawrence Railey\" decoding=\"async\" width=\"1255\" height=\"643\" style=\"--native-width:1255px\" data-thumb=\"assets/case-thumbs/344675780318.webp\"></a><figcaption><strong>Program Design Tool Landing page</strong><p>The relatively simple, yet appealing landing page for users when they first entered the Program Design Tool.</p></figcaption></figure><figure id=\"image-4\"><a href=\"assets/portfolio/mxp.webp\" aria-label=\"Open MXP\" data-lightbox=\"\" data-title=\"MXP — design by Lawrence Railey\"><img src=\"assets/portfolio/mxp.webp\" loading=\"lazy\" alt=\"MXP — design by Lawrence Railey\" decoding=\"async\" width=\"1412\" height=\"1032\" style=\"--native-width:1412px\" data-thumb=\"assets/case-thumbs/08e214f72369.webp\"></a><figcaption><strong>MXP</strong><p>MXP was an application used primarily by internal account managers, but in some contexts by customers as well. Since campaigns were complex animals, MXP was designed to help users understand where a campaign was in the process with a visual checklist at the top of the screen. This allowed users to readily identify the next steps. The application was very complex and contained many screens and parameters of which this is only one. You will note the common design language, albeit more subdued here, with the Program Design Tool.</p></figcaption></figure></div>",
+      "category": "product",
+      "logo": "assets/brand/catalina.svg",
+      "role": "UX design + UI development"
+    },
+    {
+      "slug": "strike",
+      "title": "Strike Electric",
+      "label": "Brand & website",
+      "summary": "A clear identity and responsive website for an electrical contractor.",
+      "image": "assets/portfolio/strike/website-dark.webp",
+      "image_alt": "Strike Electric website in dark mode",
+      "detail": "Brand identity, web design, and implementation.",
+      "body": "<div class=\"section-brand section-brand--art\"><img src=\"assets/portfolio/strike/identity.webp\" alt=\"Strike Electric\" loading=\"lazy\"></div><div class=\"project-copy\"><p>I created Strike Electric’s visual identity, website, and business cards. A lightning-inspired mark, electric-blue light, and a dark foundation give the brand a consistent presence across digital and print.</p><p>The responsive website brings residential and commercial services into one clear experience, with light and dark themes and a custom content editor.</p><p>I also integrated payment processing and invoicing, automating those workflows on the backend.</p><a class=\"button button-secondary\" href=\"https://strike-electric.com/\">Visit Strike Electric ↗</a></div><div class=\"gallery feature-gallery\"><figure><a href=\"assets/portfolio/strike/website-dark.webp\" data-lightbox=\"\" data-title=\"Strike Electric dark-mode website homepage with service navigation and residential electrical imagery\"><img src=\"assets/portfolio/strike/website-dark.webp\" alt=\"Strike Electric dark-mode website homepage with service navigation and residential electrical imagery\" width=\"1265\" height=\"712\" loading=\"lazy\" decoding=\"async\" style=\"--native-width:1265px\" data-thumb=\"assets/case-thumbs/491a92faffe7.webp\"></a><figcaption>Strike Electric — website homepage, dark mode</figcaption></figure><figure class=\"strike-mobile\"><a href=\"assets/portfolio/strike/contact-mobile.webp\" data-lightbox=\"\" data-title=\"Strike Electric mobile contact form with name, phone, email, inquiry type, and message fields\"><img src=\"assets/portfolio/strike/contact-mobile.webp\" alt=\"Strike Electric mobile contact form with name, phone, email, inquiry type, and message fields\" width=\"780\" height=\"1688\" loading=\"lazy\" decoding=\"async\" style=\"--native-width:780px\" data-thumb=\"assets/case-thumbs/aa8d210ae083.webp\"></a><figcaption>Mobile website — contact form</figcaption></figure><figure><a href=\"assets/portfolio/strike/business-card-front.webp\" data-lightbox=\"\" data-title=\"Strike Electric business card front\"><img src=\"assets/portfolio/strike/business-card-front.webp\" alt=\"Strike Electric business card front\" width=\"1125\" height=\"675\" loading=\"lazy\" decoding=\"async\" style=\"--native-width:1125px\" data-thumb=\"assets/case-thumbs/72e3c2b3d147.webp\"></a><figcaption>Business card — front</figcaption></figure><figure><a href=\"assets/portfolio/strike/business-card-back.webp\" data-lightbox=\"\" data-title=\"Strike Electric business card back with illuminated brand mark\"><img src=\"assets/portfolio/strike/business-card-back.webp\" alt=\"Strike Electric business card back with illuminated brand mark\" width=\"1125\" height=\"675\" loading=\"lazy\" decoding=\"async\" style=\"--native-width:1125px\" data-thumb=\"assets/case-thumbs/4b011bf86e1d.webp\"></a><figcaption>Business card — back</figcaption></figure></div>",
+      "category": "marketing",
+      "site_url": "https://strike-electric.com/",
+      "site_label": "Explore Strike Electric"
+    },
+    {
+      "slug": "kennards",
+      "title": "Kennards Hire",
+      "label": "Digital experience",
+      "summary": "Interface and visual design for equipment rental experiences.",
+      "image": "assets/portfolio/hirecard2.webp",
+      "image_alt": "Kennards Hire user management website",
+      "detail": "Selected digital design work.",
+      "body": "<div class=\"project-copy\"><p>Worked within a contract development team to design and build an equipment browser, rental-cost calculator, and location finder. The proof of concept informed the core interaction and functionality of the completed experience.</p></div><p class=\"archive-note\">Project archive · Screens and concepts from the original engagement.</p><div class=\"gallery project-gallery\"><figure id=\"image-1\"><a href=\"assets/portfolio/hirecard2.webp\" aria-label=\"Open Kennards Back End\" data-lightbox=\"\" data-title=\"Kennards Back End — design by Lawrence Railey\"><img src=\"assets/portfolio/hirecard2.webp\" loading=\"lazy\" alt=\"Kennards Back End — design by Lawrence Railey\" decoding=\"async\" width=\"2234\" height=\"2400\" style=\"--native-width:2234px\" data-thumb=\"assets/case-thumbs/e7f71e2c1ef2.webp\"></a><figcaption><strong>Kennards Back End</strong><p>In addition to the features seen on the public site, there is a great deal of functionality buried behind the scenes to help companies manage users – accounts approved by the customer to rent equipment on their behalf. A super user could manage the rest of the company’s user profiles, and job sites where they were allowed to rent equipment from Kennards.</p></figcaption></figure><figure id=\"image-2\"><a href=\"assets/portfolio/hirecard.webp\" aria-label=\"Open Job Site Geolocation\" data-lightbox=\"\" data-title=\"Job Site Geolocation — design by Lawrence Railey\"><img src=\"assets/portfolio/hirecard.webp\" loading=\"lazy\" alt=\"Job Site Geolocation — design by Lawrence Railey\" decoding=\"async\" width=\"2145\" height=\"1514\" style=\"--native-width:2145px\" data-thumb=\"assets/case-thumbs/c65611bd2e2f.webp\"></a><figcaption><strong>Job Site Geolocation</strong><p>Super users could additionally post job sites for their company, scheduling equipment rentals to be delivered directly to the site. It was interesting doing this for an Australian company!</p></figcaption></figure></div>",
+      "category": "product"
+    },
+    {
+      "slug": "earlier",
+      "title": "Earlier Work",
+      "label": "Selected archive",
+      "summary": "Interfaces, websites, and brand work across healthcare, trades, hospitality, and equipment hire.",
+      "image": "assets/portfolio/TheMeltingPot.webp",
+      "image_alt": "The Melting Pot website",
+      "detail": "Earlier digital, interface, and visual design projects.",
+      "body": "<div class=\"project-copy\"><p>A curated archive of projects for brands including The Melting Pot, Reeves Import Motor Cars, MOSI, Jacobsen Homes, North Iowa Area Community College, and Merlin Law Group. These historical projects document the evolution of my design and development practice; many original sites are now retired.</p></div><p class=\"archive-note\">Project archive · Screens and concepts from the original engagement.</p><div class=\"gallery project-gallery\"><figure id=\"image-1\"><a href=\"assets/portfolio/TheMeltingPot.webp\" aria-label=\"Open The Melting Pot Website\" data-lightbox=\"\" data-title=\"The Melting Pot Website — design by Lawrence Railey\"><img src=\"assets/portfolio/TheMeltingPot.webp\" loading=\"lazy\" alt=\"The Melting Pot Website — design by Lawrence Railey\" decoding=\"async\" width=\"1012\" height=\"1024\" style=\"--native-width:1012px\" data-thumb=\"assets/case-thumbs/15c9e385b5cc.webp\"></a><figcaption><strong>The Melting Pot Website</strong><p>A website developed in a proprietary CMS during my time at Bayshore Solutions. It is, perhaps, somewhat dated now. But I do still have a soft spot for this site.</p></figcaption></figure><figure id=\"image-2\"><a href=\"assets/portfolio/ReevesImport.webp\" aria-label=\"Open Reeves Import Motorcars\" data-lightbox=\"\" data-title=\"Reeves Import Motorcars — design by Lawrence Railey\"><img src=\"assets/portfolio/ReevesImport.webp\" loading=\"lazy\" alt=\"Reeves Import Motorcars — design by Lawrence Railey\" decoding=\"async\" width=\"1024\" height=\"792\" style=\"--native-width:1024px\" data-thumb=\"assets/case-thumbs/35664c1825ee.webp\"></a><figcaption><strong>Reeves Import Motorcars</strong><p>A website built during my time at Bayshore Solutions. This one was unique in that I also did a significant amount of front-end development on their automobile inventory browser. That portion of the website was in use up until October of 2021, when Reeves was purchased by a competitor.</p></figcaption></figure><figure id=\"image-3\"><a href=\"assets/portfolio/MOSI.webp\" aria-label=\"Open MOSI\" data-lightbox=\"\" data-title=\"MOSI — design by Lawrence Railey\"><img src=\"assets/portfolio/MOSI.webp\" loading=\"lazy\" alt=\"MOSI — design by Lawrence Railey\" decoding=\"async\" width=\"1116\" height=\"1461\" style=\"--native-width:1116px\" data-thumb=\"assets/case-thumbs/96801921144d.webp\"></a><figcaption><strong>MOSI</strong><p>This was certainly one of the most carefree and fun designs I was ever a part of. Its child-like appeal allowed me to bend or break a lot of otherwise traditional design rules.</p></figcaption></figure><figure id=\"image-4\"><a href=\"assets/portfolio/older-2.webp\" aria-label=\"Open Jacobsen Homes\" data-lightbox=\"\" data-title=\"Jacobsen Homes — design by Lawrence Railey\"><img src=\"assets/portfolio/older-2.webp\" loading=\"lazy\" alt=\"Jacobsen Homes — design by Lawrence Railey\" decoding=\"async\" width=\"1116\" height=\"1572\" style=\"--native-width:1116px\" data-thumb=\"assets/case-thumbs/7c0dc85eafde.webp\"></a><figcaption><strong>Jacobsen Homes</strong><p>Another old site from the 2010 era designed and built during my time with Bayshore Solutions. This one is still alive and well today, along with an early &amp; basic – but functional – mobile experience.</p></figcaption></figure><figure id=\"image-5\"><a href=\"assets/portfolio/NIACC.webp\" aria-label=\"Open North Iowa Area Community College\" data-lightbox=\"\" data-title=\"North Iowa Area Community College — design by Lawrence Railey\"><img src=\"assets/portfolio/NIACC.webp\" loading=\"lazy\" alt=\"North Iowa Area Community College — design by Lawrence Railey\" decoding=\"async\" width=\"1440\" height=\"1236\" style=\"--native-width:1440px\" data-thumb=\"assets/case-thumbs/e80eaf639541.webp\"></a><figcaption><strong>North Iowa Area Community College</strong><p>During my time with Ellucian, I designed and built several community college websites. This one used WordPress and integrated with Ellucian’s education platform.</p></figcaption></figure><figure id=\"image-7\"><a href=\"assets/portfolio/merlin.webp\" aria-label=\"Open Merlin Law Group\" data-lightbox=\"\" data-title=\"Merlin Law Group — design by Lawrence Railey\"><img src=\"assets/portfolio/merlin.webp\" loading=\"lazy\" alt=\"Merlin Law Group — design by Lawrence Railey\" decoding=\"async\" width=\"1008\" height=\"1400\" style=\"--native-width:1008px\" data-thumb=\"assets/case-thumbs/a999a19ddf29.webp\"></a><figcaption><strong>Merlin Law Group</strong><p>Probably one of my last websites built with heavy use of shadowing and lighting, designed in 2012 as an independent contracting effort. Soon after this, I joined the general trend toward Flat UI. Yet I am still proud of this last of the shaded site builds.</p></figcaption></figure></div>",
+      "category": "marketing",
+      "stack": [
+        "assets/portfolio/TheMeltingPot.webp",
+        "assets/portfolio/hirecard2.webp",
+        "assets/portfolio/ReevesImport.webp"
+      ]
+    }
+  ],
+  "history": "<article class=\"case\"><aside><strong>Cox Automotive</strong>April 2022 — Present</aside><div><h2>Principal Product Designer</h2><p>As Principal Product Designer at Cox Automotive, I manage approximately 10 direct reports and own UX across products representing approximately $500 million in annual revenue. I combine people leadership with hands-on product design and AI engineering.</p><p>I built Cox Automotive’s GenAI platform for VinSolutions CRM and have been responsible for the CRM’s UX/UI throughout my time at Cox. My work connects AI engineering with the daily needs of dealership teams.</p><ul><li>Led product experience across VinSolutions CRM, from interface design to complex workflows.</li><li>Built the GenAI platform for the CRM and helped bring AI products to market.</li><li>Responsible for integrating Fullpath into Cox Automotive following its acquisition.</li><li>Led UX designers, UI developers, and researchers working across dealership software and connected consumer and B2B experiences.</li></ul></div></article><article class=\"case\"><aside><strong>BagsID</strong>2019 — Present · Consulting</aside><div><h2>VP of UX</h2><p>As fractional VP of UX at BagsID, an approximately 100-person company, I lead a small team of designers and developers part-time. I have company-wide ownership of brand identity, design, the design system, UI/UX, and front-end development, combining team leadership with hands-on implementation.</p><ul><li>Ongoing fractional UX leadership and team management.</li><li>Product experience for AI-powered baggage identification.</li><li>Brand identity, digital presence, and website design and development.</li></ul></div></article><article class=\"case\"><aside><strong>LendingTech Systems</strong>October 2025 — Present · Consulting</aside><div><h2>Loan AI · AI engineering &amp; product consulting</h2><p>I built a loan origination system powered by a custom AI implementation tailored to lending. The implementation is designed specifically for this use case, with token cost as a core engineering constraint.</p><ul><li>Custom AI implementation rather than a general-purpose Claude or GPT integration.</li><li>Loan origination product design and engineering.</li><li>Consulting on the Loan AI platform.</li></ul></div></article><article class=\"case\"><aside><strong>Healthesystems</strong>June 2016 — April 2022</aside><div><h2>Senior User Experience Designer</h2><p>Led UI/UX design and front-end development for enterprise web and mobile applications in workers’ compensation. Worked with React, Angular, and Material Design, alongside company websites and digital marketing.</p><ul><li>Translated complex operational needs into usable enterprise interfaces.</li><li>Combined product research, design, and implementation within a cross-functional delivery team.</li></ul></div></article><article class=\"case\"><aside><strong>Catalina</strong>April 2013 — June 2016</aside><div><h2>Senior User Experience Designer</h2><p>Designed web application interfaces and mobile experiences, conducted user research, and implemented front-end work using JavaScript, HTML, CSS, jQuery, Bootstrap, and Angular.</p></div></article><article class=\"case\"><aside><strong>Triad Retail Media</strong>November 2012 — March 2013 · Contract</aside><div><h2>Front-End Developer</h2><p>Built marketing experiences on Walmart.com for brands including L’Oréal, American Greetings, Hormel, Arm &amp; Hammer, and Remington, using JavaScript, Flash, jQuery, XML, and HTML/CSS.</p></div></article><article class=\"case\"><aside><strong>Ellucian</strong>March 2012 — November 2012 · Contract</aside><div><h2>Front-End Developer</h2><p>Designed and built higher education websites using WordPress and a proprietary .NET CMS, with a focus on responsive and mobile experiences. Worked across JavaScript, HTML/CSS, PHP, SharePoint, and .NET.</p></div></article><article class=\"case\"><aside><strong>BMC Software</strong>October 2011 — March 2012 · Contract</aside><div><h2>Front-End Developer</h2><p>Built small web applications and specialized marketing experiences using .NET, JavaScript, SQL, Photoshop, and HTML/CSS. Numara became part of BMC during the engagement.</p></div></article><article class=\"case\"><aside><strong>Bayshore Solutions</strong>March 2009 — September 2011</aside><div><h2>Interactive Designer</h2><p>Designed and built websites in proprietary systems, Ektron, and Umbraco, with an emphasis on front-end development and jQuery. Bayshore Solutions later became part of Spinutech.</p></div></article><article class=\"case\"><aside><strong>LightPort</strong>February 2007 — February 2009</aside><div><h2>Senior Web Designer</h2><p>Built websites and applications for the financial industry, integrating third-party investment tools into customer-facing experiences. LightPort later became InvestCloud.</p></div></article><article class=\"case\"><aside><strong>GunnAllen Financial</strong>June 2004 — February 2007</aside><div><h2>Head Graphic Designer</h2><p>Led graphic and web design for an internal marketing team organized around an agency model. Built and maintained corporate sites and applications, and managed brand standards in a regulated environment.</p></div></article><article class=\"case\"><aside><strong>Advanced Access</strong>February 2003 — June 2004</aside><div><h2>Web Designer</h2><p>Designed and built real estate websites in a proprietary CMS, including integrations with third-party services such as the MLS. Advanced Access later rebranded as Homes.com.</p></div></article><article class=\"case\"><aside><strong>Independent work</strong>Since 1999</aside><div><h2>Independent design &amp; development</h2><p>Independent design and development engagements have run alongside my employed work since 1999, including early consulting for 2Advanced. That era’s ambitious interactive design helped shape my interest in experiences with atmosphere, identity, and technical craft.</p></div></article>",
+  "art": [
+    {
+      "title": "Canyon transit",
+      "image": "assets/creative/canyon-railcar-large.webp",
+      "thumb": "assets/creative-thumbs/canyon-railcar-large.webp",
+      "alt": "An illuminated railcar travels through a dark sandstone canyon.",
+      "categories": [
+        "transport"
+      ],
+      "width": 720,
+      "height": 403
+    },
+    {
+      "title": "The luminous city",
+      "image": "assets/creative/byzantium-live/hagia-sophia.jpg",
+      "thumb": "assets/creative/byzantium-live/hagia-sophia-thumb.webp",
+      "alt": "The great church seen from above at night, its domes and arcades outlined in gold light above the city",
+      "categories": [
+        "byzantium",
+        "worlds"
+      ],
+      "width": 720,
+      "height": 720,
+      "source": "https://cyberbyzantium.com/assets/img/art/hagia-sophia.jpg"
+    },
+    {
+      "title": "After the flood",
+      "image": "assets/creative/flooded-discovery-large.webp",
+      "thumb": "assets/creative-thumbs/flooded-discovery-large.webp",
+      "alt": "A solitary explorer crosses a flooded, teal-lit industrial interior.",
+      "categories": [
+        "worlds"
+      ],
+      "width": 720,
+      "height": 403
+    },
+    {
+      "title": "Ember",
+      "image": "assets/creative/idea2-large.webp",
+      "thumb": "assets/creative-thumbs/idea2-large.webp",
+      "alt": "A profile portrait with flowing hair lit by red and orange embers.",
+      "categories": [
+        "characters"
+      ],
+      "width": 720,
+      "height": 720
+    },
+    {
+      "title": "Nocturne",
+      "image": "assets/creative/nocturnal-corrected-large.webp",
+      "thumb": "assets/creative-thumbs/nocturnal-corrected-large.webp",
+      "alt": "An illuminated modern building sits on a rocky shoreline at night.",
+      "categories": [
+        "worlds"
+      ],
+      "width": 720,
+      "height": 403
+    },
+    {
+      "title": "The long way home",
+      "image": "assets/creative/mid5-large.webp",
+      "thumb": "assets/creative-thumbs/mid5-large.webp",
+      "alt": "An astronaut walks into warm light between towering canyon walls.",
+      "categories": [
+        "worlds"
+      ],
+      "width": 720,
+      "height": 404
+    },
+    {
+      "title": "Chrome & ember",
+      "image": "assets/skullfused.webp",
+      "thumb": "assets/creative-thumbs/skullfused.webp",
+      "alt": "A reflective chrome skull catches bright orange and cyan light.",
+      "categories": [
+        "characters"
+      ],
+      "width": 720,
+      "height": 411
+    },
+    {
+      "title": "Departure lounge",
+      "image": "assets/departure-lounge-refined.webp",
+      "thumb": "assets/creative-thumbs/departure-lounge-refined.webp",
+      "alt": "A traveler stands in a symmetrical futuristic corridor with orange and cyan lighting.",
+      "categories": [
+        "worlds"
+      ],
+      "width": 720,
+      "height": 411
+    },
+    {
+      "title": "Digital orders",
+      "image": "assets/creative/byzantium-live/digital-monk.jpg",
+      "thumb": "assets/creative/byzantium-live/digital-monk-thumb.webp",
+      "alt": "A robed monk whose face is a lit screen of scrolling text",
+      "categories": [
+        "byzantium",
+        "characters"
+      ],
+      "width": 720,
+      "height": 720,
+      "source": "https://cyberbyzantium.com/assets/img/art/digital-monk.jpg"
+    },
+    {
+      "title": "The Empress",
+      "image": "assets/creative/byzantium-live/empress.jpg",
+      "thumb": "assets/creative/byzantium-live/empress-thumb.webp",
+      "alt": "A woman in gold imperial dress with a jewelled circlet",
+      "categories": [
+        "byzantium",
+        "characters"
+      ],
+      "width": 720,
+      "height": 720,
+      "source": "https://cyberbyzantium.com/assets/img/art/empress.jpg"
+    },
+    {
+      "title": "Porta Urbis",
+      "image": "assets/creative/byzantium-live/warren-and-high-city.jpg",
+      "thumb": "assets/creative/byzantium-live/warren-and-high-city-thumb.webp",
+      "alt": "An ornate gatehouse lit in gold neon reading PORTA URBIS and AD URBEM SUPERIOREM, with a tower of the upper city beyond",
+      "categories": [
+        "byzantium",
+        "worlds"
+      ],
+      "width": 720,
+      "height": 720,
+      "source": "https://cyberbyzantium.com/assets/img/art/warren-and-high-city.jpg"
+    },
+    {
+      "title": "Cataphract patrol",
+      "image": "assets/creative/byzantium-live/cataphract.jpg",
+      "thumb": "assets/creative/byzantium-live/cataphract-thumb.webp",
+      "alt": "An armoured cataphract on an armoured horse beneath a neon sign reading CATAPHRACTI",
+      "categories": [
+        "byzantium",
+        "characters"
+      ],
+      "width": 720,
+      "height": 720,
+      "source": "https://cyberbyzantium.com/assets/img/art/cataphract.jpg"
+    },
+    {
+      "title": "Into the light",
+      "image": "assets/creative/newworld3-large.webp",
+      "thumb": "assets/creative-thumbs/newworld3-large.webp",
+      "alt": "Into the light — AI artwork by Lawrence Railey",
+      "categories": [
+        "worlds"
+      ],
+      "width": 720,
+      "height": 412
+    },
+    {
+      "title": "Future frequencies",
+      "image": "assets/creative/futuredj-large.webp",
+      "thumb": "assets/creative-thumbs/futuredj-large.webp",
+      "alt": "Future frequencies — AI artwork by Lawrence Railey",
+      "categories": [
+        "characters"
+      ],
+      "width": 720,
+      "height": 720
+    },
+    {
+      "title": "World building through AI image development",
+      "image": "assets/doorways.webp",
+      "thumb": "assets/creative-thumbs/doorways.webp",
+      "alt": "World building through AI image development",
+      "categories": [
+        "worlds"
+      ],
+      "width": 720,
+      "height": 411
+    },
+    {
+      "title": "Florida Regime — The Cure After Party",
+      "image": "assets/creative/cure-after-party-large.webp",
+      "thumb": "assets/creative-thumbs/cure-after-party-large.webp",
+      "alt": "Florida Regime — The Cure After Party",
+      "categories": [
+        "music"
+      ],
+      "width": 524,
+      "height": 720
+    },
+    {
+      "title": "Cyber Byzantium — The heretic hacker",
+      "image": "assets/creative/byzantium-live/heretic-hacker.jpg",
+      "thumb": "assets/creative/byzantium-live/heretic-hacker-thumb.webp",
+      "alt": "A young hooded man working at a laptop, blue circuitry glowing on his jacket",
+      "categories": [
+        "byzantium",
+        "characters"
+      ],
+      "width": 720,
+      "height": 618,
+      "source": "https://cyberbyzantium.com/assets/img/art/heretic-hacker.jpg"
+    },
+    {
+      "title": "DeLorean — neon antiquity",
+      "image": "assets/creative/delorean.webp",
+      "thumb": "assets/creative-thumbs/delorean.webp",
+      "alt": "DeLorean — neon road through ancient ruins",
+      "categories": [
+        "transport"
+      ],
+      "width": 720,
+      "height": 720
+    },
+    {
+      "title": "Florida Regime — Halloween 2023",
+      "image": "assets/creative/halloween-2023-large.webp",
+      "thumb": "assets/creative-thumbs/halloween-2023-large.webp",
+      "alt": "Florida Regime — Halloween 2023 promo flyer",
+      "categories": [
+        "music"
+      ],
+      "width": 720,
+      "height": 720
+    },
+    {
+      "title": "Florida Regime — Surviving the Storm, Halloween 2024",
+      "image": "assets/creative/surviving-the-storm-large.webp",
+      "thumb": "assets/creative-thumbs/surviving-the-storm-large.webp",
+      "alt": "Florida Regime — Surviving the Storm, Halloween 2024",
+      "categories": [
+        "music"
+      ],
+      "width": 720,
+      "height": 720
+    },
+    {
+      "title": "Florida Regime — June 2025 flyer",
+      "image": "assets/creative/florida-regime-flyer.webp",
+      "thumb": "assets/creative-thumbs/florida-regime-flyer.webp",
+      "alt": "Florida Regime — June 2025 cosmic DJ flyer",
+      "categories": [
+        "music"
+      ],
+      "width": 720,
+      "height": 720
+    },
+    {
+      "title": "Neon Varangian",
+      "image": "assets/creative/byzantium-live/athanatoi.jpg",
+      "thumb": "assets/creative/byzantium-live/athanatoi-thumb.webp",
+      "alt": "A soldier in red and gold armour under red neon",
+      "categories": [
+        "byzantium",
+        "characters"
+      ],
+      "width": 720,
+      "height": 720,
+      "source": "https://cyberbyzantium.com/assets/img/art/athanatoi.jpg"
+    },
+    {
+      "title": "Bioluminescent reef",
+      "image": "assets/creative/curated-1997-large.webp",
+      "thumb": "assets/creative-thumbs/curated-1997-large.webp",
+      "alt": "Bioluminescent reef — AI artwork",
+      "categories": [
+        "worlds"
+      ],
+      "width": 720,
+      "height": 720
+    },
+    {
+      "title": "Power — violet sanctuary",
+      "image": "assets/creative/power-large.webp",
+      "thumb": "assets/creative-thumbs/power-large.webp",
+      "alt": "Power — violet sanctuary — AI artwork",
+      "categories": [
+        "worlds"
+      ],
+      "width": 720,
+      "height": 720
+    },
+    {
+      "title": "Celestial gateway",
+      "image": "assets/creative/curated-2667-large.webp",
+      "thumb": "assets/creative-thumbs/curated-2667-large.webp",
+      "alt": "Celestial gateway — AI artwork",
+      "categories": [
+        "worlds"
+      ],
+      "width": 720,
+      "height": 720
+    },
+    {
+      "title": "Cosmic threshold",
+      "image": "assets/creative/unused5-large.webp",
+      "thumb": "assets/creative-thumbs/unused5-large.webp",
+      "alt": "Cosmic threshold — AI artwork by Lawrence Railey",
+      "categories": [
+        "worlds"
+      ],
+      "width": 720,
+      "height": 412
+    },
+    {
+      "title": "Departure lounge",
+      "image": "assets/creative/newworld2-large.webp",
+      "thumb": "assets/creative-thumbs/newworld2-large.webp",
+      "alt": "Departure lounge — AI artwork by Lawrence Railey",
+      "categories": [
+        "worlds"
+      ],
+      "width": 720,
+      "height": 412
+    },
+    {
+      "title": "Canyon transit",
+      "image": "assets/creative/train1-large.webp",
+      "thumb": "assets/creative-thumbs/train1-large.webp",
+      "alt": "Canyon transit — AI artwork by Lawrence Railey",
+      "categories": [
+        "transport"
+      ],
+      "width": 720,
+      "height": 404
+    },
+    {
+      "title": "Command deck",
+      "image": "assets/creative/mid2-large.webp",
+      "thumb": "assets/creative-thumbs/mid2-large.webp",
+      "alt": "Command deck — AI artwork by Lawrence Railey",
+      "categories": [
+        "transport"
+      ],
+      "width": 720,
+      "height": 404
+    },
+    {
+      "title": "Passenger study",
+      "image": "assets/creative/mid3-large.webp",
+      "thumb": "assets/creative-thumbs/mid3-large.webp",
+      "alt": "Passenger study — AI artwork by Lawrence Railey",
+      "categories": [
+        "characters"
+      ],
+      "width": 720,
+      "height": 404
+    },
+    {
+      "title": "Between worlds",
+      "image": "assets/creative/image7-large.webp",
+      "thumb": "assets/creative-thumbs/image7-large.webp",
+      "alt": "Between worlds — AI artwork by Lawrence Railey",
+      "categories": [
+        "worlds"
+      ],
+      "width": 720,
+      "height": 412
+    },
+    {
+      "title": "The journey home",
+      "image": "assets/creative/endtransport-large.webp",
+      "thumb": "assets/creative-thumbs/endtransport-large.webp",
+      "alt": "The journey home — AI artwork by Lawrence Railey",
+      "categories": [
+        "transport"
+      ],
+      "width": 720,
+      "height": 412
+    },
+    {
+      "title": "Coastal night",
+      "image": "assets/creative/FR3-large.webp",
+      "thumb": "assets/creative-thumbs/FR3-large.webp",
+      "alt": "Coastal night — AI artwork by Lawrence Railey",
+      "categories": [
+        "music"
+      ],
+      "width": 720,
+      "height": 720
+    },
+    {
+      "title": "Classical ruins at dusk",
+      "image": "assets/ANCIENT2.webp",
+      "thumb": "assets/creative-thumbs/ANCIENT2.webp",
+      "alt": "Classical ruins at dusk; AI artwork by Lawrence Railey",
+      "categories": [
+        "worlds"
+      ],
+      "width": 720,
+      "height": 720
+    },
+    {
+      "title": "A view beyond the airlock",
+      "image": "assets/complete.webp",
+      "thumb": "assets/creative-thumbs/complete.webp",
+      "alt": "A view beyond the airlock; AI artwork by Lawrence Railey",
+      "categories": [
+        "worlds"
+      ],
+      "width": 720,
+      "height": 411
+    },
+    {
+      "title": "City on the horizon",
+      "image": "assets/design2.webp",
+      "thumb": "assets/creative-thumbs/design2.webp",
+      "alt": "City on the horizon; AI artwork by Lawrence Railey",
+      "categories": [
+        "worlds"
+      ],
+      "width": 720,
+      "height": 720
+    },
+    {
+      "title": "Biomechanical threshold",
+      "image": "assets/image8.webp",
+      "thumb": "assets/creative-thumbs/image8.webp",
+      "alt": "Biomechanical threshold; AI artwork by Lawrence Railey",
+      "categories": [
+        "worlds"
+      ],
+      "width": 720,
+      "height": 720
+    },
+    {
+      "title": "The impossible monument",
+      "image": "assets/theend-upscaledc.webp",
+      "thumb": "assets/creative-thumbs/theend-upscaledc.webp",
+      "alt": "The impossible monument; AI artwork by Lawrence Railey",
+      "categories": [
+        "worlds"
+      ],
+      "width": 720,
+      "height": 720
+    },
+    {
+      "title": "Light over the desert",
+      "image": "assets/desertrain.webp",
+      "thumb": "assets/creative-thumbs/desertrain.webp",
+      "alt": "Light over the desert; AI artwork by Lawrence Railey",
+      "categories": [
+        "worlds"
+      ],
+      "width": 720,
+      "height": 404
+    },
+    {
+      "title": "Florida after dark",
+      "image": "assets/FR4.webp",
+      "thumb": "assets/creative-thumbs/FR4.webp",
+      "alt": "Florida after dark; AI artwork by Lawrence Railey",
+      "categories": [
+        "music"
+      ],
+      "width": 720,
+      "height": 720
+    },
+    {
+      "title": "The pink desert portal",
+      "image": "assets/pink-portal.webp",
+      "thumb": "assets/creative-thumbs/pink-portal.webp",
+      "alt": "The pink desert portal; artwork by Lawrence Railey",
+      "categories": [
+        "worlds"
+      ],
+      "width": 720,
+      "height": 720
+    },
+    {
+      "title": "Florida Regime · Golden hour",
+      "image": "assets/FR1.webp",
+      "thumb": "assets/creative-thumbs/FR1.webp",
+      "alt": "Florida Regime · Golden hour; artwork by Lawrence Railey",
+      "categories": [
+        "music"
+      ],
+      "width": 720,
+      "height": 720
+    },
+    {
+      "title": "Florida Regime · Coastal storm",
+      "image": "assets/FR2.webp",
+      "thumb": "assets/creative-thumbs/FR2.webp",
+      "alt": "Florida Regime · Coastal storm; artwork by Lawrence Railey",
+      "categories": [
+        "music"
+      ],
+      "width": 720,
+      "height": 720
+    },
+    {
+      "title": "Florida Regime · Under the stars",
+      "image": "assets/FR3.webp",
+      "thumb": "assets/creative-thumbs/FR3.webp",
+      "alt": "Florida Regime · Under the stars; artwork by Lawrence Railey",
+      "categories": [
+        "music"
+      ],
+      "width": 720,
+      "height": 720
+    },
+    {
+      "title": "Nocturne on the waterfront",
+      "image": "assets/nocturne.webp",
+      "thumb": "assets/creative-thumbs/nocturne.webp",
+      "alt": "Nocturne on the waterfront; artwork by Lawrence Railey",
+      "categories": [
+        "worlds"
+      ],
+      "width": 720,
+      "height": 720
+    },
+    {
+      "title": "A seat at the edge of tomorrow",
+      "image": "assets/future2.webp",
+      "thumb": "assets/creative-thumbs/future2.webp",
+      "alt": "A seat at the edge of tomorrow; artwork by Lawrence Railey",
+      "categories": [
+        "worlds"
+      ],
+      "width": 720,
+      "height": 720
+    },
+    {
+      "title": "A thought taking flight",
+      "image": "assets/idea2.webp",
+      "thumb": "assets/creative-thumbs/idea2.webp",
+      "alt": "A thought taking flight; artwork by Lawrence Railey",
+      "categories": [
+        "characters"
+      ],
+      "width": 720,
+      "height": 720
+    },
+    {
+      "title": "Starlight reflected",
+      "image": "assets/creative/curated-1281-large.webp",
+      "thumb": "assets/creative-thumbs/curated-1281-large.webp",
+      "alt": "A glowing star-filled sky reflected in a still lake.",
+      "categories": [
+        "worlds"
+      ],
+      "width": 720,
+      "height": 720
+    },
+    {
+      "title": "Coastal observatory",
+      "image": "assets/creative/curated-2108-large.webp",
+      "thumb": "assets/creative-thumbs/curated-2108-large.webp",
+      "alt": "A modern illuminated building stands on a rocky coast at night.",
+      "categories": [
+        "worlds"
+      ],
+      "width": 720,
+      "height": 403
+    },
+    {
+      "title": "Sanctuary of light",
+      "image": "assets/creative/curated-302-large.webp",
+      "thumb": "assets/creative-thumbs/curated-302-large.webp",
+      "alt": "A richly detailed vaulted sanctuary with warm light and a central statue.",
+      "categories": [
+        "worlds"
+      ],
+      "width": 720,
+      "height": 720
+    },
+    {
+      "title": "Divine Transmission",
+      "image": "assets/creative/byzantium-live/divine-transmission.jpg",
+      "thumb": "assets/creative/byzantium-live/divine-transmission-thumb.webp",
+      "alt": "Divine Transmission cover: two people investigating a glowing radio beneath a neon cross.",
+      "categories": [
+        "covers",
+        "byzantium"
+      ],
+      "width": 480,
+      "height": 720,
+      "source": "https://cyberbyzantium.com/assets/img/covers/divine-transmission.jpg"
+    },
+    {
+      "title": "Thirty Pieces of Silver",
+      "image": "assets/creative/byzantium-live/thirty-pieces-of-silver.jpg",
+      "thumb": "assets/creative/byzantium-live/thirty-pieces-of-silver-thumb.webp",
+      "alt": "Thirty Pieces of Silver cover: a man in a long coat on a neon-lit Byzantine street.",
+      "categories": [
+        "covers",
+        "byzantium"
+      ],
+      "width": 466,
+      "height": 720,
+      "source": "https://cyberbyzantium.com/assets/img/covers/thirty-pieces-of-silver.jpg"
+    },
+    {
+      "title": "Ironclad of Dawn",
+      "image": "assets/ironclad.webp",
+      "thumb": "assets/creative-thumbs/ironclad.webp",
+      "alt": "Ironclad of Dawn cover: an armed officer and a woman before an ironclad battle.",
+      "categories": [
+        "covers"
+      ],
+      "width": 455,
+      "height": 720
+    },
+    {
+      "title": "Throne of Dawn",
+      "image": "assets/throne-updated.webp",
+      "thumb": "assets/creative-thumbs/throne-updated.webp",
+      "alt": "Throne of Dawn cover: a seated commander and a woman beneath a stormy sky.",
+      "categories": [
+        "covers"
+      ],
+      "width": 454,
+      "height": 720
+    },
+    {
+      "title": "Emergence from Dawn",
+      "image": "assets/emergence-updated.webp",
+      "thumb": "assets/creative-thumbs/emergence-updated.webp",
+      "alt": "Emergence from Dawn cover: armored warriors against a fiery science-fantasy landscape.",
+      "categories": [
+        "covers"
+      ],
+      "width": 455,
+      "height": 720
+    },
+    {
+      "title": "The great church",
+      "image": "assets/creative/byzantium-live/great-church.jpg",
+      "thumb": "assets/creative/byzantium-live/great-church-thumb.webp",
+      "alt": "A great church of the old city with lit domes rising over the fog",
+      "categories": [
+        "byzantium",
+        "worlds"
+      ],
+      "width": 720,
+      "height": 720,
+      "source": "https://cyberbyzantium.com/assets/img/art/great-church.jpg"
+    },
+    {
+      "title": "The illuminated nave",
+      "image": "assets/creative/byzantium-live/nave.jpg",
+      "thumb": "assets/creative/byzantium-live/nave-thumb.webp",
+      "alt": "The interior of a church, its columns and arches traced in electroluminescent light",
+      "categories": [
+        "byzantium",
+        "worlds"
+      ],
+      "width": 720,
+      "height": 720,
+      "source": "https://cyberbyzantium.com/assets/img/art/nave.jpg"
+    },
+    {
+      "title": "The projected icon",
+      "image": "assets/creative/byzantium-live/altar.jpg",
+      "thumb": "assets/creative/byzantium-live/altar-thumb.webp",
+      "alt": "An altar beneath a glowing projected figure of Christ",
+      "categories": [
+        "byzantium",
+        "worlds"
+      ],
+      "width": 696,
+      "height": 720,
+      "source": "https://cyberbyzantium.com/assets/img/art/altar.jpg"
+    },
+    {
+      "title": "Light of the icon",
+      "image": "assets/creative/byzantium-live/holographic-icon.jpg",
+      "thumb": "assets/creative/byzantium-live/holographic-icon-thumb.webp",
+      "alt": "A holographic icon glowing orange against a dark wall",
+      "categories": [
+        "byzantium",
+        "worlds"
+      ],
+      "width": 720,
+      "height": 720,
+      "source": "https://cyberbyzantium.com/assets/img/art/holographic-icon.jpg"
+    },
+    {
+      "title": "Angel",
+      "image": "assets/creative/byzantium-live/angel.jpg",
+      "thumb": "assets/creative/byzantium-live/angel-thumb.webp",
+      "alt": "A winged figure with a luminous halo",
+      "categories": [
+        "byzantium",
+        "characters"
+      ],
+      "width": 720,
+      "height": 720,
+      "source": "https://cyberbyzantium.com/assets/img/art/angel.jpg"
+    },
+    {
+      "title": "Corrupted church",
+      "image": "assets/creative/byzantium-live/corrupted-church.jpg",
+      "thumb": "assets/creative/byzantium-live/corrupted-church-thumb.webp",
+      "alt": "A church façade lit in magenta and violet, its signage unreadable",
+      "categories": [
+        "byzantium",
+        "worlds"
+      ],
+      "width": 720,
+      "height": 720,
+      "source": "https://cyberbyzantium.com/assets/img/art/corrupted-church.jpg"
+    },
+    {
+      "title": "Parish church",
+      "image": "assets/creative/byzantium-live/parish-church.jpg",
+      "thumb": "assets/creative/byzantium-live/parish-church-thumb.webp",
+      "alt": "A small parish church wedged between tenements, lit by a green sign",
+      "categories": [
+        "byzantium",
+        "worlds"
+      ],
+      "width": 720,
+      "height": 675,
+      "source": "https://cyberbyzantium.com/assets/img/art/parish-church.jpg"
+    },
+    {
+      "title": "Market district",
+      "image": "assets/creative/byzantium-live/market-district.jpg",
+      "thumb": "assets/creative/byzantium-live/market-district-thumb.webp",
+      "alt": "A cloaked figure standing in a narrow street lined with lit Greek shop signs",
+      "categories": [
+        "byzantium",
+        "worlds"
+      ],
+      "width": 720,
+      "height": 702,
+      "source": "https://cyberbyzantium.com/assets/img/art/market-district.jpg"
+    },
+    {
+      "title": "Repair shop",
+      "image": "assets/creative/byzantium-live/repair-shop.jpg",
+      "thumb": "assets/creative/byzantium-live/repair-shop-thumb.webp",
+      "alt": "A cybernetic repair shopfront glowing on a dark street",
+      "categories": [
+        "byzantium",
+        "worlds"
+      ],
+      "width": 720,
+      "height": 720,
+      "source": "https://cyberbyzantium.com/assets/img/art/repair-shop.jpg"
+    },
+    {
+      "title": "Lounge",
+      "image": "assets/creative/byzantium-live/lounge.jpg",
+      "thumb": "assets/creative/byzantium-live/lounge-thumb.webp",
+      "alt": "The lit entrance of a dockside bar and lounge",
+      "categories": [
+        "byzantium",
+        "worlds"
+      ],
+      "width": 720,
+      "height": 720,
+      "source": "https://cyberbyzantium.com/assets/img/art/lounge.jpg"
+    },
+    {
+      "title": "Electronics",
+      "image": "assets/creative/byzantium-live/electronics.jpg",
+      "thumb": "assets/creative/byzantium-live/electronics-thumb.webp",
+      "alt": "A shop selling rare electronics behind barred windows",
+      "categories": [
+        "byzantium",
+        "worlds"
+      ],
+      "width": 720,
+      "height": 720,
+      "source": "https://cyberbyzantium.com/assets/img/art/electronics.jpg"
+    },
+    {
+      "title": "Rain street",
+      "image": "assets/creative/byzantium-live/rain-street.jpg",
+      "thumb": "assets/creative/byzantium-live/rain-street-thumb.webp",
+      "alt": "A lone cloaked figure on a rain-slicked street under pink neon",
+      "categories": [
+        "byzantium",
+        "worlds"
+      ],
+      "width": 720,
+      "height": 720,
+      "source": "https://cyberbyzantium.com/assets/img/art/rain-street.jpg"
+    },
+    {
+      "title": "Noble apartment",
+      "image": "assets/creative/byzantium-live/noble-apartment.jpg",
+      "thumb": "assets/creative/byzantium-live/noble-apartment-thumb.webp",
+      "alt": "An ornate apartment building above the fog line",
+      "categories": [
+        "byzantium",
+        "worlds"
+      ],
+      "width": 720,
+      "height": 720,
+      "source": "https://cyberbyzantium.com/assets/img/art/noble-apartment.jpg"
+    },
+    {
+      "title": "Triumphal arch",
+      "image": "assets/creative/byzantium-live/triumphal-arch.jpg",
+      "thumb": "assets/creative/byzantium-live/triumphal-arch-thumb.webp",
+      "alt": "An ancient triumphal arch lit by blue neon reading TRIUMPHUS, with VICTORIA carved above the archway",
+      "categories": [
+        "byzantium",
+        "worlds"
+      ],
+      "width": 720,
+      "height": 720,
+      "source": "https://cyberbyzantium.com/assets/img/art/triumphal-arch.jpg"
+    },
+    {
+      "title": "Athanatoi",
+      "image": "assets/creative/byzantium-live/athanatoi.jpg",
+      "thumb": "assets/creative/byzantium-live/athanatoi-thumb.webp",
+      "alt": "A soldier in red and gold armour under red neon",
+      "categories": [
+        "byzantium",
+        "characters"
+      ],
+      "width": 720,
+      "height": 720,
+      "source": "https://cyberbyzantium.com/assets/img/art/athanatoi.jpg"
+    },
+    {
+      "title": "Priest",
+      "image": "assets/creative/byzantium-live/priest.jpg",
+      "thumb": "assets/creative/byzantium-live/priest-thumb.webp",
+      "alt": "A priest in dark robes on a night street beneath a glowing pink cross",
+      "categories": [
+        "byzantium",
+        "characters"
+      ],
+      "width": 720,
+      "height": 720,
+      "source": "https://cyberbyzantium.com/assets/img/art/priest.jpg"
+    },
+    {
+      "title": "Demetrios",
+      "image": "assets/creative/byzantium-live/demetrios.jpg",
+      "thumb": "assets/creative/byzantium-live/demetrios-thumb.webp",
+      "alt": "A large bearded man in a heavy coat with technical gear",
+      "categories": [
+        "byzantium",
+        "characters"
+      ],
+      "width": 720,
+      "height": 720,
+      "source": "https://cyberbyzantium.com/assets/img/art/demetrios.jpg"
+    },
+    {
+      "title": "Emperor Manuel IV",
+      "image": "assets/creative/byzantium-live/manuel-iv.jpg",
+      "thumb": "assets/creative/byzantium-live/manuel-iv-thumb.webp",
+      "alt": "A crowned emperor in imperial regalia, his crown inscribed Manuel IV",
+      "categories": [
+        "byzantium",
+        "characters"
+      ],
+      "width": 720,
+      "height": 720,
+      "source": "https://cyberbyzantium.com/assets/img/art/manuel-iv.jpg"
+    },
+    {
+      "title": "Anna",
+      "image": "assets/creative/byzantium-live/anna.jpg",
+      "thumb": "assets/creative/byzantium-live/anna-thumb.webp",
+      "alt": "A young noblewoman with violet hair ornaments",
+      "categories": [
+        "byzantium",
+        "characters"
+      ],
+      "width": 720,
+      "height": 720,
+      "source": "https://cyberbyzantium.com/assets/img/art/anna.jpg"
+    },
+    {
+      "title": "Patriarch",
+      "image": "assets/creative/byzantium-live/patriarch.jpg",
+      "thumb": "assets/creative/byzantium-live/patriarch-thumb.webp",
+      "alt": "An elderly churchman in embroidered vestments",
+      "categories": [
+        "byzantium",
+        "characters"
+      ],
+      "width": 720,
+      "height": 720,
+      "source": "https://cyberbyzantium.com/assets/img/art/patriarch.jpg"
+    },
+    {
+      "title": "The Neo-Paulicans",
+      "image": "assets/creative/byzantium-live/neo-paulicans.jpg",
+      "thumb": "assets/creative/byzantium-live/neo-paulicans-thumb.webp",
+      "alt": "Hooded figures on a neon-lit street at night",
+      "categories": [
+        "byzantium",
+        "characters"
+      ],
+      "width": 720,
+      "height": 701,
+      "source": "https://cyberbyzantium.com/assets/img/art/neo-paulicans.jpg"
+    },
+    {
+      "title": "Hackers",
+      "image": "assets/creative/byzantium-live/hackers.jpg",
+      "thumb": "assets/creative/byzantium-live/hackers-thumb.webp",
+      "alt": "Three figures with glowing masks standing under strip lighting",
+      "categories": [
+        "byzantium",
+        "characters"
+      ],
+      "width": 720,
+      "height": 675,
+      "source": "https://cyberbyzantium.com/assets/img/art/hackers.jpg"
+    },
+    {
+      "title": "Council",
+      "image": "assets/creative/byzantium-live/council.jpg",
+      "thumb": "assets/creative/byzantium-live/council-thumb.webp",
+      "alt": "Robed nobles gathered around a lit table",
+      "categories": [
+        "byzantium",
+        "characters"
+      ],
+      "width": 720,
+      "height": 720,
+      "source": "https://cyberbyzantium.com/assets/img/art/council.jpg"
+    }
+  ],
+  "writing": "<div class=\"section-heading\"><div><p class=\"eyebrow\">FICTION &amp; WORLD BUILDING</p><h2>Cyber Byzantium.</h2></div><a class=\"text-link\" href=\"https://cyberbyzantium.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Visit the world ↗</a></div><div class=\"two-col other-feature\"><figure class=\"other-feature-media other-feature-media--book\"><img class=\"portrait-inline cyber-cover\" loading=\"lazy\" src=\"assets/thirty-pieces-book.webp\" alt=\"Thirty Pieces of Silver book mockup — by Travis J. I. Corcoran and Lawrence Railey\" width=\"1024\" height=\"1536\" decoding=\"async\" style=\"--native-width:1024px\"></figure><div><p class=\"eyebrow\">PUBLISHED · AVAILABLE ON AMAZON</p><h3>Thirty Pieces of Silver.</h3><p>An empire that never fell. The opening book in <em>Spirits in the Silicon</em> is available on Amazon.</p><p><em>Spirits in the Silicon</em> is an alternate-history cyberpunk sequence I’m creating with Travis J. I. Corcoran. In this world, the Roman Empire survives into an age of electricity, cybernetics, relic hunters, and neon-lit Constantinople.</p><p>The project brings together fiction, Byzantine history, cover design, and AI art. I build the visual language alongside the world itself, developing custom Stable Diffusion extensions and checkpoints as part of that creative practice.</p><p><em>Thirty Pieces of Silver</em> begins the sequence. <em>Divine Transmission</em> and <em>Heretics of the Catacombs</em> continue the world’s development.</p><div class=\"actions\"><a class=\"button gold\" href=\"https://www.amazon.com/dp/B0DF69NTJG?l\" target=\"_blank\" rel=\"noopener noreferrer\">Available on Amazon <span>↗</span></a><a class=\"button outline\" href=\"https://cyberbyzantium.com/\">Explore the books, world &amp; gallery <span>↗</span></a></div></div></div>\n<div class=\"subhead\"><p class=\"eyebrow\">NOVELS IN PROGRESS</p><h2>Dawn Nebula.</h2></div><p class=\"lead\">Dawn Nebula is a science-fantasy series I’m writing, exploring space, empire, and imagined futures. These are books in progress; the cover artwork is part of developing their worlds and bringing the stories to life.</p><div class=\"gallery books\"><figure><a href=\"assets/ironclad.webp\" data-lightbox=\"\" data-title=\"Ironclad of Dawn, a novel in progress by Lawrence Railey — hardcover mockup\"><img loading=\"lazy\" src=\"assets/ironclad-book-matched.webp\" alt=\"Ironclad of Dawn, a novel in progress by Lawrence Railey — hardcover mockup\" width=\"1536\" height=\"1024\" decoding=\"async\" style=\"--native-width:1536px\"></a><figcaption class=\"book-caption\"><h3>Ironclad of Dawn</h3><p>Book 01 <span aria-hidden=\"true\">·</span> Writing in progress</p></figcaption></figure><figure><a href=\"assets/throne-updated.webp\" data-lightbox=\"\" data-title=\"Throne of Dawn, a novel in progress by Lawrence Railey — hardcover mockup\"><img loading=\"lazy\" src=\"assets/throne-book.webp\" alt=\"Throne of Dawn, a novel in progress by Lawrence Railey — hardcover mockup\" width=\"1536\" height=\"1024\" decoding=\"async\" style=\"--native-width:1536px\"></a><figcaption class=\"book-caption\"><h3>Throne of Dawn</h3><p>Book 02 <span aria-hidden=\"true\">·</span> Writing in progress</p></figcaption></figure><figure><a href=\"assets/emergence-updated.webp\" data-lightbox=\"\" data-title=\"Emergence from Dawn, a novel in progress by Lawrence Railey — hardcover mockup\"><img loading=\"lazy\" src=\"assets/emergence-book-matched.webp\" alt=\"Emergence from Dawn, a novel in progress by Lawrence Railey — hardcover mockup\" width=\"1536\" height=\"1024\" decoding=\"async\" style=\"--native-width:1536px\"></a><figcaption class=\"book-caption\"><h3>Emergence from Dawn</h3><p>Book 03 <span aria-hidden=\"true\">·</span> Writing in progress</p></figcaption></figure></div>",
+  "music": "<div class=\"section-heading\"><div><p class=\"eyebrow\">FLORIDA REGIME</p><h2>Made for another kind of connection.</h2></div></div><div class=\"two-col other-feature\"><figure class=\"other-feature-media other-feature-media--dj\"><img class=\"portrait-inline dj-live\" loading=\"lazy\" src=\"assets/dj-live-2000.webp\" srcset=\"assets/dj-live-1000.webp 1000w, assets/dj-live-2000.webp 2000w, assets/dj-live-3956.webp 3956w\" sizes=\"(max-width: 760px) 88vw, 44vw\" alt=\"Lawrence performing as Florida Regime at his DJ booth\" width=\"2000\" height=\"2261\" decoding=\"async\" style=\"--native-width:2000px\"></figure><div><h3>DJ. Producer. Audio engineer.</h3><p>I’ve DJed across Central Florida since 1999, originally as DJ Dystopic, and produced electronic music as Xealot. In 2021, I brought those identities together as Florida Regime, with a focus on trance, tropical house, and synthwave.</p><p>That history includes Ybor City venues such as The Castle, Honeypot, and Gaspar’s Grotto, as well as outdoor events and livestreams. Sound, lighting, visual identity, and performance are all parts of the experience.</p><p>Alongside music production and mastering, I offer voiceover services for videos, product explainers, and audiobooks. Recording, editing, and a finished mix are all part of the work.</p><div class=\"music-actions\"><a class=\"button\" href=\"#listen\">Listen here <span aria-hidden=\"true\">→</span></a><a class=\"button button-secondary\" href=\"https://www.mixcloud.com/floridaregime/\" target=\"_blank\" rel=\"noopener noreferrer\">Listen to Florida Regime on Mixcloud <span aria-hidden=\"true\">↗</span></a></div><div class=\"tags\"><span>Trance</span><span>Tropical house</span><span>Synthwave</span><span>Audio production</span><span>Voiceover</span></div></div></div>",
+  "florida": "<div class=\"section-brand section-brand--art\" id=\"image-1\"><img src=\"assets/portfolio/Florida-Regime.webp\" alt=\"Florida Regime\" loading=\"lazy\"></div><div class=\"project-copy\"><p>Created the identity for my DJ and production work: logo, graphics, business cards, and the visual direction around a more tropical, relaxed sound. Today the brand connects trance, tropical house, and synthwave.</p><a class=\"text-link\" href=\"other-work.html#music\">Explore Florida Regime →</a></div><p class=\"archive-note\">Project archive · Screens and concepts from the original engagement.</p><div class=\"gallery project-gallery\"><figure id=\"image-2\"><a href=\"assets/portfolio/logobooth.webp\" aria-label=\"Open Branding the Booth\" data-lightbox=\"\" data-title=\"Branding the Booth — design by Lawrence Railey\"><img src=\"assets/portfolio/logobooth.webp\" loading=\"lazy\" alt=\"Branding the Booth — design by Lawrence Railey\" width=\"1300\" height=\"1006\" decoding=\"async\" style=\"--native-width:1300px\" data-thumb=\"assets/case-thumbs/ed8d73013af5.webp\"></a><figcaption><strong>Branding the Booth</strong></figcaption></figure></div><section id=\"listen\" class=\"project-media\"><p class=\"eyebrow\">FLORIDA REGIME · TRANCE: 001</p><h2>Hear the other side of the work.</h2><iframe title=\"Florida Regime Trance 001 on Mixcloud\" loading=\"lazy\" width=\"100%\" height=\"180\" src=\"https://www.mixcloud.com/widget/iframe/?hide_cover=1&amp;feed=%2FFloridaRegime%2Ftrance-001%2F\"></iframe><a class=\"text-link\" href=\"https://www.mixcloud.com/floridaregime/\">Listen on Mixcloud ↗</a></section><div class=\"florida-section-heading\"><h2>Flyers &amp; promotional artwork.</h2></div><div class=\"gallery project-gallery\"><figure><a href=\"assets/creative/cure-after-party-large.webp\" data-lightbox=\"\" data-title=\"Florida Regime — The Cure After Party\"><img class=\"complete-artwork\" data-logo-safe src=\"assets/creative/cure-after-party-thumb.webp\" alt=\"Florida Regime — The Cure After Party\" loading=\"lazy\" width=\"655\" height=\"900\" decoding=\"async\" style=\"--native-width:655px\" data-thumb=\"assets/case-thumbs/eaff814293c8.webp\"></a><figcaption>Florida Regime — The Cure After Party</figcaption></figure><figure><a href=\"assets/creative/halloween-2023-large.webp\" data-lightbox=\"\" data-title=\"Florida Regime — Halloween 2023 promo flyer\"><img class=\"complete-artwork\" data-logo-safe src=\"assets/creative/halloween-2023-thumb.webp\" alt=\"Florida Regime — Halloween 2023 promo flyer\" loading=\"lazy\" width=\"900\" height=\"900\" decoding=\"async\" style=\"--native-width:900px\" data-thumb=\"assets/case-thumbs/9f5483f55a38.webp\"></a><figcaption>Florida Regime — Halloween 2023</figcaption></figure><figure><a href=\"assets/creative/surviving-the-storm-large.webp\" data-lightbox=\"\" data-title=\"Florida Regime — Surviving the Storm, Halloween 2024\"><img class=\"complete-artwork\" data-logo-safe src=\"assets/creative/surviving-the-storm-thumb.webp\" alt=\"Florida Regime — Surviving the Storm, Halloween 2024\" loading=\"lazy\" width=\"900\" height=\"900\" decoding=\"async\" style=\"--native-width:900px\" data-thumb=\"assets/case-thumbs/530ab50031c9.webp\"></a><figcaption>Florida Regime — Surviving the Storm, Halloween 2024</figcaption></figure><figure><a href=\"assets/creative/florida-regime-flyer.webp\" data-lightbox=\"\" data-title=\"Florida Regime — June 2025 — cosmic DJ flyer\"><img class=\"complete-artwork\" data-logo-safe src=\"assets/creative/florida-regime-flyer.webp\" alt=\"Florida Regime — June 2025 — cosmic DJ flyer\" loading=\"lazy\" width=\"2048\" height=\"2048\" decoding=\"async\" style=\"--native-width:2048px\" data-thumb=\"assets/case-thumbs/d7b551e3b85e.webp\"></a><figcaption>Florida Regime — June 2025 — cosmic DJ flyer</figcaption></figure><figure><a href=\"assets/FR1.webp\" data-lightbox=\"\" data-title=\"Florida Regime — Golden hour\"><img class=\"complete-artwork\" data-logo-safe src=\"assets/FR1.webp\" alt=\"Florida Regime — Golden hour\" loading=\"lazy\" width=\"1024\" height=\"1024\" decoding=\"async\" style=\"--native-width:1024px\" data-thumb=\"assets/case-thumbs/da3ef042123a.webp\"></a><figcaption>Florida Regime — Golden hour</figcaption></figure><figure><a href=\"assets/FR2.webp\" data-lightbox=\"\" data-title=\"Florida Regime — Coastal storm\"><img class=\"complete-artwork\" data-logo-safe src=\"assets/FR2.webp\" alt=\"Florida Regime — Coastal storm\" loading=\"lazy\" width=\"1024\" height=\"1024\" decoding=\"async\" style=\"--native-width:1024px\" data-thumb=\"assets/case-thumbs/6519386c7003.webp\"></a><figcaption>Florida Regime — Coastal storm</figcaption></figure><figure><a href=\"assets/FR3.webp\" data-lightbox=\"\" data-title=\"Florida Regime — Under the stars\"><img class=\"complete-artwork\" data-logo-safe src=\"assets/FR3.webp\" alt=\"Florida Regime — Under the stars\" loading=\"lazy\" width=\"1024\" height=\"1024\" decoding=\"async\" style=\"--native-width:1024px\" data-thumb=\"assets/case-thumbs/c6e2b930c6ea.webp\"></a><figcaption>Florida Regime — Under the stars</figcaption></figure><figure><a href=\"assets/FR4.webp\" data-lightbox=\"\" data-title=\"Florida Regime — Florida after dark\"><img class=\"complete-artwork\" data-logo-safe src=\"assets/FR4.webp\" alt=\"Florida Regime — Florida after dark\" loading=\"lazy\" width=\"1024\" height=\"1024\" decoding=\"async\" style=\"--native-width:1024px\" data-thumb=\"assets/case-thumbs/dc6d492d5743.webp\"></a><figcaption>Florida Regime — Florida after dark</figcaption></figure><figure id=\"image-3\"><a href=\"assets/portfolio/HalloweenFlyer.webp\" aria-label=\"Open Halloween Mix Flyer\" data-lightbox=\"\" data-title=\"Flyers — design by Lawrence Railey\"><img class=\"complete-artwork\" data-logo-safe src=\"assets/portfolio/HalloweenFlyer.webp\" loading=\"lazy\" alt=\"Flyers — design by Lawrence Railey\" width=\"1275\" height=\"1875\" decoding=\"async\" style=\"--native-width:1275px\" data-thumb=\"assets/case-thumbs/67f56ea44dfb.webp\"></a><figcaption><strong>Halloween Mix Flyer</strong></figcaption></figure><figure id=\"image-4\"><a href=\"assets/portfolio/Trance01.webp\" aria-label=\"Open Trance: 001 Flyer\" data-lightbox=\"\" data-title=\"Trance: 001 Flyer — design by Lawrence Railey\"><img class=\"complete-artwork\" data-logo-safe src=\"assets/portfolio/Trance01.webp\" loading=\"lazy\" alt=\"Trance: 001 Flyer — design by Lawrence Railey\" width=\"1275\" height=\"1875\" decoding=\"async\" style=\"--native-width:1275px\" data-thumb=\"assets/case-thumbs/3568f126f062.webp\"></a><figcaption><strong>Trance: 001 Flyer</strong></figcaption></figure></div><section class=\"florida-website\"><div class=\"florida-section-heading\"><h2>Early website.</h2></div><div class=\"gallery project-gallery\"><figure id=\"image-5\"><a href=\"assets/portfolio/fr1.webp\" aria-label=\"Open Early Website\" data-lightbox=\"\" data-title=\"Early Website — design by Lawrence Railey\"><img src=\"assets/portfolio/fr1.webp\" loading=\"lazy\" alt=\"Early Website — design by Lawrence Railey\" width=\"1661\" height=\"1481\" decoding=\"async\" style=\"--native-width:1661px\" data-thumb=\"assets/case-thumbs/9121379779fb.webp\"></a><figcaption><strong>Early Website</strong></figcaption></figure></div></section>",
+  "portfolio_order": [
+    "cox",
+    "fullpath",
+    "bagsid",
+    "lending",
+    "healthesystems",
+    "earlier"
+  ],
+  "archive_projects": [
+    "catalina",
+    "strike",
+    "kennards"
+  ]
+}
