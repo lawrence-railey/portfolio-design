@@ -278,3 +278,17 @@ h1,h2{letter-spacing:.005em}
   .hero-copy h1{font-size:clamp(26px,2.75vw,45px)}
   .contact-hero-copy h1{font-size:clamp(32px,2.92vw,50px)}
 }
+
+/* Header logo: one rim rotation and a single light pulse on hover/focus. */
+.site-header .brand-mark{display:block;flex-shrink:0;width:var(--header-logo-size);height:var(--header-logo-size);overflow:visible;transition:width .2s ease,height .2s ease}
+.site-header.is-condensed .brand-mark{width:var(--header-small-logo-size);height:var(--header-small-logo-size)}
+.site-header .brand:hover{opacity:1}
+.brand-rim{transform-box:view-box;transform-origin:60px 60px}
+.brand:hover .brand-rim,.brand:focus-visible .brand-rim{animation:brand-rim-spin-flash 1.1s cubic-bezier(.2,.65,.25,1) both}
+@keyframes brand-rim-spin-flash{
+  0%{transform:rotate(0deg);stroke:#fff;filter:drop-shadow(0 0 0 transparent)}
+  38%{stroke:var(--accent);filter:drop-shadow(0 0 5px var(--accent)) drop-shadow(0 0 2px #fff)}
+  65%{stroke:#fff;filter:drop-shadow(0 0 3px #ffffff80)}
+  100%{transform:rotate(360deg);stroke:#fff;filter:drop-shadow(0 0 0 transparent)}
+}
+@media(prefers-reduced-motion:reduce){.brand:hover .brand-rim,.brand:focus-visible .brand-rim{animation:none;stroke:var(--accent)}}

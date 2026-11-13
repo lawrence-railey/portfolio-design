@@ -19,8 +19,11 @@ PAGES=[
 LI='https://www.linkedin.com/in/lawrence-r-8537a535/'
 
 def header(active):
+    logo=(ROOT/'assets/brand/lr-monogram.svg').read_text(encoding='utf-8').strip()
+    logo=logo.replace('role="img" aria-label="LR"', 'class="brand-mark" aria-hidden="true" focusable="false"')
+    logo=logo.replace('<path ', '<path class="brand-rim" ', 1)
     links=''.join(f'<a href="{p["file"]}" data-nav-world="{"contact" if p["key"]=="contact" else p["world"]}"'+(' aria-current="page"' if p['key']==active else '')+f'>{p["name"]}</a>' for p in PAGES)
-    return f'''<a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="index.html" aria-label="Lawrence Railey — home"><img src="assets/brand/lr-monogram.svg" width="56" height="56" alt=""><span>LAWRENCE RAILEY<small>UI/UX + AI Tech + Creative</small></span></a><button class="menu-toggle" aria-expanded="false" aria-controls="main-navigation"><span>Menu</span><i aria-hidden="true"></i></button><nav id="main-navigation" aria-label="Main navigation">{links}</nav></header>'''
+    return f'''<a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="index.html" aria-label="Lawrence Railey — home">{logo}<span>LAWRENCE RAILEY<small>UI/UX + AI Tech + Creative</small></span></a><button class="menu-toggle" aria-expanded="false" aria-controls="main-navigation"><span>Menu</span><i aria-hidden="true"></i></button><nav id="main-navigation" aria-label="Main navigation">{links}</nav></header>'''
 
 def hero(p):
     world=p['world']
