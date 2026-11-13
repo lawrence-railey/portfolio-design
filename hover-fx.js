@@ -3,7 +3,7 @@
   if (new URLSearchParams(location.search).get('fx') === 'off') return;
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   const mouse = matchMedia('(hover: hover) and (pointer: fine)');
-  const selector = '.button, .project-card > a, .world-link, .artwork > a, .gallery > figure > a, .architecture-links > a, .filter-bar button, .carousel-controls button, .carousel-thumbnails button, .text-link, .back-link, .section-nav a, .case-section-nav a';
+  const selector = '.menu-toggle, .button, .project-card > a, .world-link, .artwork > a, .gallery > figure > a, .architecture-links > a, .filter-bar button, .carousel-controls button, .carousel-thumbnails button, .text-link, .back-link, .section-nav a, .case-section-nav a';
   const cooldowns = new WeakMap();
   const surfaces = new WeakMap();
 
