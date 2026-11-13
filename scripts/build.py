@@ -31,6 +31,8 @@ def hero(p):
     world=p['world']
     hero_title=''.join(f'<span>{line}</span>' for line in p['title'].split('<br>'))
     hero_action='<a class="button hero-action" href="portfolio.html#portfolio-items">View UI/UX portfolio <span aria-hidden="true">&#8599;</span></a>' if p['key']=='home' else ''
+    if p['key']=='ui':
+        hero_action='<a class="button hero-action" href="#content">Explore <span aria-hidden="true">&#8595;</span></a>'
     if p['key']=='history':
         hero_action='<a class="button hero-action" href="assets/resume/Lawrence-Railey-Resume.pdf" download>Download résumé <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9Z"/><path d="M14 3v6h6M8 13h8M8 17h6"/></svg></a>'
     alt={'earth':'An ivory sanctuary across a quiet teal bay, framed by an ancient tree.','mars':'An astronaut overlooking a rust-red canyon and distant Greco Deco sanctuary.','ocean':'A sanctuary on an island, small ships on blue water, and a traveler on the shore.','purple':'A violet canyon and ivory sanctuary beneath a ringed planet.','yellow':'A golden landscape with wind turbines, a distant sanctuary, and a traveler.','city':'An ivory sanctuary and futuristic white city across a silver-blue waterfront, with a traveler in the foreground.'}[world]
