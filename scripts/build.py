@@ -62,13 +62,21 @@ def page(file,title,description,body,active='home',world='earth',compact=False):
 def section_heading(kicker,title,aside=''):
     return f'<div class="section-heading"><div><p class="eyebrow">{kicker}</p><h2>{title}</h2></div>{aside}</div>'
 
+def case_outcomes(slug):
+    outcomes=PRESENTATION.get(slug, {}).get('outcomes')
+    if not outcomes:
+        return ''
+    metrics=''.join(f'<div><dt>{esc(label)}</dt><dd>{esc(value)}</dd></div>' for value,label in outcomes['metrics'])
+    return f'<section class="case-results" aria-label="Project outcomes"><p class="eyebrow"><span class="tiny-cross" aria-hidden="true">+</span>Outcomes &amp; evidence</p><dl class="results-strip">{metrics}</dl><p class="results-context">{esc(outcomes["support"])}</p><p class="results-role">{esc(PRESENTATION[slug]["ownership"])}</p></section>'
+
 def project_card(p, branded=False):
+    results = '<ul class="card-results" aria-label="Project results">'+''.join(f'<li>{esc(result)}</li>' for result in p['card_results'])+'</ul>' if p.get('card_results') else ''
     if branded and p.get('stack'):
         layers=''.join(f'<img class="archive-layer archive-layer--{i}" src="{src}" loading="lazy" alt="{alt}">' for i,src,alt in [(3,p['stack'][2],'Reeves Import Motorcars website'),(2,p['stack'][1],'Kennards Hire interface'),(1,p['stack'][0],'The Melting Pot website')])
-        return f'''<article class="project-card project-card--archive" data-category="archive"><a href="project-{p['slug']}.html"><div class="project-brand-image"><span class="brand-card-label">Selected archive</span><div class="archive-card-stack">{layers}</div><div class="brand-card-footer"><span>More brands. More experiences.</span><span aria-hidden="true">&#8599;</span></div></div><div class="project-caption"><h3>{p['title']}</h3><span class="project-arrow" aria-hidden="true">&#8599;</span></div><p class="project-summary">{p['summary']}</p></a></article>'''
+        return f'''<article class="project-card project-card--archive" data-category="archive"><a href="project-{p['slug']}.html"><div class="project-brand-image"><span class="brand-card-label">Selected archive</span><div class="archive-card-stack">{layers}</div><div class="brand-card-footer"><span>More brands. More experiences.</span><span aria-hidden="true">&#8599;</span></div></div><div class="project-caption"><h3>{p['title']}</h3><span class="project-arrow" aria-hidden="true">&#8599;</span></div><p class="project-summary">{p['summary']}</p>{results}</a></article>'''
     if branded and p.get('logo'):
-        return f'''<article class="project-card project-card--brand" data-brand="{p['slug']}"><a href="project-{p['slug']}.html"><div class="project-brand-image"><span class="brand-card-label">{p['label']}</span><img class="project-brand-logo" src="{p['logo']}" loading="lazy" alt="{esc(p['title'],quote=True)}"><div class="brand-card-footer"><span>{p.get('role','Product design')}</span><span aria-hidden="true">&#8599;</span></div></div><div class="project-caption"><h3>{p['title']}</h3><span class="project-arrow" aria-hidden="true">&#8599;</span></div><p class="project-summary">{p['summary']}</p></a></article>'''
-    return f'''<article class="project-card" data-category="{p['category']}"><a href="project-{p['slug']}.html"><div class="project-image"><img src="{p['image']}" loading="lazy" alt="{esc(p.get('image_alt',p['title']+' interface'),quote=True)}"><span class="image-corner" aria-hidden="true">↗</span></div><div class="project-caption"><div><p class="eyebrow">{p['label']}</p><h3>{p['title']}</h3></div><span class="project-arrow" aria-hidden="true">↗</span></div><p class="project-summary">{p['summary']}</p></a></article>'''
+        return f'''<article class="project-card project-card--brand" data-brand="{p['slug']}"><a href="project-{p['slug']}.html"><div class="project-brand-image"><span class="brand-card-label">{p['label']}</span><img class="project-brand-logo" src="{p['logo']}" loading="lazy" alt="{esc(p['title'],quote=True)}"><div class="brand-card-footer"><span>{p.get('role','Product design')}</span><span aria-hidden="true">&#8599;</span></div></div><div class="project-caption"><h3>{p['title']}</h3><span class="project-arrow" aria-hidden="true">&#8599;</span></div><p class="project-summary">{p['summary']}</p>{results}</a></article>'''
+    return f'''<article class="project-card" data-category="{p['category']}"><a href="project-{p['slug']}.html"><div class="project-image"><img src="{p['image']}" loading="lazy" alt="{esc(p.get('image_alt',p['title']+' interface'),quote=True)}"><span class="image-corner" aria-hidden="true">↗</span></div><div class="project-caption"><div><p class="eyebrow">{p['label']}</p><h3>{p['title']}</h3></div><span class="project-arrow" aria-hidden="true">↗</span></div><p class="project-summary">{p['summary']}</p>{results}</a></article>'''
 
 def filters(group,items,anchor=''):
     anchor_attr=f' id="{esc(anchor,quote=True)}"' if anchor else ''
@@ -145,9 +153,10 @@ for p in DATA['projects']:
     # Keep the source architecture intact, and give the index stable anchor targets.
     aliases={'cox':'cox-research','bagsid':'bags-platform','lending':'loan-architecture','fullpath':'fp-integration'}
     anchor=f'<span id="{aliases[p["slug"]]}" class="anchor-target"></span>' if p['slug'] in aliases and f'id="{aliases[p["slug"]]}"' not in body else ''
-    intro_copy=PRESENTATION.get(p['slug'], {}).get('ownership', p['detail'])
+    intro_copy=PRESENTATION.get(p['slug'], {}).get('outcomes', {}).get('headline', PRESENTATION.get(p['slug'], {}).get('ownership', p['detail']))
+    outcome_markup=case_outcomes(p['slug'])
     case_class=' case-page--visual' if p['slug'] in PRESENTATION else ''
-    content=f'''<div class="content-shell case-page{case_class}"><a class="back-link" href="portfolio.html">← UI/UX Portfolio</a><header class="case-intro"><p class="eyebrow">{p['label']}</p><h1>{p['title']}</h1><p>{intro_copy}</p>{site_action}</header><div class="case-content">{anchor}{body}</div><a class="end-link text-link" href="portfolio.html">← Back to all UI/UX work</a></div>'''
+    content=f'''<div class="content-shell case-page{case_class}"><a class="back-link" href="portfolio.html">← UI/UX Portfolio</a><header class="case-intro"><p class="eyebrow">{p['label']}</p><h1>{p['title']}</h1><p>{intro_copy}</p>{site_action}</header>{outcome_markup}<div class="case-content">{anchor}{body}</div><a class="end-link text-link" href="portfolio.html">← Back to all UI/UX work</a></div>'''
     page(f'project-{p["slug"]}.html',p['title'],p['detail'],content,'ui','ocean',True)
 
 # Florida Regime now lives entirely in Other Work. Remove stale generated output.

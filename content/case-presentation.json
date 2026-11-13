@@ -1,6 +1,6 @@
 {
   "cox": {
-    "ownership": "I led CRM product design and research, with hands-on interface and front-end work. New concepts, redesigns, and legacy-system integrations are labeled below.",
+    "ownership": "As Principal Product Designer, I led CRM research and design, combining team leadership with hands-on interface and front-end work. These results relate to CRM and AI Communications improvements; future-platform concepts are labeled separately.",
     "galleries": [
       {
         "status": "New platform concepts · Design leadership",
@@ -30,7 +30,7 @@
       },
       {
         "status": "CRM redesign · Design leadership",
-        "ownership": "I led the CRM redesign and contributed directly to complex interface and architecture work.",
+        "ownership": "I led the CRM redesign and contributed to architecture and interface delivery. Across the CRM work: +16.5 UX-Lite points and +27% average BERT survey scores.",
         "captions": {
           "cox-customer-profile-20261110.png": [
             "Rebuilt customer record",
@@ -123,7 +123,7 @@
       },
       {
         "status": "Adopted product · Existing design system",
-        "ownership": "I designed the embedded Gen AI experience; thousands of dealerships used the product within a few months.",
+        "ownership": "I designed the embedded Gen AI experience. After UX implementation, an additional 900 dealerships adopted the AI Communications platform.",
         "captions": {
           "generative-ai-generate-messages.png": [
             "Generate messages",
@@ -139,7 +139,29 @@
           ]
         }
       }
-    ]
+    ],
+    "outcomes": {
+      "headline": "CRM UX scores rose 16.5 points in UX-Lite and 27% on average in BERT surveys—now above primary competitors.",
+      "metrics": [
+        [
+          "+16.5",
+          "UX-Lite points"
+        ],
+        [
+          "+27%",
+          "Average BERT survey scores"
+        ],
+        [
+          "+900",
+          "Dealerships adopted AI Communications after UX implementation"
+        ],
+        [
+          "3,291",
+          "Dealerships surveyed"
+        ]
+      ],
+      "support": "Survey research and in-person dealership visits informed product-stack recommendations and a new design system. Iterative CRM improvements supported reduced churn in core workflows."
+    }
   },
   "bagsid": {
     "ownership": "As VP of UX, I lead product delivery and contribute directly. I created the brand, initial interfaces, and design system, and designed and built the current website.",
@@ -233,7 +255,17 @@
           ]
         }
       }
-    ]
+    ],
+    "outcomes": {
+      "headline": "Turned a new brand into a shared design system and working baggage-identification interfaces.",
+      "metrics": [
+        [
+          "Brand → product",
+          "One design foundation across identity, React components, and operational interfaces"
+        ]
+      ],
+      "support": "Research with prospective users, airlines, airports, and TSA informed interfaces demonstrated in real working conditions. Branded, white-label, and API options support different customer integration needs."
+    }
   },
   "lending": {
     "ownership": "I created the LoanAI brand and design system, designed both product interfaces, and delivered all front-end development. These screenshots show the applications I built.",
@@ -316,10 +348,20 @@
           ]
         }
       }
-    ]
+    ],
+    "outcomes": {
+      "headline": "Delivered the interfaces and front-end code for two purpose-built lending products.",
+      "metrics": [
+        [
+          "2 products",
+          "AI administration and lending operations, built on one design system"
+        ]
+      ],
+      "support": "I connected stakeholder and end-user research with brand identity, reusable components, and full front-end delivery. Token cost and regulatory constraints shaped the specialized AI product architecture."
+    }
   },
   "fullpath": {
-    "ownership": "I led experience architecture and cross-team design for integrating Fullpath into VinSolutions. These screens combine existing product UI with integration and AI-summary work; they are not a wholesale Fullpath visual redesign.",
+    "ownership": "I led designers, researchers, and UI developers across Fullpath and VinSolutions, combining cross-team direction with hands-on architecture and UX work.",
     "galleries": [
       {
         "status": "Integration work · Existing CRM + CDP interfaces",
@@ -340,7 +382,17 @@
         },
         "first": "cox-customer-profile-20261110.png"
       }
-    ]
+    ],
+    "outcomes": {
+      "headline": "Onboarded 750 dealerships to the combined CDP + CRM platform.",
+      "metrics": [
+        [
+          "750",
+          "Dealerships onboarded to the combined CDP + CRM platform"
+        ]
+      ],
+      "support": "A staged integration brought customer intelligence into familiar CRM workflows while establishing a path to deeper native integration."
+    }
   },
   "healthesystems": {
     "ownership": "I led research, experience architecture, and design across Vertice and Jurnē, with hands-on interface work. I also personally designed and built the corporate website shown first.",
