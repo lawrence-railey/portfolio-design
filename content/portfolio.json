@@ -4,7 +4,7 @@
       "slug": "cox",
       "title": "Cox Automotive",
       "label": "Enterprise software",
-      "summary": "CRM UX-Lite +16.5 points and BERT survey scores +27% on average; now above primary competitors.",
+      "summary": "Research-led CRM improvements that raised UX scores above primary competitors.",
       "image": "assets/cox-executive-dashboard-20261110.png",
       "role": "Principal Product Designer",
       "detail": "CRM UX scores rose 16.5 points in UX-Lite and 27% on average in BERT surveys—now above primary competitors.",
@@ -12,16 +12,14 @@
       "category": "product",
       "logo": "assets/cox-automotive-dark.svg",
       "card_results": [
-        "+16.5 UX-Lite points",
-        "+27% BERT",
-        "+900 AI Communications dealerships"
+        "+16.5 UX-Lite · +27% BERT"
       ]
     },
     {
       "slug": "bagsid",
       "title": "BagsID",
       "label": "Product & design systems",
-      "summary": "Created the brand, coded the design system, and built initial interfaces demonstrated in real baggage operations.",
+      "summary": "Created the brand, design system, and working interfaces for baggage operations.",
       "image": "assets/bagsid-secure-sight/dashboard-overview-preview.webp",
       "role": "VP of UX",
       "detail": "Turned a new brand into a shared design system and working baggage-identification interfaces.",
@@ -29,15 +27,14 @@
       "category": "product",
       "logo": "assets/bagsid-current/logo.svg",
       "card_results": [
-        "Design system in Figma + React",
-        "Working field demonstrations"
+        "Figma + React design system"
       ]
     },
     {
       "slug": "lending",
       "title": "LoanAI",
       "label": "AI engineering",
-      "summary": "Designed and delivered both product front ends, connecting AI administration and lending operations through one shared system.",
+      "summary": "Designed and built two lending products on one shared design system.",
       "image": "assets/portfolio/loanai/model-dashboard.webp",
       "role": "AI engineering & product consulting",
       "detail": "Delivered the interfaces and front-end code for two purpose-built lending products.",

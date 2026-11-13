@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Michroma&family=Rajdhani:wght@400;500;600&display=swap');
 
-.card-results{display:flex;flex-wrap:wrap;gap:8px 18px;list-style:none;padding:12px 0 0;margin:14px 0 0;border-top:1px solid var(--line);color:var(--accent);font:600 16px/1.4 var(--technical)}
+.card-results{display:flex;flex-wrap:nowrap;gap:18px;list-style:none;padding:12px 0 0;margin:14px 0 0;border-top:1px solid var(--line);color:var(--accent);font:600 clamp(12px,4cqi,16px)/1.4 var(--technical);white-space:nowrap}
 .case-results{max-width:980px;margin:0 0 32px;padding:0 0 22px;border-bottom:1px solid var(--line)}
 .case-results>.eyebrow{display:flex;align-items:center;gap:10px;margin-bottom:12px}
 .results-strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;margin:20px 0}
@@ -351,3 +351,10 @@ h1,h2{letter-spacing:.005em}
 
 /* Approved dark brand atmosphere for portfolio cards. */
 .project-card--brand[data-brand="healthesystems"] .project-brand-logo{filter:brightness(0) invert(1) drop-shadow(0 0 24px #68e1ef55);width:260px;max-height:74px;opacity:.9}
+
+/* Keep result dividers aligned across each portfolio grid row. */
+.project-card--brand{container-type:inline-size}
+.project-card--brand>a{display:flex;flex-direction:column;height:100%}
+.project-card--brand .project-brand-image{flex-shrink:0}
+.project-card--brand .project-summary{flex:1;max-width:none}
+
