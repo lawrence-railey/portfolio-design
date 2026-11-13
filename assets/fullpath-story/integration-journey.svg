@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+<title id="title">Fullpath integration journey</title><desc id="desc">A staged approach to connecting Fullpath CDP, serving over 750 dealerships, with VinSolutions CRM. Initial embedded experiences, deeper native integration, and possible long-term product convergence.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#fbfaf7" /><stop offset="1" stop-color="#fbfaf7" /></linearGradient><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#8b987d" stroke-width="1.3" /></marker></defs>
+<rect width="1440" height="900" fill="url(#bg)" /><rect x="24" y="24" width="1392" height="852" fill="none" stroke="#dedfd7" /><path d="M24 24H94" stroke="#8b987d" stroke-width="3" />
+<text x="65" y="76" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600"><tspan x="65" dy="0">FULLPATH + VINSOLUTIONS / LAWRENCE RAILEY</tspan></text>
+<text x="65" y="126" text-anchor="start" fill="#34382f" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="400"><tspan x="65" dy="0">Connect now. Integrate over time.</tspan></text>
+<text x="65" y="171" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400"><tspan x="65" dy="0">750+ dealerships in Fullpath’s CDP / Research across both products</tspan></text>
+<rect x="65" y="213" width="420" height="330" fill="#ffffff" stroke="#dedfd7" />
+<text x="88" y="251" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600"><tspan x="88" dy="0">01 / NEAR TERM</tspan></text>
+<text x="88" y="293" text-anchor="start" fill="#34382f" font-family="Georgia, Times New Roman, serif" font-size="27" font-weight="400"><tspan x="88" dy="0">Embed the experience</tspan></text>
+<text x="88" y="334" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400"><tspan x="88" dy="0">Frame existing Fullpath</tspan><tspan x="88" dy="32">experiences into CRM products.</tspan></text>
+<path d="M88 392H462" stroke="#dedfd7" />
+<text x="88" y="418" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400"><tspan x="88" dy="0">CDP capabilities in dealer workflows</tspan></text>
+<path d="M88 432H462" stroke="#dedfd7" />
+<text x="88" y="458" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400"><tspan x="88" dy="0">Learn from users of both products</tspan></text>
+<text x="88" y="516" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400"><tspan x="88" dy="0">Initial integration</tspan></text>
+<path d="M487 290L506 290" fill="none" stroke="#8b987d" stroke-width="1.5" marker-end="url(#arrow)" />
+<rect x="510" y="213" width="420" height="330" fill="#ffffff" stroke="#dedfd7" />
+<text x="533" y="251" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600"><tspan x="533" dy="0">02 / MEDIUM TERM</tspan></text>
+<text x="533" y="293" text-anchor="start" fill="#34382f" font-family="Georgia, Times New Roman, serif" font-size="27" font-weight="400"><tspan x="533" dy="0">Integrate more natively</tspan></text>
+<text x="533" y="334" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400"><tspan x="533" dy="0">Bring selected CDP functions</tspan><tspan x="533" dy="32">into native CRM workflows.</tspan></text>
+<path d="M533 392H907" stroke="#dedfd7" />
+<text x="533" y="418" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400"><tspan x="533" dy="0">Connect lead and customer data</tspan></text>
+<path d="M533 432H907" stroke="#dedfd7" />
+<text x="533" y="458" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400"><tspan x="533" dy="0">Reconcile overlapping UI and AI</tspan></text>
+<text x="533" y="516" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400"><tspan x="533" dy="0">Deeper integration direction</tspan></text>
+<path d="M932 290L951 290" fill="none" stroke="#8b987d" stroke-width="1.5" marker-end="url(#arrow)" />
+<rect x="955" y="213" width="420" height="330" fill="#ffffff" stroke="#dedfd7" stroke-dasharray="7 5" />
+<text x="978" y="251" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600"><tspan x="978" dy="0">03 / LONG TERM</tspan></text>
+<text x="978" y="293" text-anchor="start" fill="#34382f" font-family="Georgia, Times New Roman, serif" font-size="27" font-weight="400"><tspan x="978" dy="0">Explore convergence</tspan></text>
+<text x="978" y="334" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400"><tspan x="978" dy="0">Architect a possible combined</tspan><tspan x="978" dy="32">product experience.</tspan></text>
+<path d="M978 392H1352" stroke="#dedfd7" />
+<text x="978" y="418" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400"><tspan x="978" dy="0">Unify CRM and CDP journeys</tspan></text>
+<path d="M978 432H1352" stroke="#dedfd7" />
+<text x="978" y="458" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400"><tspan x="978" dy="0">Evaluate potential product merging</tspan></text>
+<text x="978" y="516" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400"><tspan x="978" dy="0">Future possibility</tspan></text>
+<path d="M1165 544V586H275V549" fill="none" stroke="#8b987d" marker-end="url(#arrow)" />
+<rect x="413" y="573" width="615" height="28" fill="#ffffff" stroke="none" />
+<text x="720" y="594" text-anchor="middle" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400"><tspan x="720" dy="0">Research with Fullpath + CRM users informs the next iteration</tspan></text>
+<text x="65" y="654" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600"><tspan x="65" dy="0">ACROSS EVERY HORIZON</tspan></text>
+<rect x="65" y="679" width="420" height="95" fill="#ffffff" stroke="#dedfd7" />
+<text x="88" y="718" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400"><tspan x="88" dy="0">Two design systems</tspan></text>
+<path d="M487 726L506 726" fill="none" stroke="#8b987d" stroke-width="1.5" marker-end="url(#arrow)" />
+<rect x="510" y="679" width="420" height="95" fill="#ffffff" stroke="#dedfd7" />
+<text x="533" y="718" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400"><tspan x="533" dy="0">Shared patterns</tspan><tspan x="533" dy="33">and decisions</tspan></text>
+<path d="M932 726L951 726" fill="none" stroke="#8b987d" stroke-width="1.5" marker-end="url(#arrow)" />
+<rect x="955" y="679" width="420" height="95" fill="#ffffff" stroke="#dedfd7" />
+<text x="978" y="718" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400"><tspan x="978" dy="0">A more cohesive</tspan><tspan x="978" dy="33">dealer experience</tspan></text>
+<text x="65" y="826" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400"><tspan x="65" dy="0">Cross-team leadership, hands-on architecture, and a staged path from integration to possibility.</tspan></text>
+<text x="65" y="862" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400"><tspan x="65" dy="0">Long-term product convergence remains a future possibility.</tspan></text>
+</svg>

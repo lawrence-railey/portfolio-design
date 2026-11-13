@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="820" viewBox="0 0 1440 820" role="img" aria-labelledby="title desc">
+<title id="title">Research to product</title><desc id="desc">Iterative dealership research informs CRM architecture, prototypes, validation and refinement. A custom MUI theme supports the branded design system.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#fbfaf7" /><stop offset="1" stop-color="#fbfaf7" /></linearGradient><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#8b987d" stroke-width="1.3" /></marker></defs>
+<rect width="1440" height="820" fill="url(#bg)" /><rect x="24" y="24" width="1392" height="772" fill="none" stroke="#dedfd7" /><path d="M24 24H94" stroke="#8b987d" stroke-width="3" />
+<text x="65" y="76" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600"><tspan x="65" dy="0">COX AUTOMOTIVE / VINSOLUTIONS / LAWRENCE RAILEY</tspan></text>
+<text x="65" y="126" text-anchor="start" fill="#34382f" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="400"><tspan x="65" dy="0">Evidence shaped the architecture.</tspan></text>
+<text x="65" y="172" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400"><tspan x="65" dy="0">3,291 users  /  18 months of research  /  hundreds of dealerships</tspan></text>
+<rect x="65" y="220" width="250" height="224" fill="#ffffff" stroke="#dedfd7" />
+<text x="85" y="253" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600"><tspan x="85" dy="0">01</tspan></text>
+<text x="85" y="294" text-anchor="start" fill="#34382f" font-family="Georgia, Times New Roman, serif" font-size="29" font-weight="400"><tspan x="85" dy="0">Listen</tspan></text>
+<text x="85" y="331" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400"><tspan x="85" dy="0">On-site research</tspan><tspan x="85" dy="28">Dealer workflows</tspan></text>
+<path d="M85 388H295" stroke="#dedfd7" />
+<text x="85" y="418" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400"><tspan x="85" dy="0">Observed needs</tspan></text>
+<path d="M316 290L329 290" fill="none" stroke="#8b987d" stroke-width="1.5" marker-end="url(#arrow)" />
+<rect x="330" y="220" width="250" height="224" fill="#ffffff" stroke="#dedfd7" />
+<text x="350" y="253" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600"><tspan x="350" dy="0">02</tspan></text>
+<text x="350" y="294" text-anchor="start" fill="#34382f" font-family="Georgia, Times New Roman, serif" font-size="29" font-weight="400"><tspan x="350" dy="0">Frame</tspan></text>
+<text x="350" y="331" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400"><tspan x="350" dy="0">User journeys</tspan><tspan x="350" dy="28">Heuristic analysis</tspan></text>
+<path d="M350 388H560" stroke="#dedfd7" />
+<text x="350" y="418" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400"><tspan x="350" dy="0">Features + priorities</tspan></text>
+<path d="M581 290L594 290" fill="none" stroke="#8b987d" stroke-width="1.5" marker-end="url(#arrow)" />
+<rect x="595" y="220" width="250" height="224" fill="#ffffff" stroke="#dedfd7" />
+<text x="615" y="253" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600"><tspan x="615" dy="0">03</tspan></text>
+<text x="615" y="294" text-anchor="start" fill="#34382f" font-family="Georgia, Times New Roman, serif" font-size="29" font-weight="400"><tspan x="615" dy="0">Explore</tspan></text>
+<text x="615" y="331" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400"><tspan x="615" dy="0">UI architecture</tspan><tspan x="615" dy="28">Design + code</tspan></text>
+<path d="M615 388H825" stroke="#dedfd7" />
+<text x="615" y="418" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400"><tspan x="615" dy="0">Testable alternatives</tspan></text>
+<path d="M846 290L859 290" fill="none" stroke="#8b987d" stroke-width="1.5" marker-end="url(#arrow)" />
+<rect x="860" y="220" width="250" height="224" fill="#ffffff" stroke="#dedfd7" />
+<text x="880" y="253" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600"><tspan x="880" dy="0">04</tspan></text>
+<text x="880" y="294" text-anchor="start" fill="#34382f" font-family="Georgia, Times New Roman, serif" font-size="29" font-weight="400"><tspan x="880" dy="0">Validate</tspan></text>
+<text x="880" y="331" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400"><tspan x="880" dy="0">Iterative research</tspan><tspan x="880" dy="28">Real user feedback</tspan></text>
+<path d="M880 388H1090" stroke="#dedfd7" />
+<text x="880" y="418" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400"><tspan x="880" dy="0">Evidence for decisions</tspan></text>
+<path d="M1111 290L1124 290" fill="none" stroke="#8b987d" stroke-width="1.5" marker-end="url(#arrow)" />
+<rect x="1125" y="220" width="250" height="224" fill="#ffffff" stroke="#dedfd7" />
+<text x="1145" y="253" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600"><tspan x="1145" dy="0">05</tspan></text>
+<text x="1145" y="294" text-anchor="start" fill="#34382f" font-family="Georgia, Times New Roman, serif" font-size="29" font-weight="400"><tspan x="1145" dy="0">Refine</tspan></text>
+<text x="1145" y="331" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400"><tspan x="1145" dy="0">Responsive pages</tspan><tspan x="1145" dy="28">Reusable patterns</tspan></text>
+<path d="M1145 388H1355" stroke="#dedfd7" />
+<text x="1145" y="418" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400"><tspan x="1145" dy="0">Delivery + learning</tspan></text>
+<path d="M1255 445V492H190V450" stroke="#8b987d" fill="none" marker-end="url(#arrow)" />
+<rect x="486" y="477" width="470" height="30" fill="#ffffff" stroke="none" />
+<text x="720" y="498" text-anchor="middle" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400"><tspan x="720" dy="0">Feedback returns to the next iteration</tspan></text>
+<text x="65" y="564" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600"><tspan x="65" dy="0">THE DESIGN FOUNDATION</tspan></text>
+<rect x="65" y="591" width="308" height="91" fill="#ffffff" stroke="#dedfd7" />
+<text x="85" y="626" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400"><tspan x="85" dy="0">Custom MUI</tspan><tspan x="85" dy="32">theme</tspan></text>
+<path d="M375 637L395 637" fill="none" stroke="#8b987d" stroke-width="1.5" marker-end="url(#arrow)" />
+<rect x="398" y="591" width="308" height="91" fill="#ffffff" stroke="#dedfd7" />
+<text x="418" y="626" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400"><tspan x="418" dy="0">Extensively adapted</tspan><tspan x="418" dy="32">components</tspan></text>
+<path d="M708 637L728 637" fill="none" stroke="#8b987d" stroke-width="1.5" marker-end="url(#arrow)" />
+<rect x="731" y="591" width="308" height="91" fill="#ffffff" stroke="#dedfd7" />
+<text x="751" y="626" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400"><tspan x="751" dy="0">Branded</tspan><tspan x="751" dy="32">design system</tspan></text>
+<path d="M1041 637L1061 637" fill="none" stroke="#8b987d" stroke-width="1.5" marker-end="url(#arrow)" />
+<rect x="1064" y="591" width="308" height="91" fill="#ffffff" stroke="#dedfd7" />
+<text x="1084" y="626" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400"><tspan x="1084" dy="0">Responsive</tspan><tspan x="1084" dy="32">CRM pages</tspan></text>
+<text x="65" y="753" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400"><tspan x="65" dy="0">Research and a shared design system connected the work across hundreds of pages.</tspan></text>
+</svg>

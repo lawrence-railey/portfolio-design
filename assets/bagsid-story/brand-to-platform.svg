@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="870" viewBox="0 0 1440 870" role="img" aria-labelledby="title desc">
+<title id="title">From brand to working AI platform</title><desc id="desc">Brand definition, discovery research, coded design systems, field demonstrations, and customer delivery. Lawrence Railey leads designers and developers while contributing hands-on.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#fbfaf7" /><stop offset="1" stop-color="#fbfaf7" /></linearGradient><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#8b987d" stroke-width="1.3" /></marker></defs>
+<rect width="1440" height="870" fill="url(#bg)" /><rect x="24" y="24" width="1392" height="822" fill="none" stroke="#dedfd7" /><path d="M24 24H94" stroke="#8b987d" stroke-width="3" />
+<text x="65" y="76" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600"><tspan x="65" dy="0">BAGSID / VP OF UX / LAWRENCE RAILEY</tspan></text>
+<text x="65" y="126" text-anchor="start" fill="#34382f" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="400"><tspan x="65" dy="0">One vision, from identity to operations.</tspan></text>
+<text x="65" y="169" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400"><tspan x="65" dy="0">Brand ownership. Field research. Design and code. Team leadership.</tspan></text>
+<rect x="65" y="213" width="250" height="224" fill="#ffffff" stroke="#dedfd7" />
+<text x="84" y="246" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600"><tspan x="84" dy="0">01</tspan></text>
+<text x="84" y="287" text-anchor="start" fill="#34382f" font-family="Georgia, Times New Roman, serif" font-size="29" font-weight="400"><tspan x="84" dy="0">Define</tspan></text>
+<text x="84" y="325" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400"><tspan x="84" dy="0">Logo, colors, identity</tspan><tspan x="84" dy="27">Marketing materials</tspan></text>
+<path d="M84 382H296" stroke="#dedfd7" />
+<text x="84" y="412" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400"><tspan x="84" dy="0">A shared brand</tspan></text>
+<path d="M316 284L329 284" fill="none" stroke="#8b987d" stroke-width="1.5" marker-end="url(#arrow)" />
+<rect x="330" y="213" width="250" height="224" fill="#ffffff" stroke="#dedfd7" />
+<text x="349" y="246" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600"><tspan x="349" dy="0">02</tspan></text>
+<text x="349" y="287" text-anchor="start" fill="#34382f" font-family="Georgia, Times New Roman, serif" font-size="29" font-weight="400"><tspan x="349" dy="0">Discover</tspan></text>
+<text x="349" y="325" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400"><tspan x="349" dy="0">Prospective users</tspan><tspan x="349" dy="27">Airlines, airports, TSA</tspan></text>
+<path d="M349 382H561" stroke="#dedfd7" />
+<text x="349" y="412" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400"><tspan x="349" dy="0">Real operating needs</tspan></text>
+<path d="M581 284L594 284" fill="none" stroke="#8b987d" stroke-width="1.5" marker-end="url(#arrow)" />
+<rect x="595" y="213" width="250" height="224" fill="#ffffff" stroke="#dedfd7" />
+<text x="614" y="246" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600"><tspan x="614" dy="0">03</tspan></text>
+<text x="614" y="287" text-anchor="start" fill="#34382f" font-family="Georgia, Times New Roman, serif" font-size="29" font-weight="400"><tspan x="614" dy="0">Build</tspan></text>
+<text x="614" y="325" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400"><tspan x="614" dy="0">Design system in code</tspan><tspan x="614" dy="27">Initial application UIs</tspan></text>
+<path d="M614 382H826" stroke="#dedfd7" />
+<text x="614" y="412" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400"><tspan x="614" dy="0">Reusable foundations</tspan></text>
+<path d="M846 284L859 284" fill="none" stroke="#8b987d" stroke-width="1.5" marker-end="url(#arrow)" />
+<rect x="860" y="213" width="250" height="224" fill="#ffffff" stroke="#dedfd7" />
+<text x="879" y="246" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600"><tspan x="879" dy="0">04</tspan></text>
+<text x="879" y="287" text-anchor="start" fill="#34382f" font-family="Georgia, Times New Roman, serif" font-size="29" font-weight="400"><tspan x="879" dy="0">Prove</tspan></text>
+<text x="879" y="325" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400"><tspan x="879" dy="0">Working field demos</tspan><tspan x="879" dy="27">Feedback + refinement</tspan></text>
+<path d="M879 382H1091" stroke="#dedfd7" />
+<text x="879" y="412" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400"><tspan x="879" dy="0">Tested in context</tspan></text>
+<path d="M1111 284L1124 284" fill="none" stroke="#8b987d" stroke-width="1.5" marker-end="url(#arrow)" />
+<rect x="1125" y="213" width="250" height="224" fill="#ffffff" stroke="#dedfd7" />
+<text x="1144" y="246" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600"><tspan x="1144" dy="0">05</tspan></text>
+<text x="1144" y="287" text-anchor="start" fill="#34382f" font-family="Georgia, Times New Roman, serif" font-size="29" font-weight="400"><tspan x="1144" dy="0">Extend</tspan></text>
+<text x="1144" y="325" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400"><tspan x="1144" dy="0">Branded + white-label UI</tspan><tspan x="1144" dy="27">Native integrations</tspan></text>
+<path d="M1144 382H1356" stroke="#dedfd7" />
+<text x="1144" y="412" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400"><tspan x="1144" dy="0">Customer choice</tspan></text>
+<path d="M1250 438V484H190V443" stroke="#8b987d" fill="none" marker-end="url(#arrow)" />
+<rect x="467" y="470" width="506" height="29" fill="#ffffff" stroke="none" />
+<text x="720" y="491" text-anchor="middle" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400"><tspan x="720" dy="0">Field feedback informs the next iteration</tspan></text>
+<rect x="65" y="539" width="632" height="190" fill="#ffffff" stroke="#dedfd7" />
+<text x="90" y="576" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600"><tspan x="90" dy="0">BEFORE AI CODING TOOLS</tspan></text>
+<text x="90" y="621" text-anchor="start" fill="#34382f" font-family="Georgia, Times New Roman, serif" font-size="27" font-weight="400"><tspan x="90" dy="0">Designed and coded by hand.</tspan></text>
+<text x="90" y="662" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400"><tspan x="90" dy="0">I created the brand, design system, coded React/MUI</tspan><tspan x="90" dy="30">components, and first baggage-scanning UIs myself.</tspan></text>
+<rect x="742" y="539" width="632" height="190" fill="#ffffff" stroke="#dedfd7" />
+<text x="767" y="576" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600"><tspan x="767" dy="0">TODAY</tspan></text>
+<text x="767" y="621" text-anchor="start" fill="#34382f" font-family="Georgia, Times New Roman, serif" font-size="27" font-weight="400"><tspan x="767" dy="0">Accelerated with AI.</tspan></text>
+<text x="767" y="662" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400"><tspan x="767" dy="0">We use AI in front-end workflows to generate and</tspan><tspan x="767" dy="30">iterate on UIs faster, building on that expertise.</tspan></text>
+<text x="65" y="788" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400"><tspan x="65" dy="0">I lead developers and designers, and continue tackling the hardest problems directly.</tspan></text>
+<text x="65" y="827" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400"><tspan x="65" dy="0">Brand, research, UI, code, and working demonstrations connected through one practice.</tspan></text>
+</svg>
