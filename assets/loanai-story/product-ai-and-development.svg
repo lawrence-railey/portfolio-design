@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="930" viewBox="0 0 1440 930" role="img" aria-labelledby="title desc">
+<title id="title">Loan AI product intelligence and development tooling</title><desc id="desc">The product uses custom lending-specific AI, while Claude, GPT and other tools assist interface design and front-end development. These serve separate roles.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#fbfaf7" /><stop offset="1" stop-color="#fbfaf7" /></linearGradient><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#8b987d" stroke-width="1.3" /></marker></defs>
+<rect width="1440" height="930" fill="url(#bg)" /><rect x="24" y="24" width="1392" height="882" fill="none" stroke="#dedfd7" /><path d="M24 24H94" stroke="#8b987d" stroke-width="3" />
+<text x="65" y="76" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600"><tspan x="65" dy="0">LOAN AI / GREENFIELD PRODUCT DEVELOPMENT / LAWRENCE RAILEY</tspan></text>
+<text x="65" y="126" text-anchor="start" fill="#34382f" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="400"><tspan x="65" dy="0">Specialized intelligence. Faster delivery.</tspan></text>
+<text x="65" y="170" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400"><tspan x="65" dy="0">Two distinct roles for AI: product intelligence and development tools.</tspan></text>
+<rect x="65" y="213" width="632" height="414" fill="#ffffff" stroke="#8b987d" />
+<text x="90" y="251" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600"><tspan x="90" dy="0">WHAT POWERS THE PRODUCT</tspan></text>
+<text x="90" y="297" text-anchor="start" fill="#34382f" font-family="Georgia, Times New Roman, serif" font-size="28" font-weight="400"><tspan x="90" dy="0">Purpose-built lending AI</tspan></text>
+<text x="90" y="338" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400"><tspan x="90" dy="0">A custom platform expressly for lending,</tspan><tspan x="90" dy="30">rather than a general-purpose Claude or GPT integration.</tspan></text>
+<path d="M90 401H672" stroke="#dedfd7" />
+<text x="90" y="429" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400"><tspan x="90" dy="0">Lower token costs through a narrow task scope</tspan></text>
+<path d="M90 450H672" stroke="#dedfd7" />
+<text x="90" y="478" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400"><tspan x="90" dy="0">More control over domain-specific behavior</tspan></text>
+<path d="M90 499H672" stroke="#dedfd7" />
+<text x="90" y="527" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400"><tspan x="90" dy="0">Closer alignment with regulatory requirements</tspan></text>
+<path d="M90 561H672" stroke="#dedfd7" />
+<text x="90" y="597" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400"><tspan x="90" dy="0">Task-specific product intelligence</tspan></text>
+<rect x="742" y="213" width="632" height="414" fill="#ffffff" stroke="#8b987d" />
+<text x="767" y="251" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600"><tspan x="767" dy="0">HOW I BUILT THE INTERFACES</tspan></text>
+<text x="767" y="297" text-anchor="start" fill="#34382f" font-family="Georgia, Times New Roman, serif" font-size="28" font-weight="400"><tspan x="767" dy="0">AI-assisted front-end work</tspan></text>
+<text x="767" y="338" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400"><tspan x="767" dy="0">Claude, GPT, and other tools accelerate</tspan><tspan x="767" dy="30">interface design and implementation.</tspan></text>
+<path d="M767 401H1349" stroke="#dedfd7" />
+<text x="767" y="429" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400"><tspan x="767" dy="0">Iterate on the design system I created</tspan></text>
+<path d="M767 450H1349" stroke="#dedfd7" />
+<text x="767" y="478" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400"><tspan x="767" dy="0">Generate and refine product interfaces</tspan></text>
+<path d="M767 499H1349" stroke="#dedfd7" />
+<text x="767" y="527" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400"><tspan x="767" dy="0">Combine AI tooling with my coding expertise</tspan></text>
+<path d="M767 561H1349" stroke="#dedfd7" />
+<text x="767" y="597" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400"><tspan x="767" dy="0">Faster design-to-code iteration</tspan></text>
+<rect x="65" y="662" width="1309" height="126" fill="#e8ece2" stroke="#8b987d" />
+<text x="90" y="702" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600"><tspan x="90" dy="0">MY HANDS-ON FOUNDATION</tspan></text>
+<text x="90" y="752" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400"><tspan x="90" dy="0">JavaScript / TypeScript     ·     React     ·     MUI     ·     Design-system implementation</tspan></text>
+<text x="65" y="842" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400"><tspan x="65" dy="0">Token economics and regulatory constraints shaped product decisions.</tspan></text>
+<text x="65" y="886" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400"><tspan x="65" dy="0">My design and development expertise guided the AI-assisted build.</tspan></text>
+</svg>

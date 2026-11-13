@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1030" viewBox="0 0 1440 1030" role="img" aria-labelledby="title desc">
+<title id="title">UI and AI in the CRM</title><desc id="desc">Conceptual experience model. Responsive UI and a dealer AI assistant support shared customer context and workflows. Generative communications and a virtual contact assistant extend the experience.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#fbfaf7" /><stop offset="1" stop-color="#fbfaf7" /></linearGradient><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#8b987d" stroke-width="1.3" /></marker></defs>
+<rect width="1440" height="1030" fill="url(#bg)" /><rect x="24" y="24" width="1392" height="982" fill="none" stroke="#dedfd7" /><path d="M24 24H94" stroke="#8b987d" stroke-width="3" />
+<text x="65" y="76" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600"><tspan x="65" dy="0">COX AUTOMOTIVE / VINSOLUTIONS / LAWRENCE RAILEY</tspan></text>
+<text x="65" y="126" text-anchor="start" fill="#34382f" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="400"><tspan x="65" dy="0">Two ways in. One connected workflow.</tspan></text>
+<rect x="65" y="182" width="632" height="181" fill="#ffffff" stroke="#8b987d" />
+<text x="91" y="219" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600"><tspan x="91" dy="0">DIRECT INTERACTION</tspan></text>
+<text x="91" y="264" text-anchor="start" fill="#34382f" font-family="Georgia, Times New Roman, serif" font-size="29" font-weight="400"><tspan x="91" dy="0">Responsive CRM UI</tspan></text>
+<text x="91" y="303" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400"><tspan x="91" dy="0">Navigate, inspect, and act</tspan><tspan x="91" dy="32">through clear interfaces.</tspan></text>
+<rect x="742" y="182" width="632" height="181" fill="#ffffff" stroke="#8b987d" />
+<text x="768" y="219" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600"><tspan x="768" dy="0">CONVERSATIONAL INTERACTION</tspan></text>
+<text x="768" y="264" text-anchor="start" fill="#34382f" font-family="Georgia, Times New Roman, serif" font-size="29" font-weight="400"><tspan x="768" dy="0">Dealer AI assistant</tspan></text>
+<text x="768" y="303" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400"><tspan x="768" dy="0">Ask for KPIs, statistics,</tspan><tspan x="768" dy="32">customer information, and help.</tspan></text>
+<path d="M381 364V396H1058V364M720 396V425" fill="none" stroke="#8b987d" stroke-width="1.5" marker-end="url(#arrow)" />
+<rect x="65" y="430" width="1309" height="176" fill="#e8ece2" stroke="#8b987d" />
+<text x="720" y="467" text-anchor="middle" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600"><tspan x="720" dy="0">THE SHARED EXPERIENCE</tspan></text>
+<text x="720" y="516" text-anchor="middle" fill="#34382f" font-family="Georgia, Times New Roman, serif" font-size="32" font-weight="400"><tspan x="720" dy="0">Customer context + dealership workflows</tspan></text>
+<text x="720" y="564" text-anchor="middle" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400"><tspan x="720" dy="0">Customers    /    Opportunities    /    Appointments    /    Inventory</tspan></text>
+<path d="M720 607L720 648" fill="none" stroke="#8b987d" stroke-width="1.5" marker-end="url(#arrow)" />
+<rect x="65" y="655" width="632" height="177" fill="#ffffff" stroke="#dedfd7" />
+<text x="91" y="689" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600"><tspan x="91" dy="0">GENERATIVE COMMUNICATIONS</tspan></text>
+<text x="91" y="732" text-anchor="start" fill="#34382f" font-family="Georgia, Times New Roman, serif" font-size="27" font-weight="400"><tspan x="91" dy="0">Help users compose</tspan></text>
+<text x="91" y="770" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400"><tspan x="91" dy="0">Generate communications</tspan><tspan x="91" dy="32">for their customers.</tspan></text>
+<rect x="742" y="655" width="632" height="177" fill="#ffffff" stroke="#dedfd7" />
+<text x="768" y="689" text-anchor="start" fill="#5e6d50" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600"><tspan x="768" dy="0">VIRTUAL CONTACT ASSISTANT</tspan></text>
+<text x="768" y="732" text-anchor="start" fill="#34382f" font-family="Georgia, Times New Roman, serif" font-size="27" font-weight="400"><tspan x="768" dy="0">Handle conversations</tspan></text>
+<text x="768" y="770" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400"><tspan x="768" dy="0">Converse independently with customers,</tspan><tspan x="768" dy="32">including answering calls.</tspan></text>
+<rect x="65" y="862" width="1309" height="84" fill="#ffffff" stroke="#8b987d" />
+<text x="90" y="895" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="600"><tspan x="90" dy="0">Regulatory constraints informed the design throughout.</tspan></text>
+<text x="90" y="926" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400"><tspan x="90" dy="0">Information accuracy  /  Customer communications  /  Dealer risk</tspan></text>
+<text x="65" y="984" text-anchor="start" fill="#34382f" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400"><tspan x="65" dy="0">Direct UI and AI assistance support the same dealership work.</tspan></text>
+</svg>
