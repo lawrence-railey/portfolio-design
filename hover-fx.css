@@ -1,0 +1,52 @@
+/* Isolated, local-only Flash-era hover treatment; no content or layout animation. */
+.fx-position{position:relative}
+.fx-overlay,.fx-overlay>span{display:block;position:absolute;pointer-events:none!important;margin:0;padding:0}
+.fx-surface>.fx-overlay{inset:0;z-index:4;overflow:hidden;opacity:0;color:var(--accent,#7ec5ed);transition:opacity .16s ease;border-radius:inherit;transform:none;min-width:0;min-height:0;width:auto;height:auto}
+.world-link[href="work-history.html"]{--fx-destination:#dfaa8d}
+.world-link[href="portfolio.html"]{--fx-destination:#91c5e1}
+.world-link[href="creative-ai.html"]{--fx-destination:#c5aadf}
+.world-link[href="other-work.html"]{--fx-destination:#d7c28b}
+.world-link>.fx-overlay{color:var(--fx-destination,var(--accent))}
+.fx-active>.fx-overlay{opacity:1}
+.button:not(.button-secondary):not(.outline)>.fx-overlay{color:#eaffff}
+.fx-corners{inset:3px;opacity:.7;background:
+  linear-gradient(currentColor,currentColor) left top/10px 1px,
+  linear-gradient(currentColor,currentColor) left top/1px 10px,
+  linear-gradient(currentColor,currentColor) right top/10px 1px,
+  linear-gradient(currentColor,currentColor) right top/1px 10px,
+  linear-gradient(currentColor,currentColor) left bottom/10px 1px,
+  linear-gradient(currentColor,currentColor) left bottom/1px 10px,
+  linear-gradient(currentColor,currentColor) right bottom/10px 1px,
+  linear-gradient(currentColor,currentColor) right bottom/1px 10px;
+  background-repeat:no-repeat}
+.fx-card>.fx-overlay>.fx-corners{inset:8px;background-size:18px 1px,1px 18px,18px 1px,1px 18px,18px 1px,1px 18px,18px 1px,1px 18px}
+.fx-scan{top:0;bottom:0;left:0;width:24%;opacity:0;border-right:1px solid currentColor;background:linear-gradient(90deg,transparent,color-mix(in srgb,currentColor 12%,transparent));transform:translateX(-110%)}
+.fx-ticks{right:17px;bottom:4px;width:29px;height:3px;opacity:.65;background:repeating-linear-gradient(90deg,currentColor 0 3px,transparent 3px 6px)}
+.fx-card>.fx-overlay>.fx-ticks{right:30px;bottom:9px;width:47px}
+.fx-burst.fx-active>.fx-overlay>.fx-corners{animation:fx-lock .65s both}
+.fx-burst.fx-active>.fx-overlay>.fx-scan{animation:fx-scan .62s ease-out both}
+.fx-burst.fx-active>.fx-overlay>.fx-ticks{animation:fx-ticks .65s steps(5,end) both}
+.fx-pulse{inset:0;background:linear-gradient(90deg,transparent,currentColor,transparent);opacity:0}
+.fx-burst.fx-active>.fx-overlay>.fx-pulse{animation:fx-pulse .48s steps(1,end) both}
+@keyframes fx-pulse{0%,25%,65%,100%{opacity:0}10%{opacity:.14}40%{opacity:.09}}
+@keyframes fx-lock{
+  0%{opacity:0;transform:scale(.97)}
+  16%{opacity:.9;transform:scale(1)}
+  30%{opacity:.15}
+  46%{opacity:1}
+  100%{opacity:.65;transform:scale(1)}
+}
+@keyframes fx-scan{
+  0%{opacity:0;transform:translateX(-110%)}
+  15%{opacity:.65}
+  75%{opacity:.35}
+  100%{opacity:0;transform:translateX(440%)}
+}
+@keyframes fx-ticks{
+  0%{opacity:0;clip-path:inset(0 100% 0 0);transform:translateX(-8px)}
+  45%{opacity:1;clip-path:inset(0 0 0 0)}
+  65%{opacity:.15}
+  100%{opacity:.65;clip-path:inset(0 0 0 0);transform:translateX(0)}
+}
+@media(prefers-reduced-motion:reduce){.fx-overlay{display:none!important}}
+@media print{.fx-overlay{display:none!important}}

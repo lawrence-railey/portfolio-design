@@ -8,6 +8,7 @@ from case_order import ui_before_architecture
 ROOT=Path(__file__).resolve().parents[1]
 DATA=json.loads((ROOT/'content/portfolio.json').read_text(encoding='utf-8'))
 ASSET_VERSION={name:hashlib.sha256((ROOT/name).read_bytes()).hexdigest()[:12] for name in ('style.css','app.js','contact.js')}
+HOVER_FX_PREVIEW=(ROOT/'content/hover-fx-preview.enabled').exists()
 PAGES=[
  dict(key='home',file='index.html',name='Home',world='earth',number='01',eyebrow='UI/UX design / Architecture / Development',title='I make complex<br>software feel simple.',copy='I lead UX architecture, design product interfaces, and build the UI that brings them to life. Applied AI helps me solve the hard problems.',action='Explore my work'),
  dict(key='history',file='work-history.html',name='Work History',world='mars',number='02',eyebrow='Experience / Leadership / Engineering',title='Experience,<br>applied.',copy='Two decades of turning complexity into working products. Leading teams, shaping experiences, and building what comes next.',action='Explore my experience'),
@@ -48,6 +49,9 @@ def lightbox():
 
 def page(file,title,description,body,active='home',world='earth',compact=False):
     html=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} | Lawrence Railey</title><meta name="description" content="{esc(description,quote=True)}"><meta name="theme-color" content="#080e13"><meta property="og:title" content="{esc(title,quote=True)} — Lawrence Railey"><meta property="og:description" content="{esc(description,quote=True)}"><link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css?v={ASSET_VERSION['style.css']}"><link rel="stylesheet" href="diagrams.css"><script src="app.js?v={ASSET_VERSION['app.js']}" defer></script></head><body data-world="{world}" class="{'compact-page' if compact else ''}">{header(active)}<main id="main">{body}</main>{footer(active)}{lightbox()}</body></html>'''
+    if HOVER_FX_PREVIEW:
+        fx_version=hashlib.sha256((ROOT/'hover-fx.css').read_bytes()+(ROOT/'hover-fx.js').read_bytes()).hexdigest()[:12]
+        html=html.replace('</head>', f'<link rel="stylesheet" href="hover-fx.css?v={fx_version}"><script src="hover-fx.js?v={fx_version}" defer></script></head>')
     if active == 'contact':
         html = html.replace('</head>', f'<script src="contact.js?v={ASSET_VERSION["contact.js"]}" defer></script></head>')
     (ROOT/file).write_text(html,encoding='utf-8')
@@ -70,7 +74,7 @@ def filters(group,items,anchor=''):
 def home_content():
     nav=''.join(f'''<a class="world-link" href="{p['file']}"><img src="assets/worlds-web/{p['world']}-1280.webp" loading="lazy" alt=""><span class="world-link-number">{p['number']}</span><div><h3>{p['name']}</h3><span aria-hidden="true">↗</span></div></a>''' for p in PAGES[1:5])
     featured=''.join(project_card(p, branded=True) for p in DATA['projects'][:3])
-    return f'''<div id="content" class="content-shell"><section class="section">{section_heading('01 / Selected work','Built for the real world.','<a class="text-link" href="portfolio.html">All UI/UX work ↗</a>')}<div class="project-grid">{featured}</div></section><section class="intro-section"><p class="eyebrow">02 / UX first. Built to work.</p><div><h2>From complex workflows<br>to clear experiences.</h2><p>I turn complex product requirements into software people can use with confidence. Research, UX architecture, interface design, front-end development, and applied AI connect the strategy to the working product.</p></div></section><section class="section">{section_heading('03 / Explore the practice','A different world.<br>The same curiosity.')}<div class="world-links">{nav}</div></section></div>'''
+    return f'''<div id="content" class="content-shell"><section class="section">{section_heading('01 / Selected work','Built for the real world.','<a class="text-link" href="portfolio.html">All UI/UX work ↗</a>')}<div class="project-grid">{featured}</div></section><section class="intro-section"><p class="eyebrow">02 / UX Leadership. Built to work.</p><div><h2>From complex workflows<br>to clear experiences.</h2><p>I turn complex product requirements into software people can use with confidence. Research, UX architecture, interface design, front-end development, and applied AI connect the strategy to the working product.</p></div></section><section class="section">{section_heading('03 / Explore the practice','A different world.<br>The same curiosity.')}<div class="world-links">{nav}</div></section></div>'''
 
 def history_content():
     return f'''<div id="content" class="content-shell"><section class="section">{section_heading('The professional story','Leadership with<br>hands-on depth.')}<div class="career-history">{DATA['history']}</div></section></div>'''
