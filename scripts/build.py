@@ -4,6 +4,7 @@ from html import escape as esc
 import json, re, hashlib
 from html_utils import Document
 from case_order import ui_before_architecture
+from case_presentation import visual_first, PRESENTATION
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=json.loads((ROOT/'content/portfolio.json').read_text(encoding='utf-8'))
@@ -133,7 +134,7 @@ for p,content in zip(PAGES,[home_content,history_content,portfolio_content,creat
     page(p['file'],p['name'],re.sub('<[^>]+>',' ',p['copy']),hero(p)+content(),p['key'],p['world'])
 
 for p in DATA['projects']:
-    body=ui_before_architecture(p['body'], p['slug'])
+    body=visual_first(ui_before_architecture(p['body'], p['slug']), p['slug'])
     if p['slug']=='earlier':
         by_slug={item['slug']:item for item in DATA['projects']}
         archive_cards=''.join(project_card(by_slug[slug]) for slug in DATA['archive_projects'])
@@ -142,7 +143,9 @@ for p in DATA['projects']:
     # Keep the source architecture intact, and give the index stable anchor targets.
     aliases={'cox':'cox-research','bagsid':'bags-platform','lending':'loan-architecture','fullpath':'fp-integration'}
     anchor=f'<span id="{aliases[p["slug"]]}" class="anchor-target"></span>' if p['slug'] in aliases and f'id="{aliases[p["slug"]]}"' not in body else ''
-    content=f'''<div class="content-shell case-page"><a class="back-link" href="portfolio.html">← UI/UX Portfolio</a><header class="case-intro"><p class="eyebrow">{p['label']}</p><h1>{p['title']}</h1><p>{p['detail']}</p>{site_action}</header><div class="case-content">{anchor}{body}</div><a class="end-link text-link" href="portfolio.html">← Back to all UI/UX work</a></div>'''
+    intro_copy=PRESENTATION.get(p['slug'], {}).get('ownership', p['detail'])
+    case_class=' case-page--visual' if p['slug'] in PRESENTATION else ''
+    content=f'''<div class="content-shell case-page{case_class}"><a class="back-link" href="portfolio.html">← UI/UX Portfolio</a><header class="case-intro"><p class="eyebrow">{p['label']}</p><h1>{p['title']}</h1><p>{intro_copy}</p>{site_action}</header><div class="case-content">{anchor}{body}</div><a class="end-link text-link" href="portfolio.html">← Back to all UI/UX work</a></div>'''
     page(f'project-{p["slug"]}.html',p['title'],p['detail'],content,'ui','ocean',True)
 
 # Florida Regime now lives entirely in Other Work. Remove stale generated output.

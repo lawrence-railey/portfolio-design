@@ -305,3 +305,22 @@ h1,h2{letter-spacing:.005em}
 .creative-tools .platforms{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));max-width:none;gap:0 24px;justify-content:start}
 .creative-tools .platforms>span{padding:13px 0;text-align:left}
 @media(max-width:600px){.creative-tools .platforms{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 20px}}
+
+/* Authorship and status remain visible beside each set of case-study screens. */
+.case-ownership{width:100%;max-width:none;box-sizing:border-box;margin:18px 0 12px;padding:18px 20px;border:1px solid var(--line);background:var(--wash)}
+.case-ownership>span,.case-caption-context{display:block;font:500 11px/1.5 var(--technical);letter-spacing:.06em;color:var(--accent)}
+.case-ownership>p{margin:6px 0 0;font-size:14px;line-height:1.6;color:var(--muted)}
+.case-caption-context{margin-bottom:6px}
+.case-content .gallery figcaption>strong{display:block}
+.case-content .gallery figcaption>p{margin:6px 0 0;line-height:1.55}
+.case-visual-context{margin-top:24px}
+.case-ui-examples{margin-top:0}
+.case-content .case-ui-examples>.project-copy:first-child{margin-top:0}
+.case-intro>p:last-child{max-width:850px}
+@media(max-width:600px){.case-ownership{padding:12px 14px}.case-ownership>p{font-size:13px}.case-caption-context{font-size:10px}}
+
+.case-page--visual .case-intro{padding:18px 0 22px;margin-bottom:24px}
+.case-page--visual .case-intro h1{margin-bottom:14px}
+.case-page--visual .case-intro>p:last-child{font-size:15px;line-height:1.65}
+.case-page--visual .case-ui-examples>.project-copy:first-child h2{font-size:26px;margin:0 0 12px}
+.case-page--visual .case-ui-examples>.project-copy:first-child>.eyebrow{display:none}

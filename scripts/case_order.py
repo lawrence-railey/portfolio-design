@@ -37,7 +37,8 @@ def ui_before_architecture(body, slug):
         nav = Document(f'<nav class="case-section-nav" aria-label="Case study sections"><a href="#{slug}-ui">UI examples ↓</a><a href="#{target}">Architecture &amp; workflow ↓</a></nav>').root.children[0]
         story.children.insert(story.children.index(first_chapter), nav)
         nav.parent = story
-    story.children.insert(story.children.index(first_chapter), gallery_section)
+    # Screens establish the work before the overview, scale, and process narrative.
+    story.children.insert(0, gallery_section)
     # Keep legacy architecture links attached to the architecture, not page start.
     aliases = {'bagsid': ('bags-platform', 'bags-platform-title'), 'lending': ('loan-architecture', 'loan-ai-title'), 'fullpath': ('fp-integration', 'fp-journey-title')}
     if slug in aliases:

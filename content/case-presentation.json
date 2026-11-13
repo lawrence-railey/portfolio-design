@@ -1,0 +1,425 @@
+{
+  "cox": {
+    "ownership": "I led CRM product design and research, with hands-on interface and front-end work. New concepts, redesigns, and legacy-system integrations are labeled below.",
+    "galleries": [
+      {
+        "status": "New platform concepts · Design leadership",
+        "ownership": "I led the design direction for a proposed connected dealership experience.",
+        "captions": {
+          "cox-executive-dashboard-20261110.png": [
+            "Executive dashboard",
+            "Brought performance, priorities, and cross-product activity into one shared view."
+          ],
+          "cox-appointments-calendar-20261110.png": [
+            "Appointments calendar",
+            "Connected scheduling across dealership departments in a shared calendar."
+          ],
+          "cox-ai-agents-20261110.png": [
+            "AI agents",
+            "Grouped capabilities, availability, and activity so teams can understand the role of each agent."
+          ],
+          "cox-dealer-chat-20261110.png": [
+            "Dealer chat",
+            "Kept individual and group conversations within the dealership workspace."
+          ],
+          "cox-inventory-search-20261110.png": [
+            "Inventory search",
+            "Combined search, filters, and vehicle comparison to support inventory decisions."
+          ]
+        }
+      },
+      {
+        "status": "CRM redesign · Design leadership",
+        "ownership": "I led the CRM redesign and contributed directly to complex interface and architecture work.",
+        "captions": {
+          "cox-customer-profile-20261110.png": [
+            "Rebuilt customer record",
+            "Combined customer context, active leads, appointments, and AI summaries in one record."
+          ]
+        }
+      },
+      {
+        "status": "Xtime modernization · Existing backend",
+        "ownership": "I architected the new React front end and redesigned workflows while preserving existing capabilities.",
+        "captions": {
+          "repair-order-dashboard.png": [
+            "Repair-order dashboard",
+            "Grouped work by repair stage while preserving the operational structure teams already knew."
+          ],
+          "parts-dashboard.png": [
+            "Parts dashboard",
+            "Separated pending, completed, and pickup work to make the next action easier to locate."
+          ],
+          "repair-order-details.png": [
+            "Repair-order details",
+            "Brought customer context, assignments, and progress together without changing the underlying workflow."
+          ],
+          "add-a-service.png": [
+            "Add a service",
+            "Organized service recommendations, documentation, parts, and labor within a familiar task flow."
+          ],
+          "vehicle-preferences.png": [
+            "Vehicle & preferences",
+            "Used consistent sections for vehicle data, notifications, and customer preferences."
+          ],
+          "new-appointment-details.png": [
+            "New appointment details",
+            "Kept service selection and scheduling in a guided sequence with customer context alongside it."
+          ]
+        }
+      },
+      {
+        "status": "AIVin assistant · Mobile + desktop design",
+        "ownership": "My design work connects open-ended conversation with reusable CRM interface components.",
+        "captions": {
+          "aivin-home.png": [
+            "AIVin home",
+            "Made common starting points visible so users can begin with a task or an open-ended question."
+          ],
+          "aivin-catch-me-up-summary.png": [
+            "Catch me up: summary",
+            "Used a conversational overview to highlight the day’s priorities and possible next steps."
+          ],
+          "aivin-catch-me-up-leads.png": [
+            "Catch me up: leads",
+            "Paired summary tiles with reusable lead cards so a conversation can become structured work."
+          ],
+          "aivin-next-appointment.png": [
+            "Next appointment",
+            "Combined appointment status and context with a relevant follow-up action."
+          ],
+          "aivin-unanswered-communications.png": [
+            "Unanswered communications",
+            "Used a consistent message list regardless of whether users arrive through a question, suggestion, or notification."
+          ]
+        },
+        "first": "aivin-catch-me-up-leads.png"
+      },
+      {
+        "status": "CRM interface design · Sidebar + mobile",
+        "ownership": "I led experience design across the CRM and contributed directly to complex workflows.",
+        "captions": {
+          "cox-cox-ai-assistant-vehicle-list-clean.png": [
+            "AI inventory assistance",
+            "Connected a natural-language request to structured vehicle results."
+          ],
+          "cox-vehicle-of-interest-clean.png": [
+            "Vehicle of interest",
+            "Kept vehicle information and actions close to the opportunity being worked."
+          ],
+          "cox-trade-in-details-clean.png": [
+            "Trade-in details",
+            "Grouped valuation, ownership, and service context for a trade-in review."
+          ],
+          "cox-lead-activity-clean.png": [
+            "Lead activity",
+            "Brought customer signals and interactions into one activity stream."
+          ],
+          "cox-lead-comments-clean.png": [
+            "Lead comments",
+            "Supported collaboration with mentions and priority controls inside the lead workflow."
+          ]
+        }
+      },
+      {
+        "status": "Adopted product · Existing design system",
+        "ownership": "I designed the embedded Gen AI experience; thousands of dealerships used the product within a few months.",
+        "captions": {
+          "generative-ai-generate-messages.png": [
+            "Generate messages",
+            "Placed generation, regeneration, feedback, and review inside the existing communication workflow."
+          ],
+          "generative-ai-data.png": [
+            "View data",
+            "Made the customer, vehicle, and dealership context available alongside generated communications."
+          ],
+          "generative-ai-generation-settings.png": [
+            "Generation settings",
+            "Exposed message controls within familiar interface patterns rather than requiring a host-application rebuild."
+          ]
+        }
+      }
+    ]
+  },
+  "bagsid": {
+    "ownership": "As VP of UX, I lead product delivery and contribute directly. I created the brand, initial interfaces, and design system, and designed and built the current website.",
+    "galleries": [
+      {
+        "status": "Current website · My design + build",
+        "ownership": "I designed and built the BagsID website around the identity I created.",
+        "captions": {
+          "bagsid-archway.webp": [
+            "Brand in the operating environment",
+            "Extended the brand into the baggage-scanning environment and helped shape the arch branding."
+          ],
+          "website-4x.webp": [
+            "BagsID website",
+            "Translated the corporate identity into a website introducing the platform, BagBridge, and CarryOn."
+          ]
+        },
+        "first": "website-4x.webp"
+      },
+      {
+        "status": "Corporate identity · My original design",
+        "ownership": "I created the BagsID identity and carried it across product and marketing.",
+        "captions": {
+          "bagsid-cvi-3656.webp": [
+            "One visual foundation",
+            "Established the logo, color, typography, imagery, and layout language used across touchpoints."
+          ]
+        }
+      },
+      {
+        "status": "Brand applications · My creative work",
+        "ownership": "I produced campaign and marketing materials from the shared corporate identity.",
+        "captions": {
+          "vision.webp": [
+            "Making visual intelligence tangible",
+            "Connected physical baggage with digital identity through the brand’s marketing imagery."
+          ],
+          "takeoff.webp": [
+            "A brand built for aviation",
+            "Applied a coordinated visual language across campaign and social materials."
+          ]
+        }
+      },
+      {
+        "status": "Secure Sight · Product screens + concepts",
+        "ownership": "I lead UX for the product, building on the initial interfaces and design system I created.",
+        "captions": {
+          "dashboard-overview-preview.webp": [
+            "Dashboard overview",
+            "Connected airport and arch filters with identification confidence and recovered-bag reporting."
+          ],
+          "dashboard-flow-preview.webp": [
+            "Screening and tracking concept",
+            "Mapped movement through screening machines and identification arches into an operational view."
+          ],
+          "bag-details-preview.webp": [
+            "Bag details and camera history",
+            "Combined identity, enrollment, confidence, and camera images to support bag review."
+          ]
+        }
+      },
+      {
+        "status": "CarryOn · Product interface design",
+        "ownership": "I lead product UX across the baggage platform and contribute directly to its interface work.",
+        "captions": {
+          "flight-dashboard-preview.webp": [
+            "Flight dashboard",
+            "Brought capacity, exceptions, and detection trends alongside flight and cabin status."
+          ],
+          "video-monitor-preview.webp": [
+            "Video monitor",
+            "Connected multiple camera views with passenger baggage details and scan history."
+          ],
+          "edit-flight-preview.webp": [
+            "Flight configuration",
+            "Grouped aircraft, capacity, and seating controls into a focused configuration task."
+          ]
+        }
+      },
+      {
+        "status": "Design system · Solo design + engineering",
+        "ownership": "I designed the component system and implemented its front-end foundation myself.",
+        "captions": {
+          "button-states-2x.png": [
+            "Button variants and states",
+            "Defined reusable states, sizes, and variants so product controls follow a consistent visual language."
+          ],
+          "widgets-2x.png": [
+            "Branded widgets and charts",
+            "Carried the identity into metrics, charts, and dashboards across light and teal surfaces."
+          ]
+        }
+      }
+    ]
+  },
+  "lending": {
+    "ownership": "I created the LoanAI brand and design system, designed both product interfaces, and delivered all front-end development. These screenshots show the applications I built.",
+    "galleries": [
+      {
+        "status": "Built application · My UI design + front-end development",
+        "ownership": "I designed and implemented the desktop lending experience.",
+        "captions": {
+          "desktop-pipeline.png": [
+            "Loan pipeline",
+            "Grouped loans by stage and exposed ownership and priority to support pipeline review."
+          ],
+          "desktop-complexity.png": [
+            "Loan complexity and risk",
+            "Brought workload, risk categories, and scenario controls into one analysis workspace."
+          ],
+          "desktop-loan-estimate.png": [
+            "Loan estimate and fees",
+            "Separated loan and other costs while keeping version and release actions in context."
+          ],
+          "desktop-documents.png": [
+            "Document management",
+            "Combined document identity, processing status, and review actions in one list."
+          ],
+          "desktop-checklist.png": [
+            "Loan processing checklist",
+            "Grouped checklist items by category so users can inspect outstanding work."
+          ],
+          "desktop-new-task.png": [
+            "Create a task",
+            "Kept task type, severity, responsibility, and due date together in a focused dialog."
+          ]
+        }
+      },
+      {
+        "status": "Built application · Responsive UI",
+        "ownership": "I adapted and implemented the lending workflows for smaller screens.",
+        "captions": {
+          "mobile-dashboard.png": [
+            "Mobile dashboard",
+            "Prioritized pipeline status and items needing attention in a compact overview."
+          ],
+          "mobile-pipeline.png": [
+            "Mobile loan pipeline",
+            "Recast the desktop table as cards while retaining stage, borrower, and loan context."
+          ],
+          "mobile-complexity.png": [
+            "Mobile complexity and workload",
+            "Stacked analysis and workload information while keeping product areas accessible through a selector."
+          ],
+          "mobile-documents.png": [
+            "Mobile document management",
+            "Used document cards to preserve status and review actions on a narrow screen."
+          ]
+        }
+      },
+      {
+        "status": "Brand + website · My design work",
+        "ownership": "I created the identity and built the supporting website.",
+        "captions": {
+          "login.webp": [
+            "Product login",
+            "Carried the architectural mark and teal, blue, and violet identity into the application entry point."
+          ],
+          "website.webp": [
+            "LendingTech Systems website",
+            "Applied the product identity to the supporting website I built."
+          ],
+          "document-intelligence.webp": [
+            "Document intelligence",
+            "Made the platform’s document-focused subject matter tangible through brand illustration."
+          ],
+          "document-layers.webp": [
+            "Layered documents",
+            "Extended the visual language into document-led marketing artwork."
+          ],
+          "workforce.webp": [
+            "People and workflows",
+            "Connected the brand imagery to the people and processes behind lending."
+          ]
+        }
+      }
+    ]
+  },
+  "fullpath": {
+    "ownership": "I led experience architecture and cross-team design for integrating Fullpath into VinSolutions. These screens combine existing product UI with integration and AI-summary work; they are not a wholesale Fullpath visual redesign.",
+    "galleries": [
+      {
+        "status": "Integration work · Existing CRM + CDP interfaces",
+        "ownership": "My contribution was the integration architecture and experience design across both teams, including AI summaries.",
+        "captions": {
+          "fullpath-website-activity-clean-hires.webp": [
+            "Customer website activity",
+            "Brought existing Fullpath activity and engagement data into the CRM workflow."
+          ],
+          "fullpath-cdp-reports.webp": [
+            "CDP reporting and AI assistance",
+            "Connected existing reporting and OMNI capabilities to the integrated experience; the underlying Fullpath UI is not my standalone redesign."
+          ],
+          "cox-customer-profile-20261110.png": [
+            "AI context inside the customer record",
+            "Integrated Fullpath AI insights into the CRM profile alongside tasks, leads, appointments, and vehicle context."
+          ]
+        },
+        "first": "cox-customer-profile-20261110.png"
+      }
+    ]
+  },
+  "healthesystems": {
+    "ownership": "I led research, experience architecture, and design across Vertice and Jurnē, with hands-on interface work. I also personally designed and built the corporate website shown first.",
+    "galleries": [
+      {
+        "status": "Website rebuild · My design + development",
+        "ownership": "I personally designed and built the responsive corporate website in 2021.",
+        "captions": {
+          "healthesystems-website.webp": [
+            "Healthesystems website",
+            "Connected the corporate presentation to a responsive WordPress implementation with custom development."
+          ]
+        }
+      },
+      {
+        "status": "Vertice · Product redesign archive",
+        "ownership": "I led the redesign and personally researched and designed complex workflows; these are screens and concepts from that engagement.",
+        "captions": {
+          "dash1.webp": [
+            "Vertice dashboard",
+            "Organized claim volume, dates, and color-coded risk to help adjusters locate work requiring attention."
+          ],
+          "vertice4.webp": [
+            "Contextual help",
+            "Added screenshots, videos, and field-level guidance in a visually distinct panel beside the live workflow."
+          ],
+          "vertice52.webp": [
+            "Pharmacy search",
+            "Combined map search with in-network pharmacy data to support prescription pickup recommendations."
+          ],
+          "vertice2.webp": [
+            "Live chat concept",
+            "Explored in-product access to account managers and customer service; this screen represents a concept from the engagement."
+          ],
+          "vertice6-1.webp": [
+            "Narrating complexity",
+            "Used research findings to express complex authorizations as sentences, clarifying the action users were being asked to take."
+          ],
+          "vertice98.webp": [
+            "Guided workflows",
+            "Broke complicated tasks into steps and sections to make the sequence easier to follow."
+          ]
+        }
+      },
+      {
+        "status": "Jurnē · Mobile product design archive",
+        "ownership": "I led research and experience design, personally designed interfaces, and contributed to UI development.",
+        "captions": {
+          "journe5.webp": [
+            "Login",
+            "Provided a focused entry point for the mobile healthcare experience."
+          ],
+          "journe6.webp": [
+            "Verification",
+            "Separated identity verification into a focused step in the entry flow."
+          ],
+          "journe3.webp": [
+            "About Healthesystems",
+            "Brought organizational context into the mobile experience."
+          ],
+          "journe2.webp": [
+            "Mobile landing page",
+            "Brought the product’s healthcare services together in a mobile entry view."
+          ],
+          "journe4.webp": [
+            "Pharmacy search",
+            "Adapted pharmacy discovery for injured workers and adjusters on mobile."
+          ],
+          "journe7.webp": [
+            "Pharmacy search details",
+            "Carried the pharmacy search workflow into a dedicated detail view."
+          ],
+          "jurne1.webp": [
+            "Benefits card",
+            "Made benefits information available within the mobile product."
+          ]
+        },
+        "first": "journe2.webp"
+      }
+    ]
+  }
+}
