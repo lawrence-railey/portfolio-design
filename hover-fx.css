@@ -6,6 +6,8 @@
 .world-link[href="portfolio.html"]{--fx-destination:#91c5e1}
 .world-link[href="creative-ai.html"]{--fx-destination:#c5aadf}
 .world-link[href="other-work.html"]{--fx-destination:#d7c28b}
+.world-link{border-color:color-mix(in srgb,var(--fx-destination,var(--accent)) 35%,#080e13)}
+.world-link:hover,.world-link:focus-visible{border-color:var(--fx-destination,var(--accent));box-shadow:0 8px 20px #0003,0 0 14px color-mix(in srgb,var(--fx-destination,var(--accent)) 10%,transparent)}
 .world-link>.fx-overlay{color:var(--fx-destination,var(--accent))}
 .fx-active>.fx-overlay{opacity:1}
 .button:not(.button-secondary):not(.outline)>.fx-overlay{color:#eaffff}
