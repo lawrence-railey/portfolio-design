@@ -1,0 +1,6 @@
+.contact-confirmation{margin-top:32px;padding-top:24px;border-top:1px solid #c6cdd16b;color:#e5e9ed}
+.contact-confirmation .eyebrow{color:#c5d8e4;margin-bottom:20px}
+.contact-confirmation .contact-confirmation-lead{font:500 clamp(22px,2vw,28px)/1.4 var(--body);color:#fff;margin:0 0 12px}
+.contact-confirmation>p:not(.eyebrow):not(.contact-confirmation-lead){font:400 17px/1.7 var(--body);max-width:48ch;margin:0}
+.contact-confirmation .contact-actions{margin-top:30px}
+@media(max-width:560px){.contact-confirmation{margin-top:24px;padding-top:20px}.contact-confirmation>p:not(.eyebrow):not(.contact-confirmation-lead){font-size:16px}.contact-confirmation .contact-secondary-actions{width:100%}.contact-confirmation .button{justify-content:space-between}}

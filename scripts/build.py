@@ -56,7 +56,8 @@ def page(file,title,description,body,active='home',world='earth',compact=False):
         fx_version=hashlib.sha256((ROOT/'hover-fx.css').read_bytes()+(ROOT/'hover-fx.js').read_bytes()).hexdigest()[:12]
         html=html.replace('</head>', f'<link rel="stylesheet" href="hover-fx.css?v={fx_version}"><script src="hover-fx.js?v={fx_version}" defer></script></head>')
     if active == 'contact':
-        html = html.replace('</head>', f'<script src="contact.js?v={ASSET_VERSION["contact.js"]}" defer></script></head>')
+        contact_version=hashlib.sha256((ROOT/'contact.css').read_bytes()).hexdigest()[:12]
+        html = html.replace('</head>', f'<link rel="stylesheet" href="contact.css?v={contact_version}"></head>')
     (ROOT/file).write_text(html,encoding='utf-8')
 
 def section_heading(kicker,title,aside=''):

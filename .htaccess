@@ -1,0 +1,7 @@
+RewriteEngine On
+# Preserve the public URL while rendering the form and confirmation in Python.
+RewriteRule ^contact\.html$ contact/index.cgi [END]
+# Retire the temporary URL after the successful trial.
+RewriteRule ^contact-python-test/?$ contact.html [R=302,L]
+# The legacy PHP mailer is no longer used.
+RewriteRule ^api/contact\.php$ - [F,L]

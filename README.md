@@ -8,6 +8,10 @@ The header reads "UI/UX + AI Tech + Creative." Navigation stays fixed while scro
 
 From this directory, run `python -m http.server 4173 --bind 127.0.0.1`, then open `http://127.0.0.1:4173`.
 
+## Public source repository
+
+The repository includes the website pages, source scripts, content, PHP contact endpoint, vendored mailer, and image/video assets. Private mailer configuration, environment files, private keys, temporary work, caches, and generated deployment ZIPs are excluded by `.gitignore`. `contact-config.example.php` is a safe setup template with an empty password; keep real credentials outside the repository and web root. The static preview above does not execute PHP or send contact messages.
+
 ## Pages
 
 | Page | File | Landscape |
@@ -71,26 +75,16 @@ The contact page omits the invitation to contact again, retaining its normal foo
 
 ## Contact mailer (live)
 
-The live contact page posts to `api/contact.php` using `contact.js`. It shows sending, success and error states in the same form, preserves entries on failure, prevents duplicate clicks, and reuses an idempotency key when a network response is lost. A success response means the authenticated SMTP server accepted the message; it is not a delivery receipt. JavaScript-disabled visitors are offered the direct email link.
+The public `contact.html` URL is rendered by `contact/index.cgi` through the root `.htaccess` rule. Python uses a conventional POST, followed by a 303 redirect to a signed confirmation state; no background fetch or PHP execution is involved. The normal city background and layout remain. Successful submissions replace the form with `content/contact-confirmation.html`, retaining LinkedIn and résumé buttons. Refreshing the confirmation does not resend mail. Success means the SMTP server accepted the message, not a delivery receipt.
 
-PHPMailer 7.2.0 is vendored under `api/vendor/phpmailer`, with its license. The endpoint requires PHP 8.0+ and OpenSSL. It validates fields, rejects header injection, checks a session-bound token and request origin, includes a honeypot, and caps accepted submission attempts at five per IP per hour and thirty total per hour. No automatic visitor acknowledgement is sent. Private rate-limit records contain one hour of keyed hashes and send status, not names, addresses, message contents, or raw IPs. Uncertain SMTP requests stay reserved to prevent duplicate sends.
+The CGI reads generated `contact.html` as its base template. Run `python scripts/build.py` after editing the source form. `contact.css` styles the confirmation and is content-versioned. Deploy the root `.htaccess`, `contact/.htaccess`, and `contact/index.cgi` (Unix newlines, permissions 0755), plus contact.html, contact.css, and content/contact-confirmation.html. The legacy PHP endpoint is blocked by site routing. The temporary test URL redirects to contact.html.
 
-Keep SMTP settings in `~/portfolio-contact/config.php`, outside `public_html`, with directory permissions 0700 and file permissions 0600. Copy `contact-config.example.php` there and fill in the SMTP account, app password, recipient, and site origin on the server. The sender must match the account that owns the app password. Visitors are Reply-To. Never commit real credentials. `PORTFOLIO_CONTACT_DIR` can override this directory for development.
+Python uses only the standard library. Private configuration and rate-limit state live at `/home2/lawreod5/portfolio-contact/python-mailer/` outside public_html (directory 0700, configuration 0600). `config.json` contains host, port, encryption, username, password, from, to, origin, and a randomly generated signing secret. PORTFOLIO_CONTACT_DIR can override the directory for tests. Never commit or publish real settings. Existing authenticated SMTP settings are reused with TLS certificate verification. Visitor addresses are Reply-To only.
 
-Activated on November 12, 2026: a real submission displayed the inline success confirmation and arrived in the destination inbox. All changed runtime pages, styles, scripts and API files were uploaded to `/new-site-2/`. Failures record only an allowlisted category, processing stage, timestamp and short reference in private `last-error.json`; no credentials, SMTP transcripts or message contents are logged. Public access to the API error log is denied. No credentials are included in the patch package.
-
-Verification: `node scripts/test-contact-ui.cjs` checks UI state transitions and safe retry behavior. `python scripts/test-contact-mailer.py .tmp/php-runtime/php.exe` checks the real endpoint against a local TLS SMTP fixture; its messages never leave the computer. The test requires Python, PHP with OpenSSL, and the OpenSSL executable included with Git for Windows. `--preview` starts the same local fixture for browser review. Do not deploy tests or `.tmp` files.
+The form validates fields and request origin, uses a signed cookie-bound CSRF token and honeypot, and limits attempts to five per IP per hour and thirty total. Private records contain keyed hashes and send status; uncertain sends remain reserved to prevent duplicates. Confirmation receipts are signed, HttpOnly, Secure, and expire after one hour. `python scripts/test-python-contact.py` checks rendering, escaping, token validation, POST redirects, and confirmation integrity without sending email.
 
 ## November 12 layout follow-up
 
 The homepage introduction stacks the eyebrow, heading and supporting copy. Cox, Fullpath and LoanAI show UI examples before their architecture narratives. BagsID shows its website and branding first, then product UI and the design system, then diagrams. Existing images, diagram content and anchor IDs are preserved. `scripts/case_order.py` applies this order during the build.
 
 Hero type follow-up: geometric H1/H2 tracking is slightly open (+0.005em), with hero tracking at +0.01em. Desktop hero headlines increase approximately 7–9% (45px cap; Contact 50px). Mobile headline sizes remain unchanged. Verified at 1920px and 390px without additional headline wraps.
-
-## Public repository
-
-This repository includes the generated site, original and web assets, build scripts, tests, and the PHP contact mailer. Real server configuration, credentials, private request records, logs, temporary development files, and deployment archives are excluded. The example configuration deliberately has no password.
-
-The live site is https://lawrencerailey.com/new-site-2/. Static previews do not send mail; run PHP with a private SMTP configuration for that feature.
-
-No license is granted for the portfolio artwork or other original content by publishing this repository. PHPMailer retains its bundled license.
