@@ -138,7 +138,7 @@ def contact_form():
 
 
 def contact_content():
-    return '''<div id="content" class="content-shell"><section class="contact-details" aria-label="Direct contact information"><div><p class="eyebrow">Email</p><a href="mailto:lawrence@lawrencerailey.com">lawrence@lawrencerailey.com</a></div><div><p class="eyebrow">Phone</p><a href="tel:+18134338197">813-433-8197</a></div><div><p class="eyebrow">Address</p><address>2918 Timberlee Road<br>Wimauma, Florida 33598</address></div></section></div>'''
+    return '''<div id="content" class="content-shell"><section class="contact-details" aria-label="Direct contact information"><div><p class="eyebrow">Email</p><a href="mailto:lawrence@lawrencerailey.com">lawrence@lawrencerailey.com</a></div><div><p class="eyebrow">Phone</p><a href="tel:+18134338197">813-433-8197</a></div><div><p class="eyebrow">Location</p><address>Wimauma, Florida<br>Tampa Bay Region</address></div></section></div>'''
 
 
 for p,content in zip(PAGES,[home_content,history_content,portfolio_content,creative_content,other_content,contact_content]):
