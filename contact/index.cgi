@@ -8,8 +8,8 @@ from email.message import EmailMessage
 
 PRIVATE = Path(os.environ.get('PORTFOLIO_CONTACT_DIR', '/home2/lawreod5/portfolio-contact/python-mailer'))
 ROOT = Path(__file__).resolve().parent.parent
-URL = '/new-site-2/contact.html'
-COOKIE_PATH = '/new-site-2/'
+URL = '/contact.html'
+COOKIE_PATH = '/'
 
 def signature(value, secret):
     return hmac.new(secret.encode(), value.encode(), hashlib.sha256).hexdigest()

@@ -88,3 +88,9 @@ The form validates fields and request origin, uses a signed cookie-bound CSRF to
 The homepage introduction stacks the eyebrow, heading and supporting copy. Cox, Fullpath and LoanAI show UI examples before their architecture narratives. BagsID shows its website and branding first, then product UI and the design system, then diagrams. Existing images, diagram content and anchor IDs are preserved. `scripts/case_order.py` applies this order during the build.
 
 Hero type follow-up: geometric H1/H2 tracking is slightly open (+0.005em), with hero tracking at +0.01em. Desktop hero headlines increase approximately 7–9% (45px cap; Contact 50px). Mobile headline sizes remain unchanged. Verified at 1920px and 390px without additional headline wraps.
+
+## Production root migration — November 17, 2026
+
+The portfolio is now deployed at `https://lawrencerailey.com/` in `/public_html`. Future deployments target that directory, not `/new-site-2`. Old `/new-site-2/` URLs redirect to their corresponding root paths. The Python form uses `/contact.html` and root-scoped cookies.
+
+The former WordPress files, original root configuration, and compressed SQL export are preserved in `/public_html/archive-wp-old`, which denies public access. The original WordPress database is retained. Unrelated hosted projects and `.well-known` remain in place. The obsolete `new-site` directory was deleted. The emptied `new-site-2` directory is retained; root routing redirects its former URLs.

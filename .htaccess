@@ -1,7 +1,24 @@
+DirectoryIndex index.html
+Options -Indexes
 RewriteEngine On
+# Keep links to the former preview site working after promotion to the root.
+RewriteRule ^new-site-2(?:/(.*))?$ /$1 [R=301,L]
+# Archived WordPress files and configuration must never be served publicly.
+RewriteRule ^archive-wp-old(?:/|$) - [F,L]
+# Preserve the legacy homepage URL without running WordPress.
+RewriteRule ^index\.php$ / [R=301,L]
 # Preserve the public URL while rendering the form and confirmation in Python.
 RewriteRule ^contact\.html$ contact/index.cgi [END]
 # Retire the temporary URL after the successful trial.
-RewriteRule ^contact-python-test/?$ contact.html [R=302,L]
+RewriteRule ^contact-python-test(?:/.*)?$ /contact.html [R=302,L]
 # The legacy PHP mailer is no longer used.
 RewriteRule ^api/contact\.php$ - [F,L]
+
+# Preserve the hosting PHP handler for unrelated existing projects.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php80___lsphp .php .php8 .phtml
+</IfModule>
+# Deployment packages are retained on disk, not served as public downloads.
+<FilesMatch "^(mailer-live-update|new-site-2-contents)\.zip$">
+  Require all denied
+</FilesMatch>
